@@ -1,0 +1,54 @@
+{
+  "powers": [
+    {
+      "name": "Abençoar Arma",
+      "requirements": "Devoto de uma divindade",
+      "description": "Você pode gastar 1 PM para fazer uma arma ficar mágica por uma cena. Ela fornece +1 em testes de ataque e rolagens de dano e ignora resistência a dano de criaturas com RM."
+    },
+    {
+      "name": "Aura Divina",
+      "requirements": "Devoto de uma divindade",
+      "description": "Você pode gastar 1 PM para gerar uma aura com alcance curto por uma cena. Você e seus aliados dentro da aura recebem +2 em testes de resistência."
+    },
+    {
+      "name": "Canalizar Energia Positiva",
+      "requirements": "Devoto de uma divindade",
+      "description": "Você pode gastar 1 PM para canalizar energia positiva, curando 1d6 pontos de vida de todos os aliados em alcance curto. Você pode gastar +2 PM para aumentar a cura em +1d6."
+    },
+    {
+      "name": "Canalizar Energia Negativa",
+      "requirements": "Devoto de uma divindade",
+      "description": "Você pode gastar 1 PM para canalizar energia negativa, causando 1d6 pontos de dano de trevas a todos os inimigos em alcance curto. Você pode gastar +2 PM para aumentar o dano em +1d6."
+    },
+    {
+      "name": "Expulsar Mortos-Vivos",
+      "requirements": "Devoto de uma divindade",
+      "description": "Você pode gastar 1 PM para expulsar mortos-vivos em alcance curto. Faça um teste de Religião contra cada morto-vivo afetado. Se passar, ele fica abalado por 1d6 rodadas."
+    },
+    {
+      "name": "Mão da Fé",
+      "requirements": "Devoto de uma divindade",
+      "description": "Você pode gastar 1 PM para invocar uma mão espectral que realiza um ataque à distância contra um alvo em alcance médio. A mão causa 1d6+mod. de Sabedoria pontos de dano de energia (tipo escolhido quando usa o poder)."
+    },
+    {
+      "name": "Prece",
+      "requirements": "Devoto de uma divindade",
+      "description": "Você pode gastar 2 PM para recitar uma prece. Você e todos os seus aliados em alcance curto recebem +1 em testes de ataque, resistência e perícias por uma cena."
+    },
+    {
+      "name": "Proteção Divina",
+      "requirements": "Devoto de uma divindade",
+      "description": "Você pode gastar 1 PM para receber +2 na Defesa por uma cena."
+    },
+    {
+      "name": "Símbolo Sagrado",
+      "requirements": "Devoto de uma divindade",
+      "description": "Você pode gastar 1 PM para desenhar um símbolo sagrado que dura por uma cena. O símbolo oferece +1 em testes de Religião e Vontade para quem o carrega."
+    },
+    {
+      "name": "Visão da Verdade",
+      "requirements": "Devoto de uma divindade",
+      "description": "Você pode gastar 1 PM para enxergar através de ilusões e disfarces em alcance curto por uma rodada."
+    }
+  ]
+}

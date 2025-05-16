@@ -1,0 +1,104 @@
+{
+  "powers": [
+    {
+      "name": "Abrir a Guarda",
+      "requirements": "treinado em Luta ou Pontaria",
+      "description": "Quando você agarra ou derruba um inimigo, aliados com este poder em alcance curto desse inimigo podem gastar 2 PM para fazer um ataque contra ele. Cada personagem só pode fazer um ataque dessa forma por rodada."
+    },
+    {
+      "name": "Ajuda do Amador",
+      "requirements": "-",
+      "description": "Você pode gastar uma ação padrão e fazer um teste para ajudar, mas para atrapalhar um inimigo em alcance curto. Se fizer isso, seus aliados com este poder aplicam o bônus da ajuda em seus testes de ataque contra esse inimigo por 1 rodada."
+    },
+    {
+      "name": "Apontar Fraqueza",
+      "requirements": "-",
+      "description": "Quando você faz um acerto crítico, cada aliado com este poder pode gastar 2 PM em seu primeiro ataque contra o mesmo alvo nessa rodada. Se acertar, o ataque é um crítico. Cada personagem só pode fazer um acerto crítico dessa forma por cena."
+    },
+    {
+      "name": "Barragem de Golpes",
+      "requirements": "-",
+      "description": "Quando você causa dano em um inimigo, seus aliados com este poder recebem um bônus de +1 em rolagens de dano contra o mesmo alvo pela cena (limitado, para cada personagem, pelo nível dele). O bônus acaba se nenhum personagem com este poder causar dano ao inimigo em uma rodada."
+    },
+    {
+      "name": "Bode Expiatório",
+      "requirements": "-",
+      "description": "Sempre que a categoria de atitude de um NPC piorar em relação a um personagem com este poder, você pode automaticamente assumir a culpa. A categoria de atitude do NPC piora para você, permanecendo a mesma para seu aliado."
+    },
+    {
+      "name": "Bote Coletivo",
+      "requirements": "treinado em Iniciativa",
+      "description": "Você recebe um bônus igual ao número de aliados com este poder em testes de Iniciativa e, na primeira rodada de cada combate, em testes de perícia e na CD de suas habilidades."
+    },
+    {
+      "name": "Conforto Familiar",
+      "requirements": "-",
+      "description": "Sempre que você dorme perto de aliados com este poder, para cada um desses aliados, você começa o dia seguinte com 3 PV e 1 PM temporários por patamar."
+    },
+    {
+      "name": "Conselhos Salvadores",
+      "requirements": "-",
+      "description": "Você pode gastar 2 PM para fazer um teste de resistência usando o valor de perícia de um aliado em alcance curto que tenha este poder."
+    },
+    {
+      "name": "Corrente de Corpos",
+      "requirements": "-",
+      "description": "Uma vez por rodada, você pode entregar um item que esteja empunhando a qualquer aliado com este poder como uma ação livre. Para isso, vocês devem estar em alcance curto um do outro ou deve haver outros aliados com este poder entre os dois."
+    },
+    {
+      "name": "Defesa do Mártir",
+      "requirements": "-",
+      "description": "Uma vez por rodada, quando um aliado em alcance curto que também tenha este poder sofrer dano, você pode gastar 2 PM para sofrer esse dano no lugar dele."
+    },
+    {
+      "name": "Dinheiro Atrai Dinheiro",
+      "requirements": "-",
+      "description": "Cada personagem com este poder adiciona 5% ao resultado das tabelas em todas as rolagens de tesouro do grupo. Esse benefício só vale para tesouro rolado (não recompensas fixas) e só para tesouro encontrado por todo o grupo."
+    },
+    {
+      "name": "Escudo Vivo",
+      "requirements": "-",
+      "description": "Quando mais de um personagem com este poder for afetado por dano em área, você pode gastar 2 PM para sofrer o dano no lugar desses aliados que estejam em alcance curto. Você sofre todo o dano que seus aliados sofreriam de acordo com seus testes de resistência."
+    },
+    {
+      "name": "Espírito de União",
+      "requirements": "Exército de Um Grupo Só, outro poder de grupo",
+      "description": "Todos os membros do grupo devem ter este poder. Cada personagem pode gastar 2 PM para, até o fim da cena, compartilhar um total de PV igual à soma dos PV de cada um. Dano, recuperação e perda de vida são todos aplicados a esse total. Se o total de PV acabar, todos sofrem os efeitos de serem reduzidos a 0 PV ou menos."
+    },
+    {
+      "name": "Exército de Um Grupo Só",
+      "requirements": "treinado em Guerra",
+      "description": "Você pode gastar uma ação padrão e 2 PM para formar um bando com seus aliados com este poder. Enquanto estiverem formando um bando, cada aliado fornece +2 em seus testes de ataque. Quando você ataca, causa metade do dano mesmo que erre e, se acertar por 10 ou mais, seus aliados podem somar o dano de um único ataque ao seu."
+    },
+    {
+      "name": "Magia Comunitária",
+      "requirements": "-",
+      "description": "Uma vez por rodada, quando você lança uma magia com alvo você ou 1 criatura, para cada aliado em alcance curto com este poder você pode pagar o custo da magia novamente para que ele também se beneficie do efeito."
+    },
+    {
+      "name": "Mão Amiga",
+      "requirements": "-",
+      "description": "Sempre que você fizer uma ação que demora mais de uma semana, seus aliados com este poder podem ajudá-lo. Cada aliado que gastar uma semana ao mesmo tempo que você adiciona uma semana ao tempo de sua ação."
+    },
+    {
+      "name": "Parede de Escudos",
+      "requirements": "-",
+      "description": "Se você estiver usando um escudo, pode gastar uma ação de movimento para formar uma parede de escudos com aliados adjacentes com este poder que também estejam usando escudos. Enquanto permanecerem adjacentes, os participantes recebem +5 na Defesa e RD 5."
+    },
+    {
+      "name": "Presença Luminosa",
+      "requirements": "-",
+      "description": "Todos os personagens com este poder podem gastar 2 PM para, até o fim da cena, cada personagem poder usar o maior valor de cada perícia baseada em Carisma do grupo em suas rolagens."
+    },
+    {
+      "name": "Saúde Coletiva",
+      "requirements": "-",
+      "description": "Sempre que você curar outro membro do grupo que também possui este poder, os PV recuperados aumentam em +2 por dado de cura."
+    },
+    {
+      "name": "Uma Mão Lava a Outra",
+      "requirements": "Mão Amiga",
+      "description": "Quando faz um teste de perícia (fora de combate), você pode gastar 1 PM para rolar novamente esse teste. Você pode usar este poder um número de vezes por cena igual ao total de membros do grupo com este poder."
+    }
+  ]
+}

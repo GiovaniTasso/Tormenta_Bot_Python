@@ -1,0 +1,79 @@
+{
+  "rules": [
+    {
+      "name": "Teste de Resistência",
+      "category": "Combate",
+      "description": "Quando você é alvo de um efeito que permite um teste de resistência, role 1d20 e some o modificador do atributo relevante e outros bônus. Se o resultado for maior ou igual à CD do efeito, você passa no teste e sofre um efeito reduzido ou nenhum efeito."
+    },
+    {
+      "name": "Ataque",
+      "category": "Combate",
+      "description": "Para atacar, role 1d20 e some seu bônus de ataque. Se o resultado for maior ou igual à Defesa do alvo, você acerta. Ataques corpo a corpo somam Força, ataques à distância somam Destreza."
+    },
+    {
+      "name": "Dano",
+      "category": "Combate",
+      "description": "Quando você acerta um ataque, causa dano igual à rolagem do dado da arma + modificador de atributo (Força para armas corpo a corpo, Destreza para armas de ataque à distância) + outros bônus."
+    },
+    {
+      "name": "Iniciativa",
+      "category": "Combate",
+      "description": "No início do combate, todos rolam 1d20 + modificador de Destreza para determinar a ordem de ação. Personagens agem em ordem decrescente de iniciativa."
+    },
+    {
+      "name": "Ações",
+      "category": "Combate",
+      "description": "Em seu turno, você pode realizar uma ação padrão, uma ação de movimento e uma ação livre. Você pode substituir uma ação padrão por uma ação de movimento."
+    },
+    {
+      "name": "Perícias",
+      "category": "Geral",
+      "description": "Para usar uma perícia, role 1d20 + seu bônus na perícia. Se o resultado for maior ou igual à CD da tarefa, você tem sucesso."
+    },
+    {
+      "name": "Descanso",
+      "category": "Geral",
+      "description": "Após um descanso de oito horas, você recupera todos os pontos de vida e de mana. Você também remove todas as condições temporárias."
+    },
+    {
+      "name": "Morte",
+      "category": "Combate",
+      "description": "Quando seus PV chegam a 0, você fica inconsciente e começa a morrer. Você deve fazer um teste de Constituição (CD 15) por rodada. Se falhar em três testes, você morre. Se passar em três testes, você estabiliza."
+    },
+    {
+      "name": "Magia",
+      "category": "Magia",
+      "description": "Para lançar uma magia, você gasta pontos de mana igual ao círculo da magia. Algumas magias permitem que você gaste PM adicionais para aumentar seus efeitos."
+    },
+    {
+      "name": "Ataque Furtivo",
+      "category": "Combate",
+      "description": "Você causa dano extra quando ataca um alvo desprevenido ou flanqueado. O dano extra é igual a 1d6 por nível de ladino."
+    },
+    {
+      "name": "Flanquear",
+      "category": "Combate",
+      "description": "Você flanqueia um oponente quando você e um aliado estão em lados opostos dele. Um personagem flanqueado sofre -2 de Defesa e é vulnerável a ataques furtivos."
+    },
+    {
+      "name": "Ataque Desprevenido",
+      "category": "Combate",
+      "description": "Um personagem desprevenido não pode adicionar seu modificador de Destreza à Defesa e é vulnerável a ataques furtivos."
+    },
+    {
+      "name": "Cura",
+      "category": "Geral",
+      "description": "Você pode usar a perícia Cura para estabilizar um personagem que está morrendo (CD 15) ou para tratar venenos e doenças."
+    },
+    {
+      "name": "Arcanismo",
+      "category": "Magia",
+      "description": "Você pode usar a perícia Arcanismo para identificar magias e itens mágicos (CD 15 + círculo da magia)."
+    },
+    {
+      "name": "Religião",
+      "category": "Magia",
+      "description": "Você pode usar a perícia Religião para identificar mortos-vivos e outros seres divinos (CD 15 + ND da criatura)."
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "powers": [
+    {
+      "name": "Acuidade com Arma",
+      "requirements": "Des 13",
+      "description": "Quando usa uma arma leve de corpo a corpo ou uma arma de arremesso, você pode usar seu modificador de Destreza em vez de Força nos testes de ataque e rolagens de dano."
+    },
+    {
+      "name": "Arma Secundária Grande",
+      "requirements": "Estilo de Duas Armas",
+      "description": "Você pode usar duas armas de uma mão com o poder Estilo de Duas Armas."
+    },
+    {
+      "name": "Arremesso Potente",
+      "requirements": "For 13, Estilo de Arremesso",
+      "description": "Quando usa uma arma de arremesso, você pode usar seu modificador de Força em vez de Destreza nos testes de ataque. Se você possuir o poder Ataque Poderoso, poderá usá-lo com armas de arremesso."
+    },
+    {
+      "name": "Arremesso Múltiplo",
+      "requirements": "Des +1, Estilo de Arremesso",
+      "description": "Uma vez por rodada, quando faz um ataque com uma arma de arremesso, você pode gastar 1 PM para fazer um ataque adicional contra o mesmo alvo, arremessando outra arma de arremesso."
+    },
+    {
+      "name": "Ataque com Escudo",
+      "requirements": "Estilo de Arma e Escudo",
+      "description": "Uma vez por rodada, se estiver empunhando um escudo e fizer a ação agredir, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com o escudo. Este ataque não faz você perder o bônus do escudo na Defesa."
+    },
+    {
+      "name": "Ataque Pesado",
+      "requirements": "Estilo de Duas Mãos",
+      "description": "Quando faz um ataque corpo a corpo com uma arma de duas mãos, você pode pagar 1 PM. Se fizer isso e acertar o ataque, além do dano você faz uma manobra derrubar ou empurrar contra o alvo como uma ação livre (use o resultado do ataque como o teste de manobra)."
+    },
+    {
+      "name": "Ataque Poderoso",
+      "requirements": "For 13",
+      "description": "Declare que está usando este poder antes de fazer um ataque corpo a corpo. Você sofre –2 no teste de ataque, mas recebe +5 na rolagem de dano."
+    },
+    {
+      "name": "Ataque Preciso",
+      "requirements": "Estilo de Uma Arma",
+      "description": "Se estiver usando uma arma corpo a corpo em uma das mãos e nada na outra, você recebe +2 na margem de ameaça e +1 no multiplicador de crítico."
+    },
+    {
+      "name": "Bloqueio com Escudo",
+      "requirements": "Estilo de Arma e Escudo",
+      "description": "Quando é atingido por um ataque, habilidade ou magia, você pode gastar 1 PM para receber resistência a dano contra este ataque igual ao bônus na Defesa que seu escudo fornece. Você só pode usar este poder se estiver usando um escudo."
+    },
+    {
+      "name": "Carga de Cavalaria",
+      "requirements": "Ginete",
+      "description": "Quando faz uma investida montada, você causa +2d8 pontos de dano. Além disso, pode continuar se movendo depois do ataque. Você deve se mover em linha reta e seu movimento máximo ainda é o dobro do seu deslocamento."
+    },
+    {
+      "name": "Combate Defensivo",
+      "requirements": "Int 13",
+      "description": "Quando usa a ação atacar, você pode usar este poder. Se fizer isso, até seu próximo turno, sofre –2 em todos os testes de ataque, mas recebe +5 na Defesa."
+    },
+    {
+      "name": "Derrubar Aprimorado",
+      "requirements": "Combate Defensivo",
+      "description": "Você recebe +2 em testes de ataque para derrubar. Quando derruba uma criatura com essa manobra, pode gastar 1 PM para fazer um ataque extra contra ela."
+    },
+    {
+      "name": "Desarmar Aprimorado",
+      "requirements": "Combate Defensivo",
+      "description": "Você recebe +2 em testes de ataque para desarmar. Quando desarma uma criatura, pode gastar 1 PM para arremessar a arma dela para longe. Para definir onde a arma cai, role 1d8 para a direção (sendo \"1\" diretamente à sua frente, \"2\" à frente e à direita e assim por diante, em sentido horário) e 1d6 para a distância (medida em quadrados de 1,5m a partir da criatura desarmada)."
+    },
+    {
+      "name": "Disparo Preciso",
+      "requirements": "Estilo de Disparo ou Estilo de Arremesso",
+      "description": "Você pode fazer ataques à distância contra oponentes envolvidos em combate corpo a corpo sem sofrer a penalidade padrão de –5 no teste de ataque."
+    },
+    {
+      "name": "Disparo Rápido",
+      "requirements": "Des 13, Estilo de Disparo ou Estilo de Arremesso",
+      "description": "Se estiver usando uma arma de ataque à distância e gastar uma ação completa para atacar, você pode fazer um ataque adicional com ela (se puder recarregá-la como ação livre). Se fizer isso, sofre –2 em todos os testes de ataque até o seu próximo turno."
+    },
+    {
+      "name": "Empunhadura Poderosa",
+      "requirements": "For 17",
+      "description": "Ao usar uma arma feita para uma categoria de tamanho maior que a sua, a penalidade que você sofre nos testes de ataque diminui para –2 (normalmente, uma criatura que use uma arma feita para uma categoria de tamanho maior sofre uma penalidade de –5 nos testes de ataque)."
+    },
+    {
+      "name": "Encouraçado",
+      "requirements": "Proficiência com armaduras pesadas",
+      "description": "Se estiver usando uma armadura pesada, você recebe +2 na Defesa. Esse bônus aumenta em +2 para cada outro poder que você possua que tenha Encouraçado como pré-requisito."
+    },
+    {
+      "name": "Esquiva",
+      "requirements": "Des 13",
+      "description": "Você recebe +2 em Defesa e Reflexos."
+    },
+    {
+      "name": "Estilo de Arma e Escudo",
+      "requirements": "Treinado em Luta, proficiência com escudos",
+      "description": "Se você estiver usando um escudo, o bônus na Defesa que ele fornece aumenta em +2."
+    },
+    {
+      "name": "Estilo de Arma Longa",
+      "requirements": "For +1, treinado em Luta",
+      "description": "Você recebe +2 em testes de ataque com armas alongadas e pode atacar alvos adjacentes com essas armas."
+    },
+    {
+      "name": "Estilo de Arremesso",
+      "requirements": "Treinado em Pontaria",
+      "description": "Você pode sacar armas de arremesso como uma ação livre e recebe +2 nas rolagens de dano com elas. Se também possuir o poder Saque Rápido, também recebe +2 nos testes de ataque com essas armas."
+    },
+    {
+      "name": "Estilo de Disparo",
+      "requirements": "Treinado em Pontaria",
+      "description": "Se estiver usando uma arma de disparo, você soma o bônus de Destreza nas rolagens de dano."
+    },
+    {
+      "name": "Estilo de Duas Armas",
+      "requirements": "Des 15, treinado em Luta",
+      "description": "Se estiver usando duas armas (e pelo menos uma delas for leve) e fizer a ação atacar, você pode fazer dois ataques, um com cada arma. Se fizer isso, sofre –2 em todos os testes de ataque até o seu próximo turno. Se você possuir Ambidestria, não sofre essa penalidade."
+    },
+    {
+      "name": "Estilo de Duas Mãos",
+      "requirements": "For 15, Treinado em Luta",
+      "description": "Se estiver usando uma arma corpo a corpo com as duas mãos, você recebe +5 nas rolagens de dano. Este poder não pode ser usado com armas leves."
+    },
+    {
+      "name": "Estilo de Uma Arma",
+      "requirements": "Treinado em Luta",
+      "description": "Se estiver usando uma arma corpo a corpo em uma das mãos e nada na outra, você recebe +2 na Defesa e nos testes de ataque com essa arma (exceto ataques desarmados)."
+    },
+    {
+      "name": "Estilo Desarmado",
+      "requirements": "Treinado em Luta",
+      "description": "Seus ataques desarmados causam 1d6 pontos de dano e podem causar dano letal ou não letal (sem penalidades)."
+    },
+    {
+      "name": "Fanático",
+      "requirements": "12º nível de personagem, Encouraçado",
+      "description": "Seu deslocamento não é reduzido por usar armaduras pesadas."
+    },
+    {
+      "name": "Finta Aprimorada",
+      "requirements": "Treinado em Enganação e Luta",
+      "description": "Você recebe +2 em testes de Enganação para fintar e pode fintar como uma ação de movimento."
+    },
+    {
+      "name": "Foco em Arma",
+      "requirements": "Proficiência com a arma",
+      "description": "Escolha uma arma. Você recebe +2 em testes de ataque com essa arma. Você pode escolher este poder outras vezes para armas diferentes."
+    },
+    {
+      "name": "Ginete",
+      "requirements": "Treinado em Cavalgar",
+      "description": "Você passa automaticamente em testes de Cavalgar para não cair da montaria quando sofre dano. Além disso, não sofre penalidades para atacar à distância ou lançar magias quando montado."
+    },
+    {
+      "name": "Inexpugnável",
+      "requirements": "Encouraçado, 6º nível de personagem",
+      "description": "Se estiver usando uma armadura pesada, você recebe +2 em todos os testes de resistência."
+    },
+    {
+      "name": "Mira Apurada",
+      "requirements": "Sab 13, Disparo Preciso",
+      "description": "Você pode gastar uma ação de movimento para mirar. Se fizer isso, recebe +2 em testes de ataque e na margem de ameaça com ataques à distância até o fim do turno."
+    },
+    {
+      "name": "Piqueiro",
+      "requirements": "Estilo de Arma Longa",
+      "description": "Uma vez por rodada, se estiver empunhando uma arma alongada e um inimigo entrar voluntariamente em seu alcance corpo a corpo, você pode gastar 1 PM para fazer um ataque corpo a corpo contra este oponente com esta arma. Se o oponente tiver se aproximado fazendo uma investida, seu ataque causa dois dados de dano extra do mesmo tipo."
+    },
+    {
+      "name": "Presença Aterradora",
+      "requirements": "Treinado em Intimidação",
+      "description": "Você pode gastar uma ação padrão e 1 PM para assustar todas as criaturas a sua escolha em alcance curto. Veja a perícia Intimidação para as regras de assustar."
+    },
+    {
+      "name": "Proficiência",
+      "requirements": "",
+      "description": "Escolha uma proficiência: armas marciais, armas de fogo, armaduras pesadas ou escudos (se for proficiente em armas marciais, você também pode escolher armas exóticas). Você recebe essa proficiência. Você pode escolher este poder outras vezes para proficiências diferentes."
+    },
+    {
+      "name": "Quebrar Aprimorado",
+      "requirements": "Ataque Poderoso",
+      "description": "Você recebe +2 em testes de ataque para quebrar. Quando reduz os PV de uma arma para 0 ou menos, você pode gastar 1 PM para realizar um ataque extra contra o usuário dela. O ataque adicional usa os mesmos valores de ataque e dano, mas os dados devem ser rolados novamente."
+    },
+    {
+      "name": "Reflexos de Combate",
+      "requirements": "Des 13",
+      "description": "Você ganha uma ação de movimento extra no seu primeiro turno de cada combate."
+    },
+    {
+      "name": "Saque Rápido",
+      "requirements": "Treinado em Iniciativa",
+      "description": "Você recebe +2 em Iniciativa e pode sacar ou guardar itens como uma ação livre (em vez de ação de movimento). Além disso, a ação que você gasta para recarregar uma arma de disparo diminui em uma categoria (ação completa para padrão, padrão para movimento, movimento para livre)."
+    },
+    {
+      "name": "Trespassar",
+      "requirements": "Ataque Poderoso",
+      "description": "Quando você faz um ataque corpo a corpo e reduz os pontos de vida do alvo para 0 ou menos, pode gastar 1 PM para fazer um ataque adicional contra outra criatura dentro do seu alcance. O ataque adicional usa os mesmos valores de ataque e dano, mas os dados devem ser rolados novamente."
+    },
+    {
+      "name": "Vitalidade",
+      "requirements": "Con 13",
+      "description": "Você recebe +1 PV por nível de personagem e +2 em Fortitude."
+    },
+    {
+      "name": "Arremesso Devastador",
+      "requirements": "Arremesso Potente",
+      "description": "Quando faz um ataque à distância com uma arma de arremesso, você pode gastar 1 PM. Se fizer isso e acertar o ataque, além do dano você faz uma manobra derrubar ou empurrar contra o alvo, usando o resultado do ataque como o teste de manobra."
+    },
+    {
+      "name": "Ataque com o Cabo",
+      "requirements": "Estilo de Arma Longa",
+      "description": "Uma vez por rodada, quando usa a ação agredir enquanto empunha uma arma alongada, você pode gastar 2 PM. Se fizer isso, pode fazer um ataque extra com o cabo da arma. Você usa as mesmas estatísticas de um ataque normal da arma, mas seu dano básico se torna 1d6 (impacto) e seu crítico se torna x2."
+    },
+    {
+      "name": "Ataque em Arco",
+      "requirements": "Treinado em Luta, 4º nível de personagem",
+      "description": "Quando faz um ataque corpo a corpo, você pode gastar 2 PM. Se fizer isso, seu ataque pode acertar até três criaturas adjacentes entre si que estejam em seu alcance (faça um único teste de ataque e compare-o com a Defesa de cada criatura). Se você estiver atacando um bando, em vez disso seu ataque causa 50% a mais de dano."
+    },
+    {
+      "name": "Bravura Indômita",
+      "requirements": "Treinado em Vontade",
+      "description": "Se estiver adjacente a dois ou mais inimigos aptos a atacá-lo, você recebe +2 em testes de ataque e na margem de ameaça."
+    },
+    {
+      "name": "Briga de Rua",
+      "requirements": "Briga ou Estilo Desarmado",
+      "description": "Você sabe chutar áreas sensíveis dos inimigos e usar outros truques sujos. Uma vez por rodada, quando faz uma finta, você pode gastar 1 PM. Se fizer isso e vencer o teste oposto da finta, além dos efeitos de fintar, você pode fazer um ataque desarmado contra o alvo como uma ação livre. Se acertar esse ataque, causa +2d6 pontos de dano."
+    },
+    {
+      "name": "Chuva de Golpes",
+      "requirements": "Briga ou Estilo Desarmado, Estilo de Duas Armas",
+      "description": "Quando ataca com duas armas empunhadas usando o poder Estilo de Duas Armas, você pode fazer um ataque desarmado adicional."
+    },
+    {
+      "name": "Catafractário",
+      "requirements": "Encouraçado, Ginete",
+      "description": "Se estiver montado e vestindo armadura pesada, você recebe +1 na Defesa por nível de parceiro de sua montaria."
+    },
+    {
+      "name": "Contra-Ataque",
+      "requirements": "Combate Defensivo",
+      "description": "Uma vez por rodada, se uma criatura atacá-lo e errar, você pode gastar 2 PM para fazer um ataque corpo a corpo contra essa criatura."
+    },
+    {
+      "name": "Coragem Aguerrida",
+      "requirements": "Treinado em Vontade",
+      "description": "Quando estiver com metade ou menos de seus PV totais, você recebe +2 em testes de perícia e na Defesa."
+    },
+    {
+      "name": "Corte Lacerante",
+      "requirements": "Treinado em Luta",
+      "description": "Quando ataca com uma arma corpo a corpo de corte, você pode gastar 2 PM. Se acertar o ataque, você causa +1d10 pontos de dano e o alvo fica sangrando."
+    },
+    {
+      "name": "Defesa Armada",
+      "requirements": "Estilo de Duas Mãos",
+      "description": "Se estiver usando uma arma corpo a corpo de duas mãos, você recebe +2 na Defesa e em Fortitude."
+    },
+    {
+      "name": "Encastelado",
+      "requirements": "Encouraçado, 5º nível de personagem",
+      "description": "Se estiver usando uma armadura pesada, você recebe redução de dano 2. Essa RD aumenta em +1 para cada outro poder que você possua que tenha Encouraçado como pré-requisito."
+    },
+    {
+      "name": "Escudo Heroico",
+      "requirements": "Ataque com Escudo",
+      "description": "Você pode empunhar e soltar seu escudo como ação livre e, quando ataca com ele, pode tratá-lo como uma arma de arremesso com alcance curto. Sempre que arremessa o escudo, você pode gastar 1 PM. Se fizer isso e acertar o ataque, você pode fazer com que ele retorne à sua mão (pegá-lo é uma reação) ou ricocheteie contra outro alvo; nesse caso, você faz um novo ataque à distância com uma penalidade cumulativa de –5. Você pode continuar atacando novos alvos até recuperar o escudo ou errar um ataque."
+    },
+    {
+      "name": "Estocada Pungente",
+      "requirements": "Treinado em Luta",
+      "description": "Quando ataca com uma arma corpo a corpo de perfuração, você pode gastar 2 PM. Se acertar, o alvo sofre –5 em rolagens de dano por 1 rodada."
+    },
+    {
+      "name": "Estudar o Adversário",
+      "requirements": "Int 1",
+      "description": "Na primeira vez na rodada em que erra um ataque, você recebe um bônus cumulativo de +2 em testes de ataque contra o mesmo alvo até o fim da cena."
+    },
+    {
+      "name": "Firula Inspiradora",
+      "requirements": "-",
+      "description": "Você pode gastar uma ação de movimento e 1 PM para realizar uma firula qualquer (girar sua arma, fazer uma dancinha…). Faça um teste de Atuação (CD 10). Se passar, você recebe +1 em testes de perícia e na Defesa, +1 adicional para cada 10 pontos pelos quais o resultado do teste exceder a CD, até o início do seu próximo turno."
+    },
+    {
+      "name": "Matador de Monstros",
+      "requirements": "5º nível de personagem",
+      "description": "Você recebe +1d10 nas rolagens de dano contra criaturas de tamanho Grande ou maior, e essas criaturas não recebem bônus por tamanho em testes de manobras de combate contra você."
+    },
+    {
+      "name": "Mobilidade",
+      "requirements": "Esquiva",
+      "description": "Quando usa a ação movimentar-se e percorre pelo menos 6m, você recebe +2 em testes de ataque e na Defesa até o início do seu próximo turno."
+    },
+    {
+      "name": "Na Mosca",
+      "requirements": "Estilo de Arremesso ou Estilo de Disparo",
+      "description": "Se fizer um ataque à distância, você pode gastar 1 PM. Se acertar o ataque, você causa um dado extra de dano do mesmo tipo (por exemplo, com uma besta pesada, causa +1d12)."
+    },
+    {
+      "name": "Pancada Estonteante",
+      "requirements": "Treinado em Luta",
+      "description": "Quando ataca com uma arma corpo a corpo de impacto, você pode gastar 2 PM. Se você acertar o ataque, o alvo fica desprevenido por uma rodada (ou seja, até o fim do seu próximo turno)."
+    },
+    {
+      "name": "Precisão Letal",
+      "requirements": "11º nível de personagem",
+      "description": "A margem de ameaça de seus ataques aumenta em +1."
+    },
+    {
+      "name": "Sanguinário",
+      "requirements": "-",
+      "description": "Sempre que você causar 10 ou mais pontos de dano em um ou mais inimigos, recebe um bônus cumulativo de +1 em rolagens de dano até o fim da cena (limitado pela sua Força)."
+    },
+    {
+      "name": "Sentinela Implacável",
+      "requirements": "Sab 1, treinado em Iniciativa e Percepção, Estilo de Disparo",
+      "description": "Uma vez por rodada, se você estiver empunhando uma arma de disparo carregada e um inimigo se mover dentro do alcance da arma, você pode gastar 2 PM para fazer um ataque contra essa criatura usando essa arma."
+    },
+    {
+      "name": "Sequência de Golpes",
+      "requirements": "-",
+      "description": "Você desfere uma tempestade de golpes, usando a força de um movimento para impulsionar o outro, sem dar chance para sua vítima reagir. Quando você acerta um ataque corpo a corpo em uma criatura, recebe um bônus cumulativo de +1 em testes de ataque e rolagens de dano contra a mesma criatura nesse turno (limitado pela sua Força)."
+    },
+    {
+      "name": "Truque da Mão Lesta",
+      "requirements": "Estilo de Uma Arma",
+      "description": "Se estiver usando uma arma corpo a corpo em uma mão e nada na outra, você pode trocar a arma de mãos rapidamente para confundir um inimigo adjacente. Esse inimigo fica desprevenido até o fim do seu turno e, se você acertá-lo nesse turno, seu dano com a arma aumenta em dois passos. Você pode usar este poder uma vez por inimigo em cada cena."
+    }
+  ]
+}

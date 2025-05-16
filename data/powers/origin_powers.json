@@ -1,0 +1,94 @@
+{
+  "powers": [
+    {
+      "name": "Alpinista Social",
+      "origin": "Aristocrata",
+      "requirements": "Aristocrata",
+      "description": "Você recebe +2 em testes de Diplomacia e Enganação com pessoas de status social mais alto que o seu."
+    },
+    {
+      "name": "Sangue Azul",
+      "origin": "Aristocrata",
+      "requirements": "Aristocrata",
+      "description": "Você recebe +2 em testes de Diplomacia e Intimidação com pessoas de status social mais baixo que o seu."
+    },
+    {
+      "name": "Herança",
+      "origin": "Aristocrata",
+      "requirements": "Aristocrata",
+      "description": "Você recebe um item superior a sua escolha, desde que seja uma arma, armadura ou item mágico de até T$ 1.000."
+    },
+    {
+      "name": "Amigo Especial",
+      "origin": "Amigo dos Animais",
+      "requirements": "Amigo dos Animais",
+      "description": "Você possui um animal de estimação que o acompanha em suas aventuras. Ele é um animal Pequeno com metade dos seus pontos de vida, Defesa igual à sua e todos os atributos com valor 1. Ele segue suas ordens e você pode perceber através dos sentidos dele com uma ação de movimento."
+    },
+    {
+      "name": "Companheiro Animal",
+      "origin": "Amigo dos Animais",
+      "requirements": "Amigo dos Animais",
+      "description": "Você recebe +2 em testes de Adestramento e Cavalgar."
+    },
+    {
+      "name": "Medicina Alternativa",
+      "origin": "Curandeiro",
+      "requirements": "Curandeiro",
+      "description": "Você pode usar a perícia Cura para tratar venenos e doenças como se tivesse um kit de medicamentos."
+    },
+    {
+      "name": "Médico de Campo",
+      "origin": "Curandeiro",
+      "requirements": "Curandeiro",
+      "description": "Você pode usar a perícia Cura para estabilizar uma criatura morrendo ou curar 1d6 pontos de vida uma vez por dia por criatura."
+    },
+    {
+      "name": "Conhecimento Aplicado",
+      "origin": "Erudito",
+      "requirements": "Erudito",
+      "description": "Quando faz um teste de perícia, você pode gastar 1 PM para receber +2 no teste."
+    },
+    {
+      "name": "Saber Amplo",
+      "origin": "Erudito",
+      "requirements": "Erudito",
+      "description": "Você recebe +2 em testes de Conhecimento e pode fazer testes de Conhecimento mesmo sem ser treinado."
+    },
+    {
+      "name": "Esse Cheiro...",
+      "origin": "Selvagem",
+      "requirements": "Selvagem",
+      "description": "Você recebe +2 em testes de Sobrevivência e pode rastrear criaturas por meio do olfato."
+    },
+    {
+      "name": "Lobo Solitário",
+      "origin": "Selvagem",
+      "requirements": "Selvagem",
+      "description": "Você recebe +1 em testes de resistência e Sobrevivência, mas sofre –1 em testes de perícias baseadas em Carisma."
+    },
+    {
+      "name": "Vida Rústica",
+      "origin": "Selvagem",
+      "requirements": "Selvagem",
+      "description": "Você recebe +2 em testes de Atletismo e Sobrevivência."
+    },
+    {
+      "name": "Punguista",
+      "origin": "Ladino",
+      "requirements": "Ladino",
+      "description": "Você recebe +2 em testes de Ladinagem para furtar."
+    },
+    {
+      "name": "Gatuno",
+      "origin": "Ladino",
+      "requirements": "Ladino",
+      "description": "Você recebe +2 em testes de Ladinagem para abrir fechaduras e desarmar armadilhas."
+    },
+    {
+      "name": "Armas da Rua",
+      "origin": "Ladino",
+      "requirements": "Ladino",
+      "description": "Você recebe +1 em testes de ataque com armas improvisadas."
+    }
+  ]
+}

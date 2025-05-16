@@ -1,0 +1,144 @@
+{
+  "powers": [
+    {
+      "name": "Anatomia Insana",
+      "requirements": "-",
+      "description": "Você tem 25% de chance (resultado '1' em 1d4) de ignorar o dano adicional de um acerto crítico ou ataque furtivo. A chance aumenta em +25% para cada dois outros poderes da Tormenta que você possui."
+    },
+    {
+      "name": "Antenas",
+      "requirements": "-",
+      "description": "Você recebe +1 em Iniciativa, Percepção e Vontade. Este bônus aumenta em +1 para cada dois outros poderes da Tormenta que você possui."
+    },
+    {
+      "name": "Armamento Aberrante",
+      "requirements": "outro poder da Tormenta",
+      "description": "Você pode gastar uma ação de movimento e 1 PM para produzir uma versão orgânica de qualquer arma corpo a corpo ou de arremesso com a qual seja proficiente. O dano da arma aumenta em um passo para cada dois outros poderes da Tormenta que você possui. A arma dura pela cena, então se desfaz numa poça de gosma."
+    },
+    {
+      "name": "Articulações Flexíveis",
+      "requirements": "-",
+      "description": "Você recebe +1 em Acrobacia, Furtividade e Reflexos. Este bônus aumenta em +1 para cada dois outros poderes da Tormenta que você possui."
+    },
+    {
+      "name": "Asas Insetoides",
+      "requirements": "quatro outros poderes da Tormenta",
+      "description": "Você pode gastar 1 PM para receber deslocamento de voo 9m até o fim do seu turno. O deslocamento aumenta em +1,5m para cada outro poder da Tormenta que você possui."
+    },
+    {
+      "name": "Carapaça",
+      "requirements": "-",
+      "description": "Sua pele é recoberta por placas quitinosas. Você recebe +1 na Defesa. Este bônus aumenta em +1 para cada dois outros poderes da Tormenta que você possui."
+    },
+    {
+      "name": "Corpo Aberrante",
+      "requirements": "outro poder da Tormenta",
+      "description": "Seu dano desarmado aumenta em um passo, mais um passo para cada quatro outros poderes da Tormenta que você possui."
+    },
+    {
+      "name": "Cuspir Enxame",
+      "requirements": "-",
+      "description": "Você pode gastar uma ação completa e 2 PM para criar um enxame de insetos rubros em alcance curto com duração sustentada. O enxame causa 2d6 pontos de dano de ácido a qualquer criatura em seu espaço. Para cada dois outros poderes da Tormenta que possui, você pode gastar +1 PM para aumentar o dano em +1d6."
+    },
+    {
+      "name": "Dentes Afiados",
+      "requirements": "-",
+      "description": "Você recebe uma arma natural de mordida (dano 1d4, crítico x2, corte). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida."
+    },
+    {
+      "name": "Desprezar a Realidade",
+      "requirements": "quatro outros poderes da Tormenta",
+      "description": "Você pode gastar 2 PM para ficar no limiar da realidade até o início de seu próximo turno. Nesse estado, você ignora terreno difícil e causa 20% de chance de falha em efeitos usados contra você (não apenas ataques). Para cada dois outros poderes de Tormenta que você possuir, essa chance aumenta em 5% (máximo de 50%)."
+    },
+    {
+      "name": "Empunhadura Rubra",
+      "requirements": "-",
+      "description": "Você pode gastar 1 PM para cobrir suas mãos com uma carapaça rubra. Até o final da cena, você recebe +1 em Luta. Este bônus aumenta em +1 para cada dois outros poderes da Tormenta que você possui."
+    },
+    {
+      "name": "Fome de Mana",
+      "requirements": "-",
+      "description": "Quando passa em um teste de resistência para resistir a uma habilidade mágica, você recebe 1 PM temporário cumulativo. Você pode ganhar um máximo de PM temporários por cena desta forma igual ao número de poderes da Tormenta que possui."
+    },
+    {
+      "name": "Larva Explosiva",
+      "requirements": "Dentes Afiados",
+      "description": "Se uma criatura que tenha sofrido dano de sua mordida nesta cena for reduzida a 0 ou menos PV, ela explode em chuva cáustica, causando 4d4 pontos de dano de ácido em criaturas adjacentes. Para cada dois outros poderes da Tormenta que você possui, o dano aumenta em +2d4. Você é imune a esse dano."
+    },
+    {
+      "name": "Legião Aberrante",
+      "requirements": "Anatomia Insana, três outros poderes da Tormenta",
+      "description": "Seu corpo se transforma em uma massa de insetos rubros. Você pode atravessar qualquer espaço por onde seja possível passar uma moeda (mas considera esses espaços como terreno difícil) e recebe +1 em testes contra manobras de combate e de resistência contra efeitos que tenham você como alvo (mas não efeitos de área). Este bônus aumenta em +1 para cada dois outros poderes da Tormenta que você possui."
+    },
+    {
+      "name": "Mãos Membranosas",
+      "requirements": "-",
+      "description": "Você recebe +1 em Atletismo, Fortitude e testes de agarrar. Este bônus aumenta em +1 para cada dois outros poderes da Tormenta que você possui."
+    },
+    {
+      "name": "Membros Estendidos",
+      "requirements": "-",
+      "description": "Seus braços e armas naturais são grotescamente mais longos que o normal, o que aumenta seu alcance natural para ataques corpo a corpo em +1,5m. Para cada quatro outros poderes da Tormenta que você possui, esse alcance aumenta em +1,5m."
+    },
+    {
+      "name": "Membros Extras",
+      "requirements": "quatro outros poderes da Tormenta",
+      "description": "Você possui duas armas naturais de patas insetoides (dano 1d4, crítico x2, corte). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 2 PM para fazer um ataque corpo a corpo extra com cada uma. Se possuir Ambidestria ou Estilo de Duas Armas, pode empunhar armas leves em suas patas insetoides (com penalidade de -2 em todos os ataques)."
+    },
+    {
+      "name": "Mente Aberrante",
+      "requirements": "-",
+      "description": "Você recebe resistência a efeitos mentais +1. Sempre que resiste a uma habilidade com teste de Vontade, a criatura sofre 1d6 pontos de dano psíquico. Para cada dois outros poderes da Tormenta que você possui, o bônus em testes de resistência aumenta em +1 e o dano aumenta em +1d6."
+    },
+    {
+      "name": "Olhos Vermelhos",
+      "requirements": "-",
+      "description": "Você recebe visão no escuro e +1 em Intimidação. Este bônus aumenta em +1 para cada dois outros poderes da Tormenta que você possui."
+    },
+    {
+      "name": "Pele Corrompida",
+      "requirements": "-",
+      "description": "Você recebe redução de dano 2 contra ácido, eletricidade, fogo, frio, luz e trevas. Esta RD aumenta em +2 para cada dois outros poderes da Tormenta que você possui."
+    },
+    {
+      "name": "Sangue Ácido",
+      "requirements": "-",
+      "description": "Quando você sofre dano por um ataque corpo a corpo, o atacante sofre 1 ponto de dano de ácido por poder da Tormenta que você possui."
+    },
+    {
+      "name": "Visco Rubro",
+      "requirements": "-",
+      "description": "Você pode gastar 1 PM para expelir um líquido grosso e corrosivo. Até o final da cena, você recebe +1 nas rolagens de dano corpo a corpo. Este bônus aumenta em +1 para cada dois outros poderes da Tormenta que você possui."
+    },
+    {
+      "name": "Bolsões Insanos",
+      "requirements": "-",
+      "description": "Seu limite de carga aumenta em 2 espaços, mais 1 espaço para cada outro poder da Tormenta que você possui, e você recebe +5 em testes de Ladinagem para ocultar itens nesses espaços."
+    },
+    {
+      "name": "Carapaça Corrompida",
+      "requirements": "Carapaça",
+      "description": "Você recebe redução de dano 1. Essa RD aumenta em +1 para cada dois outros poderes da Tormenta que você possui."
+    },
+    {
+      "name": "Repulsivo",
+      "requirements": "Car –1 ou menor",
+      "description": "O primeiro ataque de cada inimigo contra você em cada cena sofre uma penalidade igual ao total de poderes da Tormenta que você possui (incluindo este). Após o primeiro ataque, os inimigos não sofrem mais essa penalidade."
+    },
+    {
+      "name": "Secreção Cicatrizante",
+      "requirements": "-",
+      "description": "Você pode gastar uma ação padrão e 2 PM para secretar um fluido rubro e viscoso sobre você mesmo ou uma criatura adjacente. O alvo recupera 2d6+2 PV mas fica enjoado por 1 rodada (Fort CD Con evita). Para cada dois outros poderes da Tormenta que você possui, a cura aumenta em +1d6+1 e a CD aumenta em +1."
+    },
+    {
+      "name": "Simetria Radial",
+      "requirements": "quatro outros poderes da Tormenta",
+      "description": "Você não pode ser flanqueado ou ficar caído e recebe um bônus de +5 para evitar ser agarrado."
+    },
+    {
+      "name": "Tempo Místico",
+      "requirements": "dois outros poderes da Tormenta",
+      "description": "Uma vez por rodada, quando você lança uma magia com execução de movimento, padrão ou completa, pode gastar 2 PM e perder 1d6, 1d8 ou 1d12 PV para diminuir o tempo de execução da magia em um, dois ou três passos, respectivamente (até um mínimo de ação livre). Essa perda de vida só pode ser curada com descanso."
+    }
+  ]
+}

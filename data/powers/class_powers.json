@@ -1,0 +1,3371 @@
+{
+  "powers": [
+    {
+      "name": "Arcano de Batalha",
+      "class": "Arcanista",
+      "requirements": "-",
+      "description": "Quando lança uma magia, você soma seu atributo-chave na rolagem de dano."
+    },
+    {
+      "name": "Aumento de Atributo",
+      "class": "Arcanista",
+      "requirements": "-",
+      "description": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
+    },
+    {
+      "name": "Caldeirão do Bruxo",
+      "class": "Arcanista",
+      "requirements": "Bruxo, treinado em Ofício (alquimista)",
+      "description": "Você pode criar poções, como se tivesse o poder geral Preparar Poção. Se tiver ambos, pode criar poções de até 5º círculo."
+    },
+    {
+      "name": "Conhecimento Mágico",
+      "class": "Arcanista",
+      "requirements": "-",
+      "description": "Você aprende duas magias de qualquer círculo que possa lançar. Você pode escolher este poder quantas vezes quiser."
+    },
+    {
+      "name": "Contramágica Aprimorada",
+      "class": "Arcanista",
+      "requirements": "Dissipar Magia",
+      "description": "Uma vez por rodada, você pode fazer uma contramágica como uma reação (veja a página 173)."
+    },
+    {
+      "name": "Envolto em Mistério",
+      "class": "Arcanista",
+      "requirements": "-",
+      "description": "Sua aparência e postura assombrosas o permitem manipular e assustar pessoas ignorantes ou supersticiosas. O mestre define o que exatamente você pode fazer e quem se encaixa nessa descrição. Como regra geral, você recebe +5 em Enganação e Intimidação contra pessoas não treinadas em Conhecimento ou Misticismo."
+    },
+    {
+      "name": "Escriba Arcano",
+      "class": "Arcanista",
+      "requirements": "Mago, treinado em Ofício (escriba)",
+      "description": "Você pode aprender magias copiando os textos de pergaminhos e grimórios de outros magos. Aprender uma magia dessa forma exige um dia de trabalho e T$ 250 em matérias-primas por PM necessário para lançar a magia. Assim, aprender uma magia de 3º círculo (6 PM) exige 6 dias de trabalho e o gasto de T$ 1.500."
+    },
+    {
+      "name": "Especialista em Escola",
+      "class": "Arcanista",
+      "requirements": "Bruxo ou Mago",
+      "description": "Escolha uma escola de magia. A CD para resistir a suas magias dessa escola aumenta em +2."
+    },
+    {
+      "name": "Familiar",
+      "class": "Arcanista",
+      "requirements": "-",
+      "description": "Você possui um animal de estimação mágico. Veja o quadro para detalhes."
+    },
+    {
+      "name": "Fluxo de Mana",
+      "class": "Arcanista",
+      "requirements": "10º nível de arcanista",
+      "description": "Você pode manter dois efeitos sustentados ativos simultaneamente com apenas uma ação livre, pagando o custo de cada efeito separadamente."
+    },
+    {
+      "name": "Foco Vital",
+      "class": "Arcanista",
+      "requirements": "Bruxo",
+      "description": "Se você estiver segurando seu foco e sofrer dano que o levaria a 0 PV ou menos, você fica com 1 PV e o foco perde PV igual ao valor excedente ou até ser destruído (se o foco for destruído, você sofre o dano excedente)."
+    },
+    {
+      "name": "Fortalecimento Arcano",
+      "class": "Arcanista",
+      "requirements": "5º nível de arcanista",
+      "description": "A CD para resistir a suas magias aumenta em +1. Se você puder lançar magias de 4º círculo, em vez disso ela aumenta em +2."
+    },
+    {
+      "name": "Herança Aprimorada",
+      "class": "Arcanista",
+      "requirements": "Feiticeiro, 6º nível de arcanista",
+      "description": "Você recebe a herança aprimorada de sua linhagem sobrenatural."
+    },
+    {
+      "name": "Herança Superior",
+      "class": "Arcanista",
+      "requirements": "Herança Aprimorada, 11º nível de arcanista",
+      "description": "Você recebe a herança superior de sua linhagem sobrenatural."
+    },
+    {
+      "name": "Magia Pungente",
+      "class": "Arcanista",
+      "requirements": "-",
+      "description": "Quando lança uma magia, você pode pagar 1 PM para aumentar em +2 a CD para resistir a ela."
+    },
+    {
+      "name": "Mestre em Escola",
+      "class": "Arcanista",
+      "requirements": "Especialista em Escola com a escola escolhida, 8º nível de arcanista",
+      "description": "Escolha uma escola de magia. O custo para lançar magias dessa escola diminui em –1 PM."
+    },
+    {
+      "name": "Poder Mágico",
+      "class": "Arcanista",
+      "requirements": "-",
+      "description": "Você recebe +1 ponto de mana por nível de arcanista. Quando sobe de nível, os PM que recebe por este poder aumentam de acordo. Por exemplo, se escolher este poder no 4º nível, recebe 4 PM. Quando subir para o 5º nível, recebe +1 PM e assim por diante."
+    },
+    {
+      "name": "Raio Arcano",
+      "class": "Arcanista",
+      "requirements": "-",
+      "description": "Você pode gastar uma ação padrão para causar 1d8 pontos de dano de essência num alvo em alcance curto. Esse dano aumenta em +1d8 para cada círculo de magia acima do 1º que você puder lançar. O alvo pode fazer um teste de Reflexos (CD atributo-chave) para reduzir o dano à metade. O raio arcano conta como uma magia para efeitos de habilidades e itens que beneficiem suas magias."
+    },
+    {
+      "name": "Raio Elemental",
+      "class": "Arcanista",
+      "requirements": "Raio Arcano",
+      "description": "Quando usa Raio Arcano, você pode pagar 1 PM para que ele cause dano de ácido, eletricidade, fogo, frio ou trevas, a sua escolha. Se o alvo falhar no teste de Reflexos, sofre uma condição, de acordo com o tipo de dano (veja a descrição das condições na página 394). Ácido: vulnerável por 1 rodada. Eletricidade: ofuscado por 1 rodada. Fogo: fica em chamas. Frio: lento por 1 rodada. Trevas: não pode curar PV por 1 rodada."
+    },
+    {
+      "name": "Raio Poderoso",
+      "class": "Arcanista",
+      "requirements": "Raio Arcano",
+      "description": "Os dados de dano do seu Raio Arcano aumentam para d12 e o alcance dele aumenta para médio."
+    },
+    {
+      "name": "Tinta do Mago",
+      "class": "Arcanista",
+      "requirements": "Mago, treinado em Ofício (escriba)",
+      "description": "Você pode criar pergaminhos, como se tivesse o poder Escrever Pergaminho. Se tiver ambos, seu custo para criar pergaminhos é reduzido à metade."
+    },
+    {
+      "name": "Agrilhoar os Mortos",
+      "class": "Arcanista",
+      "requirements": "3º nível de arcanista",
+      "description": "Quando uma de suas magias de necromancia reduz os PV de um inimigo vivo a 0 ou menos, você pode aprisionar uma parte de seu espírito, que então fica flutuando ao seu redor. Para cada espírito, você recebe +2 na Defesa e em testes de resistência. Quando lança uma magia de dano, você pode libertar um espírito para causar +2d6 pontos de dano de trevas. Você pode acumular um máximo de espíritos simultâneos igual ao seu atributo-chave e eles permanecem ao seu redor até serem libertados ou até o fim do dia."
+    },
+    {
+      "name": "Alquimia Arcana",
+      "class": "Arcanista",
+      "requirements": "treinado em Ofício (alquimista)",
+      "description": "A CD para resistir aos preparados alquímicos e poções que você usa aumenta em +1 para cada círculo de magia a que você tiver acesso."
+    },
+    {
+      "name": "Apoteose Celestial",
+      "class": "Arcanista",
+      "requirements": "Herança Superior (linhagem celestial), 17° nível de arcanista",
+      "description": "Sua conexão com o divino se torna ainda mais profunda, às custas de uma fração de sua mortalidade. Você recebe +1 em Sabedoria e aprende uma magia divina de cada círculo a que tenha acesso. Entretanto, sua Constituição diminui em –1."
+    },
+    {
+      "name": "Apoteose Dracônica",
+      "class": "Arcanista",
+      "requirements": "Herança Superior (linhagem dracônica), 17° nível de arcanista",
+      "description": "A influência de sua magia dracônica se torna cada vez mais evidente, tornando-o mais e mais próximo dos dragões. As magias do seu elemento escolhido causam +1 ponto de dano por dado e, contra criaturas imunes a esse elemento, ainda causam metade do dano. Contudo, você não pode mais lançar magias do tipo oposto ao seu elemento escolhido (fogo para frio e ácido para eletricidade)."
+    },
+    {
+      "name": "Apoteose Feérica",
+      "class": "Arcanista",
+      "requirements": "Herança Superior (linhagem feérica), 17° nível de arcanista",
+      "description": "Sua natureza feérica se acentua, mas isso o afasta do mundo dos mortais. Sempre que um ou mais inimigos falharem em um teste de Vontade contra uma de suas magias, você recebe 1 PM temporário cumulativo que dura até o fim da cena. Se a magia é de encantamento ou ilusão, em vez disso você recebe 2 PM temporários. Em ambos os casos, o ganho é limitado pelo total de PM gasto na magia. Contudo, você não pode mais lançar magias de convocação e necromancia."
+    },
+    {
+      "name": "Apoteose Rubra",
+      "class": "Arcanista",
+      "requirements": "Herança Superior (linhagem rubra), 17° nível de arcanista",
+      "description": "Você acolheu a corrupção rubra em seu ser — uma escolha que pode ser percebida por todos ao redor. Escolha uma magia que cause dano de cada círculo a que tem acesso. O tipo de dano dessas magias muda para psíquico. Além disso, quando lança uma magia de dano psíquico, você soma seu total de poderes da Tormenta na rolagem de dano. Este poder conta como um poder da Tormenta (exceto para perda de Carisma)."
+    },
+    {
+      "name": "Arcanista de Linha de Frente",
+      "class": "Arcanista",
+      "requirements": "-",
+      "description": "Quando você lança uma magia, criaturas adjacentes sofrem –2 em seus testes de resistência contra ela e, se ela causar dano, causa um dado extra do mesmo tipo."
+    },
+    {
+      "name": "Asas de Sapo",
+      "class": "Arcanista",
+      "requirements": "treinado em Ofício (alquimista)",
+      "description": "Você pode empunhar dois catalisadores diferentes em uma mão ao mesmo tempo e, quando lança uma magia, pode gastar ambos para aplicar seus efeitos."
+    },
+    {
+      "name": "Contingência Arcana",
+      "class": "Arcanista",
+      "requirements": "Runa de Proteção",
+      "description": "Quando lança Runa de Proteção com o aprimoramento que muda o alvo para 'você', você pode substituir o componente material da magia por uma penalidade em PM igual ao círculo da magia inscrita na runa."
+    },
+    {
+      "name": "Contramágica Superior",
+      "class": "Arcanista",
+      "requirements": "Contramágica Aprimorada, 9º nível de arcanista",
+      "description": "Quando anula uma magia com uma contramágica, você recebe uma quantidade de PM temporários igual ao círculo da magia anulada (limitada pelos PM que gastou para anular)."
+    },
+    {
+      "name": "Especialista em Invocações",
+      "class": "Arcanista",
+      "requirements": "-",
+      "description": "Você soma seu atributo-chave na Defesa de suas criaturas conjuradas por habilidades mágicas (incluindo capangas) e a ação necessária para comandá-las diminui em um passo (de padrão para movimento e de movimento para livre). Contudo, cada comando só pode ser executado uma vez por rodada."
+    },
+    {
+      "name": "Familiar Aprimorado",
+      "class": "Arcanista",
+      "requirements": "Familiar, 5º nível de arcanista",
+      "description": "Seu familiar pode falar e passa a fornecer um segundo benefício, escolhido entre os tipos comuns de familiares (Tormenta20, p. 38)."
+    },
+    {
+      "name": "Ingrediente Especial",
+      "class": "Arcanista",
+      "requirements": "Caldeirão do Bruxo, 5º nível de arcanista",
+      "description": "Quando usa uma poção, você pode usar um catalisador e aplicar seus efeitos a ela."
+    },
+    {
+      "name": "Magia Performática",
+      "class": "Arcanista",
+      "requirements": "Car 1, treinado em Atuação",
+      "description": "Quando lança uma magia diante de uma ou mais criaturas inteligentes (Int –3 ou mais), você pode fazer um teste de Atuação (CD 20 + custo em PM da magia) para lançá-la de forma impressionante. Se você passar, a CD da magia aumenta em +1. Esse bônus aumenta em +1 para cada 10 pontos pelos quais o teste passar da CD. Se falhar, a magia não funciona."
+    },
+    {
+      "name": "Memória Súbita",
+      "class": "Arcanista",
+      "requirements": "Mago",
+      "description": "Escolha uma de suas magias que não esteja memorizada. Você pode gastar uma ação de movimento para memorizar essa magia até o fim da cena. Se fizer isso, uma de suas outras magias memorizadas, a sua escolha, deixa de estar memorizada."
+    },
+    {
+      "name": "O Próprio Sangue",
+      "class": "Arcanista",
+      "requirements": "Feiticeiro",
+      "description": "Se você aprender novamente como feiticeiro uma magia que já possa lançar por uma habilidade qualquer (como uma habilidade de raça ou um poder concedido), a CD para resistir a ela aumenta em +2."
+    },
+    {
+      "name": "Raio Dividido",
+      "class": "Arcanista",
+      "requirements": "Raio Arcano, 5º nível de arcanista",
+      "description": "Você pode usar Raio Arcano como uma ação completa, em vez de padrão. Se fizer isso, ele afeta um número de alvos igual ao seu atributo-chave."
+    },
+    {
+      "name": "Sifão de Mana",
+      "class": "Arcanista",
+      "requirements": "17° nível de arcanista",
+      "description": "Quando você lança uma magia e pelo menos um inimigo falha no teste de resistência contra ela, você recupera uma quantidade de pontos de mana igual ao círculo da magia (limitada pelo total de PM gastos nela)."
+    },
+    {
+      "name": "Trama Célere",
+      "class": "Arcanista",
+      "requirements": "9º nível de arcanista",
+      "description": "Uma vez por rodada, quando usa uma ação padrão para lançar uma magia, você pode gastar 2 PM para fazer uma conjuração dupla. Isso permite que você lance uma segunda magia de 1º círculo como ação livre, pagando seu custo em PM como normal."
+    },
+    {
+      "name": "Transliteração Impossível",
+      "class": "Arcanista",
+      "requirements": "Escriba Arcano",
+      "description": "Quando usa um pergaminho de uma magia que conheça, você recebe +2 PM para gastar em aprimoramentos e a magia não pode ser anulada por contramágica."
+    },
+    {
+      "name": "Alma de Bronze",
+      "class": "Bárbaro",
+      "requirements": "-",
+      "description": "Quando entra em fúria, você recebe uma quantidade de pontos de vida temporários igual a seu nível + sua Força."
+    },
+    {
+      "name": "Aumento de Atributo",
+      "class": "Bárbaro",
+      "requirements": "-",
+      "description": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
+    },
+    {
+      "name": "Brado Assustador",
+      "class": "Bárbaro",
+      "requirements": "treinado em Intimidação",
+      "description": "Você pode gastar uma ação de movimento e 1 PM para soltar um berro feroz. Todos os inimigos em alcance curto ficam vulneráveis até o fim da cena. Medo."
+    },
+    {
+      "name": "Crítico Brutal",
+      "class": "Bárbaro",
+      "requirements": "6º nível de bárbaro",
+      "description": "Seu multiplicador de crítico com armas corpo a corpo e de arremesso aumenta em +1. Por exemplo, seu multiplicador com um machado de batalha (normalmente x3) será x4."
+    },
+    {
+      "name": "Destruidor",
+      "class": "Bárbaro",
+      "requirements": "For 1",
+      "description": "Quando causa dano com uma arma corpo a corpo de duas mãos, você pode rolar novamente qualquer resultado 1 ou 2 das rolagens de dano da arma."
+    },
+    {
+      "name": "Espírito Inquebrável",
+      "class": "Bárbaro",
+      "requirements": "Alma de Bronze",
+      "description": "Enquanto está em fúria, você não fica inconsciente por estar com 0 PV ou menos (você ainda morre se chegar em um valor negativo igual à metade de seus pontos de vida máximos)."
+    },
+    {
+      "name": "Esquiva Sobrenatural",
+      "class": "Bárbaro",
+      "requirements": "-",
+      "description": "Seus instintos são tão apurados que você consegue reagir ao perigo antes que seus sentidos o percebam. Você nunca fica surpreendido."
+    },
+    {
+      "name": "Força Indomável",
+      "class": "Bárbaro",
+      "requirements": "-",
+      "description": "Você pode gastar 1 PM para somar seu nível em um teste de Força ou Atletismo. Você pode usar esta habilidade depois de rolar o dado, mas deve usá-la antes de o mestre dizer se você passou ou não."
+    },
+    {
+      "name": "Frenesi",
+      "class": "Bárbaro",
+      "requirements": "-",
+      "description": "Uma vez por rodada, se estiver em fúria e usar a ação agredir para fazer um ataque corpo a corpo ou com uma arma de arremesso, você pode gastar 2 PM para fazer um ataque adicional."
+    },
+    {
+      "name": "Fúria da Savana",
+      "class": "Bárbaro",
+      "requirements": "-",
+      "description": "Seu deslocamento aumenta em +3m. Quando usa Fúria, você aplica o bônus em ataque e dano também a armas de arremesso."
+    },
+    {
+      "name": "Fúria Raivosa",
+      "class": "Bárbaro",
+      "requirements": "-",
+      "description": "Se sua Fúria for terminar por você não ter atacado nem sido alvo de um efeito hostil, você pode pagar 1 PM para continuar em fúria nesta rodada. Se você atacar ou for atacado na rodada seguinte, sua fúria continua normalmente."
+    },
+    {
+      "name": "Golpe Poderoso",
+      "class": "Bárbaro",
+      "requirements": "-",
+      "description": "Ao acertar um ataque corpo a corpo ou com uma arma de arremesso, você pode gastar 1 PM para causar um dado extra de dano do mesmo tipo (por exemplo, com um montante, causa +1d6, para um dano total de 3d6; com um machado de guerra, causa +1d12, para um dano total de 2d12)."
+    },
+    {
+      "name": "Ímpeto",
+      "class": "Bárbaro",
+      "requirements": "-",
+      "description": "Você pode gastar 1 PM para aumentar seu deslocamento em +6m por uma rodada."
+    },
+    {
+      "name": "Investida Imprudente",
+      "class": "Bárbaro",
+      "requirements": "-",
+      "description": "Quando faz uma investida, você pode aumentar sua penalidade na Defesa pela investida para –5 para receber um bônus de +1d12 na rolagem de dano deste ataque."
+    },
+    {
+      "name": "Pele de Aço",
+      "class": "Bárbaro",
+      "requirements": "Pele de Ferro, 8º nível de bárbaro",
+      "description": "O bônus de Pele de Ferro aumenta para +8."
+    },
+    {
+      "name": "Pele de Ferro",
+      "class": "Bárbaro",
+      "requirements": "-",
+      "description": "Você recebe +4 na Defesa, mas apenas se não estiver usando armadura pesada."
+    },
+    {
+      "name": "Sangue dos Inimigos",
+      "class": "Bárbaro",
+      "requirements": "-",
+      "description": "Enquanto está em fúria, quando faz um acerto crítico ou reduz um inimigo a 0 PV, você recebe um bônus cumulativo de +1 em testes de ataque e rolagens de dano, limitado pelo seu nível, até o fim da cena."
+    },
+    {
+      "name": "Superstição",
+      "class": "Bárbaro",
+      "requirements": "-",
+      "description": "Você odeia magia, o que faz com que seja mais resistente a ela. Você recebe resistência a magia +5."
+    },
+    {
+      "name": "Totem Espiritual",
+      "class": "Bárbaro",
+      "requirements": "Sab 1, 4º nível de bárbaro",
+      "description": "Você soma sua Sabedoria no seu total de pontos de mana. Escolha um animal totêmico (veja o quadro ao lado). Você aprende e pode lançar uma magia definida pelo animal escolhido (atributo-chave Sabedoria) e pode lançá-la mesmo em fúria."
+    },
+    {
+      "name": "Vigor Primal",
+      "class": "Bárbaro",
+      "requirements": "-",
+      "description": "Você pode gastar uma ação de movimento e uma quantidade de PM limitada por sua Constituição. Para cada PM que gastar, você recupera 1d12 pontos de vida."
+    },
+    {
+      "name": "Alma Inabalável",
+      "class": "Bárbaro",
+      "requirements": "treinado em Intimidação",
+      "description": "Quando faz um teste de resistência, você pode gastar 1 PM para substituir a perícia normal por Intimidação. Se você passar no teste e a fonte do efeito for uma criatura, ela fica abalada por 1d4 rodadas (Vontade CD igual ao resultado do teste de Intimidação evita)."
+    },
+    {
+      "name": "Ampliar Brado",
+      "class": "Bárbaro",
+      "requirements": "-",
+      "description": "O alcance de seus brados aumenta para médio e a CD para resistir a eles aumenta em +2."
+    },
+    {
+      "name": "Arremesso Violento",
+      "class": "Bárbaro",
+      "requirements": "Fúria da Savana",
+      "description": "Enquanto você está em fúria, o dano e o alcance de suas armas de arremesso aumenta em um passo (de curto para médio e de médio para longo) e a penalidade em ataques que você sofre por arremessar armas sem alcance diminui para –2."
+    },
+    {
+      "name": "Beberrão Selvagem",
+      "class": "Bárbaro",
+      "requirements": "Con 3",
+      "description": "Você pode gastar uma ação de movimento para ingerir um preparado alquímico que cause dano e tenha uma criatura como alvo. Se fizer isso, armazena o equivalente a 3 cargas do preparado em sua boca. Até o fim da cena, sempre que acerta um ataque corpo a corpo, você pode gastar uma carga para que o ataque cause dano adicional igual ao do preparado."
+    },
+    {
+      "name": "Brado: Assombroso",
+      "class": "Bárbaro",
+      "requirements": "Brado Assustador",
+      "description": "Você pode gastar uma quantidade de PM limitada pela sua Constituição. Para cada PM que gastar, você causa 1d6 pontos de dano psíquico em todos os inimigos no alcance do brado (Von CD Con reduz à metade). Medo."
+    },
+    {
+      "name": "Brado: Retardante",
+      "class": "Bárbaro",
+      "requirements": "-",
+      "description": "Você dá um berro que faz seus inimigos hesitarem. Criaturas a sua escolha no alcance do brado ficam lentas por 1 rodada. Medo."
+    },
+    {
+      "name": "Brado: Sísmico",
+      "class": "Bárbaro",
+      "requirements": "outro poder de brado",
+      "description": "Você emite um brado que faz o chão tremer. Criaturas no alcance do brado ficam vulneráveis por 1d4 rodadas e caídas (Fort CD For reduz para vulneráveis por 1 rodada). Criaturas que já estavam vulneráveis, inclusive por este efeito, ficam desprevenidas pelo mesmo tempo."
+    },
+    {
+      "name": "Brado: Vitorioso",
+      "class": "Bárbaro",
+      "requirements": "Brado Assustador, Sangue dos Inimigos",
+      "description": "Quando faz um acerto crítico ou reduz um inimigo a 0 ou menos PV enquanto está em fúria, você pode usar um dos seus poderes de brado como ação livre."
+    },
+    {
+      "name": "Enigma do Aço",
+      "class": "Bárbaro",
+      "requirements": "17º nível de bárbaro",
+      "description": "Após tantas lutas e matanças, você descobriu que a verdadeira força não reside na arma, mas na mão de quem a empunha. Se estiver empunhando uma arma mundana, você recebe +5 em testes de ataque e causa dois dados extras de dano do mesmo tipo."
+    },
+    {
+      "name": "Espiritualista",
+      "class": "Bárbaro",
+      "requirements": "Sab 2, Totem Espiritual, 6º nível de bárbaro",
+      "description": "Você recebe +1 PM a cada nível ímpar. Além disso, aprende e pode lançar uma magia adicional definida pelo seu animal totêmico (atributo-chave Sabedoria) e pode lançá-la e sustentá-la mesmo em fúria. As magias são: Coruja (Augúrio), Corvo (Voz Divina), Falcão (Mapear), Grifo (Físico Divino), Lobo (Localização), Raposa (Camuflagem Ilusória), Tartaruga (Vestimenta da Fé), Urso (Soco de Arsenal)."
+    },
+    {
+      "name": "Fúria Bestial",
+      "class": "Bárbaro",
+      "requirements": "-",
+      "description": "Enquanto você está em fúria, o dano das suas armas naturais aumenta em dois passos e o multiplicador de crítico delas aumenta em +1."
+    },
+    {
+      "name": "Fúria Elemental",
+      "class": "Bárbaro",
+      "requirements": "Totem Espiritual, 11º nível de bárbaro",
+      "description": "Escolha um elemento entre ácido, eletricidade, fogo ou frio. Uma vez feita, essa escolha não pode ser mudada. Enquanto está em fúria e faz um ataque em que aplique seus benefícios, você causa +1d12 pontos de dano do tipo escolhido."
+    },
+    {
+      "name": "Impiedoso",
+      "class": "Bárbaro",
+      "requirements": "-",
+      "description": "Você recebe +2 em testes de ataque, rolagens de dano e na CD de suas habilidades contra criaturas vulneráveis."
+    },
+    {
+      "name": "Invocar os Ancestrais",
+      "class": "Bárbaro",
+      "requirements": "Totem Espiritual, 11º nível de bárbaro",
+      "description": "Você pode gastar uma ação completa e 2 PM para invocar 1d4+1 ancestrais capangas em espaços desocupados em alcance curto. Eles têm Defesa igual à sua, 1 PV, são incorpóreos e falham automaticamente em qualquer teste de resistência ou oposto. Você pode gastar uma ação de movimento para fazê-los se mover (deslocamento 9m). Cada ancestral fornece um bônus cumulativo de +2 em rolagens de dano a um personagem adjacente e, uma vez por rodada, quando faz a ação agredir, você pode gastar um ancestral pra fazer um ataque adicional."
+    },
+    {
+      "name": "Manifestar Totem",
+      "class": "Bárbaro",
+      "requirements": "Totem Espiritual, 7º nível de bárbaro",
+      "description": "Escolha um tipo de parceiro entre assassino, atirador, combatente, fortão, guardião, perseguidor ou montaria. Uma vez feita, essa escolha não pode ser mudada. Você pode gastar 3 PM e uma ação de movimento para invocar uma manifestação espiritual de seu animal totêmico até o fim da cena. Ele é um parceiro veterano do tipo escolhido."
+    },
+    {
+      "name": "Recuperação Gutural",
+      "class": "Bárbaro",
+      "requirements": "Alma de Bronze, um poder de brado",
+      "description": "Quando usa um brado enquanto está em fúria, você recebe uma quantidade de PV temporários igual à metade do seu nível + sua Força."
+    },
+    {
+      "name": "Regeneração Sobrenatural",
+      "class": "Bárbaro",
+      "requirements": "Con 5, Vigor Primal, 5º nível de bárbaro",
+      "description": "Enquanto está em fúria e com menos da metade de seus PV máximos, você tem Cura Acelerada 5."
+    },
+    {
+      "name": "Revide",
+      "class": "Bárbaro",
+      "requirements": "Frenesi, 11º nível de bárbaro",
+      "description": "Uma vez por rodada, quando sofre dano de um ataque corpo a corpo enquanto está em fúria, você pode gastar 2 PM para fazer um ataque corpo a corpo contra a criatura que o atacou, desde que ela esteja em seu alcance."
+    },
+    {
+      "name": "Arte Mágica",
+      "class": "Bardo",
+      "requirements": "-",
+      "description": "Enquanto você estiver sob efeito de sua Inspiração, a CD para resistir a suas habilidades de bardo aumenta em +2."
+    },
+    {
+      "name": "Aumentar Repertório",
+      "class": "Bardo",
+      "requirements": "-",
+      "description": "Você aprende duas magias de qualquer círculo que possa lançar. Elas devem pertencer às escolas que você sabe usar, mas podem ser arcanas ou divinas. Você pode escolher este poder quantas vezes quiser."
+    },
+    {
+      "name": "Aumento de Atributo",
+      "class": "Bardo",
+      "requirements": "-",
+      "description": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
+    },
+    {
+      "name": "Dança das Lâminas",
+      "class": "Bardo",
+      "requirements": "Esgrima Mágica, 10º nível de bardo",
+      "description": "Quando você lança uma magia com execução de uma ação padrão, pode gastar 1 PM para fazer um ataque corpo a corpo como uma ação livre."
+    },
+    {
+      "name": "Esgrima Mágica",
+      "class": "Bardo",
+      "requirements": "-",
+      "description": "Sua arte mescla esgrima e magia, transformando dança em golpes. Se estiver sob efeito de Inspiração, você pode substituir testes de Luta por testes de Atuação, mas apenas para ataques com armas corpo a corpo leves ou de uma mão."
+    },
+    {
+      "name": "Estrelato",
+      "class": "Bardo",
+      "requirements": "6º nível de bardo",
+      "description": "Suas apresentações o tornaram famoso, fazendo com que você seja reconhecido e bem tratado por aqueles que apreciam a arte. Por outro lado, pode ser difícil passar despercebido, especialmente em grandes cidades. Quando usa Atuação para impressionar uma plateia, o bônus recebido em perícias baseadas em Carisma aumenta para +5."
+    },
+    {
+      "name": "Fascinar em Massa",
+      "class": "Bardo",
+      "requirements": "Música: Balada Fascinante",
+      "description": "Quando usa Música: Balada Fascinante, você pode gastar +2 PM. Se fizer isso, afeta todas as criaturas a sua escolha no alcance da música (você faz um único teste de Atuação, oposto pelo teste de Vontade de cada criatura)."
+    },
+    {
+      "name": "Golpe Elemental",
+      "class": "Bardo",
+      "requirements": "Golpe Mágico",
+      "description": "Enquanto estiver sob efeito de Inspiração, sempre que você acertar um ataque corpo a corpo, pode gastar 1 PM para causar 1d6 de dano extra de ácido, eletricidade, fogo ou frio, a sua escolha. Para cada quatro níveis que possuir, pode gastar +1 PM para aumentar o dano em +1d6."
+    },
+    {
+      "name": "Golpe Mágico",
+      "class": "Bardo",
+      "requirements": "Esgrima Mágica",
+      "description": "Enquanto estiver sob efeito de Inspiração, sempre que você acertar um ataque corpo a corpo em um inimigo, recebe 2 PM temporários cumulativos. Você pode ganhar um máximo de PM temporários por cena igual ao seu nível. Esses pontos temporários desaparecem no final da cena."
+    },
+    {
+      "name": "Inspiração Marcial",
+      "class": "Bardo",
+      "requirements": "-",
+      "description": "Quando você usa Inspiração, você e seus aliados aplicam o bônus recebido em rolagens de dano (além de testes de perícia)."
+    },
+    {
+      "name": "Lendas e Histórias",
+      "class": "Bardo",
+      "requirements": "Int 1",
+      "description": "Você é um arquivo vivo de relatos, canções e folclore. Além de outros benefícios a critério do mestre, pode gastar 1 PM para rolar novamente um teste recém realizado de Conhecimento, Misticismo, Nobreza ou Religião para informação, identificar criaturas ou identificar itens mágicos."
+    },
+    {
+      "name": "Manipular",
+      "class": "Bardo",
+      "requirements": "Música: Balada Fascinante",
+      "description": "Você pode gastar 1 PM para fazer uma criatura fascinada por você ficar enfeitiçada até o fim da cena (Von CD Car anula). Se a criatura passar, fica imune a este efeito por um dia. Usar esta habilidade não conta como ameaça à criatura fascinada."
+    },
+    {
+      "name": "Manipular em Massa",
+      "class": "Bardo",
+      "requirements": "Fascinar em Massa, Manipular, 10º nível de bardo",
+      "description": "Quando usa Manipular, você pode gastar +2 PM. Se fizer isso, afeta todas as criaturas a sua escolha em alcance curto."
+    },
+    {
+      "name": "Música: Balada Fascinante",
+      "class": "Bardo",
+      "requirements": "-",
+      "description": "Faça um teste de Atuação oposto pelo teste de Vontade de uma criatura no alcance. Se você passar, ela fica fascinada enquanto você se concentrar (uma ação padrão por rodada). Um alvo hostil ou envolvido em combate recebe +5 no teste de resistência e tem direito a um novo teste sempre que você se concentrar. Se a criatura passar, fica imune a este efeito por um dia."
+    },
+    {
+      "name": "Música: Canção Assustadora",
+      "class": "Bardo",
+      "requirements": "-",
+      "description": "Faça um teste de Atuação oposto pelo teste de Vontade de cada criatura a sua escolha dentro do alcance (você faz um único teste). Alvos que falhem ficam abalados até o fim da cena. Alvos que passem ficam imunes a este efeito por um dia."
+    },
+    {
+      "name": "Música: Melodia Curativa",
+      "class": "Bardo",
+      "requirements": "-",
+      "description": "Criaturas a sua escolha no alcance recuperam 1d6 PV. Quando usa esta habilidade, você pode gastar mais pontos de mana. Para cada PM extra, aumente a cura em +1d6 PV."
+    },
+    {
+      "name": "Melodia Restauradora",
+      "class": "Bardo",
+      "requirements": "Música: Melodia Curativa",
+      "description": "Quando você usa Música: Melodia Curativa, pode gastar +2 PM. Se fizer isso, escolha uma das condições a seguir: abalado, alquebrado, apavorado, atordoado, cego, confuso, enfeitiçado, esmorecido, exausto, fatigado, frustrado, pasmo ou surdo. Você remove a condição escolhida das criaturas afetadas pela música."
+    },
+    {
+      "name": "Mestre dos Sussurros",
+      "class": "Bardo",
+      "requirements": "Car 1, treinado em Enganação e Investigação",
+      "description": "Você é dissimulado, atento para rumores e ótimo em espalhar fofocas. Quando faz um teste de Investigação para interrogar ou um teste de Enganação para intriga, você rola dois dados e usa o melhor resultado. Além disso, pode fazer esses testes em ambientes sociais (taverna, festival, corte...) sem custo e em apenas uma hora (em vez de um dia)."
+    },
+    {
+      "name": "Paródia",
+      "class": "Bardo",
+      "requirements": "-",
+      "description": "Uma vez por rodada, quando vê outra criatura lançando uma magia em alcance médio, você pode pagar 1 PM e fazer um teste de Atuação (CD 15 + custo em PM da magia). Se passar, até o final de seu próximo turno você pode lançar essa magia."
+    },
+    {
+      "name": "Prestidigitação",
+      "class": "Bardo",
+      "requirements": "6º nível de bardo",
+      "description": "Quando faz uma ação padrão, você pode aproveitar seus gestos para lançar uma magia com execução de ação completa ou menor. Faça um teste de Atuação (CD 15 + custo em PM da magia). Se passar, você lança a magia como uma ação livre. Se falhar, a magia não funciona, mas você gasta os PM mesmo assim. Outros personagens só percebem que você lançou uma magia com um teste de Misticismo (CD 20)."
+    },
+    {
+      "name": "Acorde Místico",
+      "class": "Bardo",
+      "requirements": "-",
+      "description": "Se estiver empunhando um instrumento musical, você pode gastar uma ação padrão para fazer um teste de Atuação oposto ao teste de Vontade de uma criatura em alcance curto. Se você vencer, a criatura sofre 1d6 pontos de dano de essência e fica vulnerável por 1 rodada. Esse dano aumenta em +1d6 para cada círculo de magia acima do 1º que você puder lançar. Quando faz um ataque como parte da resolução de uma magia (como pelo aprimoramento de Toque Chocante), você pode usar este poder no lugar do ataque."
+    },
+    {
+      "name": "Acorde Poderoso",
+      "class": "Bardo",
+      "requirements": "Acorde Místico",
+      "description": "Os dados de dano do seu Acorde Místico aumentam para d10, o alcance dele aumenta para médio e, se você vencer o teste oposto, a vítima fica desprevenida, em vez de vulnerável."
+    },
+    {
+      "name": "Adereço Musical",
+      "class": "Bardo",
+      "requirements": "-",
+      "description": "Você pode gastar 10 minutos para acoplar (ou desacoplar) um item esotérico a um instrumento musical. Isso permite empunhar o esotérico com a mesma mão que empunha o instrumento e usar seu efeito em Acorde Místico, como se esse poder fosse uma magia. Cada instrumento musical só pode ter um esotérico acoplado."
+    },
+    {
+      "name": "Apresentação Impactante",
+      "class": "Bardo",
+      "requirements": "-",
+      "description": "Quando usa Inspiração, você impacta também os inimigos dentro do alcance. Na próxima vez que um inimigo fizer um teste de ataque ou de resistência nessa cena, ele rola dois dados e usa o pior resultado (apenas uma vez por cene)."
+    },
+    {
+      "name": "Balada do Atirador",
+      "class": "Bardo",
+      "requirements": "Esgrima Mágica",
+      "description": "Você pode usar Esgrima Mágica, e qualquer poder de bardo que o tenha como pré-requisito, com armas de ataque à distância leves ou de uma mão. Quando faz isso, você pode substituir testes de Pontaria por Atuação."
+    },
+    {
+      "name": "Celebridade Artoniana",
+      "class": "Bardo",
+      "requirements": "Estrelato, 17º nível de bardo",
+      "description": "No início de cada cena, você pode gastar 3 PM para fazer um teste de Atuação oposto pelo teste de Vontade de uma criatura inteligente (Int –3 ou maior) que possa ver. Se você vencer, a criatura se revela sua fã. Você recebe +5 em todos os testes de perícia contra ela e ela sofre –5 em todos os testes dela contra você até o fim da aventura. Quem vai querer agredir seu ídolo?"
+    },
+    {
+      "name": "Dança Acrobática",
+      "class": "Bardo",
+      "requirements": "-",
+      "description": "Você pode substituir testes de Acrobacia por Atuação. Quando você faz isso para passar por um inimigo, ele só pode usar Acrobacia ou Iniciativa no teste oposto."
+    },
+    {
+      "name": "Espada Encantada",
+      "class": "Bardo",
+      "requirements": "Golpe Elemental",
+      "description": "Quando você causa dano com seu Golpe Elemental, o alvo sofre uma condição conforme o tipo de dano escolhido. Ácido: vulnerável por 1 rodada. Eletricidade: ofuscado por 1 rodada. Fogo: em chamas. Frio: lento por 1 rodada."
+    },
+    {
+      "name": "História de Acampamento",
+      "class": "Bardo",
+      "requirements": "-",
+      "description": "Você pode gastar 1 hora para entreter um número de pessoas igual ao seu nível com histórias e canções. A recuperação de PM por descanso dessas pessoas aumenta em +1 por nível nesse dia."
+    },
+    {
+      "name": "Inspiração Espirituosa",
+      "class": "Bardo",
+      "requirements": "11º nível de bardo",
+      "description": "Na primeira vez que você usa Inspiração em cada combate, você e seus aliados recebem uma quantidade de PM temporários igual ao bônus fornecido por essa habilidade."
+    },
+    {
+      "name": "Inspiração Resoluta",
+      "class": "Bardo",
+      "requirements": "-",
+      "description": "Quando você usa Inspiração, você e seus aliados aplicam o bônus recebido na Defesa (além de testes de perícia)."
+    },
+    {
+      "name": "Inspiração Revigorante",
+      "class": "Bardo",
+      "requirements": "-",
+      "description": "Quando você usa Inspiração, você e seus aliados recebem uma quantidade de PV temporários igual a 5 vezes o bônus fornecido."
+    },
+    {
+      "name": "Magia Performática",
+      "class": "Bardo",
+      "requirements": "Car 1, treinado em Atuação",
+      "description": "Quando lança uma magia diante de uma ou mais criaturas inteligentes (Int –3 ou mais), você pode fazer um teste de Atuação (CD 20 + custo em PM da magia) para lançá-la de forma impressionante. Se você passar, a CD da magia aumenta em +1. Esse bônus aumenta em +1 para cada 10 pontos pelos quais o teste passar da CD. Se falhar, a magia não funciona."
+    },
+    {
+      "name": "Mago Vermelho",
+      "class": "Bardo",
+      "requirements": "treinado em Misticismo",
+      "description": "Se estiver empunhando uma arma leve ou ágil, você soma o círculo máximo de magias que pode lançar nos testes de ataque e nas rolagens de dano com ela. Além disso, a mão da arma é considerada livre para lançar magias."
+    },
+    {
+      "name": "Música: Marcha Vitoriosa",
+      "class": "Bardo",
+      "requirements": "Inspiração Marcial, 5º nível de bardo",
+      "description": "Faça um teste de Atuação. Para cada 10 pontos no resultado desse teste, seus aliados dentro do alcance recebem +1 em rolagens de dano por 1 rodada."
+    },
+    {
+      "name": "Música: Réquiem Sombrio",
+      "class": "Bardo",
+      "requirements": "necromancia como uma de suas escolas de magia",
+      "description": "Um cadáver de uma criatura Média ou menor dentro do alcance se ergue como um morto-vivo sob seu comando. Ele é um parceiro iniciante de um tipo a sua escolha aprovado pelo mestre que não conta em seu limite de parceiros. Você pode animar um máximo de cadáveres simultâneos igual ao seu Carisma. Os cadáveres se decompõem no fim da cena."
+    },
+    {
+      "name": "Música: Sonata da Distração",
+      "class": "Bardo",
+      "requirements": "-",
+      "description": "Faça um teste de Atuação oposto pela Vontade de cada criatura a sua escolha dentro do alcance (você faz um único teste). Alvos que falharem ficam desprevenidos por 1 rodada. Alvos que passarem ficam imunes a este efeito por 1 dia. Mental."
+    },
+    {
+      "name": "Portas da Fama",
+      "class": "Bardo",
+      "requirements": "Estrelato",
+      "description": "Você recebe +10 em testes de Diplomacia, Enganação e Furtividade para entrar em lugares proibidos — as pessoas simplesmente presumem que você tem acesso a tudo!"
+    },
+    {
+      "name": "Ressoar",
+      "class": "Bardo",
+      "requirements": "17º nível de bardo",
+      "description": "Quando lança uma magia que tenha apenas você como alvo, você pode gastar 2 PM e fazer um teste de Atuação (CD 15 + custo em PM da magia). Se você passar, um aliado em alcance curto que esteja sob efeito de sua Inspiração é afetado pelo efeito básico da magia como se você a tivesse lançado nele."
+    },
+    {
+      "name": "Triunfo do Amor",
+      "class": "Bardo",
+      "requirements": "-",
+      "description": "Se você 'conquistar' romanticamente um NPC, seus PM aumentam em +1 por nível até o fim da aventura. O mestre define exatamente o que você precisa fazer, de acordo com o NPC. Por padrão, isso envolve aumentar a atitude dele em relação a você para prestativo e então passar em um teste de Atuação, Diplomacia ou Enganação oposto pela Vontade do NPC +10. Você pode receber esse benefício até duas vezes por aventura (ou seja, pode conquistar até duas pessoas por aventura para ganhar +2 PM por nível)."
+    },
+    {
+      "name": "Abusar dos Fracos",
+      "class": "Bucaneiro",
+      "requirements": "Flagelo dos Mares",
+      "description": "Quando ataca uma criatura sob efeito de uma condição de medo, seu dano aumenta em um passo."
+    },
+    {
+      "name": "Amigos no Porto",
+      "class": "Bucaneiro",
+      "requirements": "Car 1, 6º nível de bucaneiro",
+      "description": "Quando chega em uma comunidade portuária, você pode fazer um teste de Carisma (CD 10). Se passar, encontra um amigo para o qual pode pedir um favor ou que pode ajudá-lo como parceiro veterano de um tipo a sua escolha por um dia."
+    },
+    {
+      "name": "Aparar",
+      "class": "Bucaneiro",
+      "requirements": "Esgrimista",
+      "description": "Uma vez por rodada, quando é atingido por um ataque, você pode gastar 1 PM para fazer um teste de ataque com bônus igual ao seu nível (além do normal). Se o resultado do seu teste for maior que o do oponente, você evita o ataque. Você só pode usar este poder se estiver usando uma arma corpo a corpo leve ou ágil."
+    },
+    {
+      "name": "Apostador",
+      "class": "Bucaneiro",
+      "requirements": "treinado em Jogatina",
+      "description": "Você pode gastar um dia para encontrar e participar de uma mesa de wyrt ou outro jogo de azar. Escolha um valor e faça um teste de Jogatina contra a CD correspondente: T$ 100 (CD 15), T$ 200 (CD 20), T$ 400 (CD 25), T$ 800 (CD 30), T$ 1.600 (CD 35) e assim por diante. Se passar, você ganha o valor escolhido (ou um item ou favor equivalente, a critério do mestre). Se falhar, perde esse mesmo o valor. A critério do mestre, o lugar onde você está pode limitar ou impossibilitar o uso deste poder."
+    },
+    {
+      "name": "Ataque Acrobático",
+      "class": "Bucaneiro",
+      "requirements": "-",
+      "description": "Quando se aproxima de um inimigo com um salto ou pirueta (em termos de jogo, usando Atletismo ou Acrobacia para se mover) e o ataca no mesmo turno, você recebe +2 nesse teste de ataque e na rolagem de dano."
+    },
+    {
+      "name": "Aumento de Atributo",
+      "class": "Bucaneiro",
+      "requirements": "-",
+      "description": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
+    },
+    {
+      "name": "Aventureiro Ávido",
+      "class": "Bucaneiro",
+      "requirements": "-",
+      "description": "Uma vez por rodada, você pode gastar 5 PM para realizar uma ação padrão ou de movimento adicional. Se possuir o poder Surto Heroico, em vez disso seu custo diminui em –2 PM."
+    },
+    {
+      "name": "Bravata Audaz",
+      "class": "Bucaneiro",
+      "requirements": "-",
+      "description": "Você jura fazer uma façanha específica, como roubar o tesouro de Sckhar ou ganhar um beijo do príncipe e da princesa até o fim do baile. Se cumprir a bravata, seus PM aumentam em +2 por nível de bucaneiro até o fim da aventura."
+    },
+    {
+      "name": "Bravata Imprudente",
+      "class": "Bucaneiro",
+      "requirements": "-",
+      "description": "Na primeira rodada de um combate, você pode jurar derrotar seus inimigos com uma restrição a sua escolha, como lutar com uma mão nas costas, de guarda aberta (em termos de jogo, desprevenido), de olhos vendados (cego) etc. Uma restrição só é válida se prejudicá-lo (por exemplo, lutar com uma mão nas costas só vale como restrição se você luta com duas armas). O mestre tem a palavra final sobre a validade de uma restrição. Você sofre a penalidade durante todo o combate, mas, se vencer, recebe +2 nos testes de ataque e na margem de ameaça até o fim da aventura."
+    },
+    {
+      "name": "En Garde",
+      "class": "Bucaneiro",
+      "requirements": "Esgrimista",
+      "description": "Você pode gastar uma ação de movimento e 1 PM para assumir postura de luta. Até o fim da cena, se estiver usando uma arma corpo a corpo leve ou ágil, você recebe +2 na margem de ameaça com essas armas e +2 na Defesa."
+    },
+    {
+      "name": "Esgrimista",
+      "class": "Bucaneiro",
+      "requirements": "Int 1",
+      "description": "Quando usa uma arma corpo a corpo leve ou ágil, você soma sua Inteligência nas rolagens de dano (limitado pelo seu nível)."
+    },
+    {
+      "name": "Flagelo dos Mares",
+      "class": "Bucaneiro",
+      "requirements": "treinado em Intimidação",
+      "description": "Você aprende e pode lançar Amedrontar (atributo-chave Carisma). Esta não é uma habilidade mágica e provém de sua capacidade de incutir medo em seus inimigos."
+    },
+    {
+      "name": "Folião",
+      "class": "Bucaneiro",
+      "requirements": "Car 1",
+      "description": "Você sabe fazer amizades durante festas, de noitadas em tavernas a bailes na corte. Nesses locais, você recebe +2 em testes de perícias de Carisma e a atitude de todas as pessoas em relação a você melhora em uma categoria."
+    },
+    {
+      "name": "Grudar o Cano",
+      "class": "Bucaneiro",
+      "requirements": "treinado em Luta, Pistoleiro",
+      "description": "Quando faz um ataque à distância com uma arma de fogo contra um oponente adjacente, você não sofre a penalidade de –5 no teste de ataque e aumenta seu dano em um passo."
+    },
+    {
+      "name": "Pernas do Mar",
+      "class": "Bucaneiro",
+      "requirements": "-",
+      "description": "Você recebe +2 em Acrobacia e Atletismo. Além disso, quando está se equilibrando ou escalando, você não fica desprevenido e seu deslocamento não é reduzido à metade."
+    },
+    {
+      "name": "Pistoleiro",
+      "class": "Bucaneiro",
+      "requirements": "-",
+      "description": "Você recebe proficiência com armas de fogo e +2 nas rolagens de dano com essas armas."
+    },
+    {
+      "name": "Presença Paralisante",
+      "class": "Bucaneiro",
+      "requirements": "Car 1, 4º nível de bucaneiro",
+      "description": "Você soma seu Carisma em Iniciativa e, se for o primeiro na iniciativa, ganha uma ação padrão extra na primeira rodada."
+    },
+    {
+      "name": "Ripostar",
+      "class": "Bucaneiro",
+      "requirements": "Aparar, 12º nível de bucaneiro",
+      "description": "Quando usa a habilidade aparar e evita o ataque, você pode gastar 1 PM. Se fizer isso, pode fazer um ataque corpo a corpo imediato contra o inimigo que o atacou (se ele estiver em alcance)."
+    },
+    {
+      "name": "Touché",
+      "class": "Bucaneiro",
+      "requirements": "Esgrimista, 10º nível de bucaneiro",
+      "description": "Quando se aproxima de um inimigo e o ataca com uma arma corpo a corpo leve ou ágil no mesmo turno, você pode gastar 2 PM para aumentar seu dano em um passo e receber +5 na margem de ameaça neste ataque."
+    },
+    {
+      "name": "Ardil Afiado",
+      "class": "Bucaneiro",
+      "requirements": "Car 1, treinado em Enganação",
+      "description": "Você pode usar Audácia em testes de manobra. Se fizer isso contra um oponente desprevenido, soma o dobro do Carisma no teste."
+    },
+    {
+      "name": "Bloqueio Desconcertante",
+      "class": "Bucaneiro",
+      "requirements": "Esgrimista",
+      "description": "Quando uma criatura erra um ataque corpo a corpo contra você, ou quando você bloqueia um ataque com Aparar, você pode gastar 1 PM. Se você fizer isso, a criatura fica desprevenida contra seu próximo ataque feito até o fim do seu próximo turno."
+    },
+    {
+      "name": "Bom de Trago",
+      "class": "Bucaneiro",
+      "requirements": "-",
+      "description": "Uma vez por rodada, você pode ingerir uma bebida, preparado ou poção que esteja empunhando como uma ação livre."
+    },
+    {
+      "name": "Charme Cafajeste",
+      "class": "Bucaneiro",
+      "requirements": "treinado em Enganação, 3º nível de bucaneiro",
+      "description": "Você aprende e pode lançar Enfeitiçar (atributo-chave Carisma). A CD para resistir a esta habilidade aumenta em +2 para criaturas inamistosas e em +5 para criaturas hostis. Esta não é uma habilidade mágica e provém de sua habilidade de cativar seus adversários."
+    },
+    {
+      "name": "Cobrir de Pólvora",
+      "class": "Bucaneiro",
+      "requirements": "-",
+      "description": "Você pode gastar uma ação de movimento, 1 PM e uma bala de arma de fogo para cobrir uma criatura em alcance curto com uma pequena quantidade de pólvora. O alvo fica cego por 1 rodada (Ref CD Car evita) e, até o fim da cena, o próximo ataque contra ele causa +1d6 pontos de dano de fogo e deixa-o em chamas."
+    },
+    {
+      "name": "Cortejo de Espadas",
+      "class": "Bucaneiro",
+      "requirements": "treinado em Acrobacia",
+      "description": "Quando você faz um teste de Acrobacia para passar por um inimigo, o espaço ocupado por esse inimigo não conta como terreno difícil e ele só pode usar Iniciativa para o teste oposto. Se você vencer esse teste, recebe +2 na Defesa e em Reflexos contra esse inimigo por 1 rodada."
+    },
+    {
+      "name": "Dançar nas Cordas",
+      "class": "Bucaneiro",
+      "requirements": "Ataque Acrobático",
+      "description": "Se você usar Ataque Acrobático tendo vencido um teste oposto para passar pelo espaço de um inimigo, os bônus fornecidos por esse poder aumentam para +5 e se aplicam a todos os seus ataques contra esse inimigo nessa rodada."
+    },
+    {
+      "name": "Entrada Triunfal",
+      "class": "Bucaneiro",
+      "requirements": "-",
+      "description": "Se um combate começar e você for o primeiro na iniciativa, recebe uma quantidade de PV temporários igual à metade de seus PV máximos."
+    },
+    {
+      "name": "Esgrima Sambur",
+      "class": "Bucaneiro",
+      "requirements": "Esgrimista",
+      "description": "Se estiver empunhando duas armas corpo a corpo leves ou ágeis e fizer a ação agredir, você pode gastar 1 PM para fazer dois ataques, um com cada arma (se tiver Ambidestria ou Estilo de Duas Armas, em vez disso não sofre penalidade para usá-los). Além disso, se tiver o poder Aparar, pode usá-lo uma segunda vez na rodada."
+    },
+    {
+      "name": "Estampido Ensurdecedor",
+      "class": "Bucaneiro",
+      "requirements": "Grudar o Cano",
+      "description": "Quando faz um ataque à distância com uma arma de fogo, você pode pagar 1 PM para deixar todas as criaturas adjacentes a você abaladas e surdas (Fort CD Car reduz a duração das condições para 1 rodada)."
+    },
+    {
+      "name": "Estocada no Flanco",
+      "class": "Bucaneiro",
+      "requirements": "Cortejo de Espadas",
+      "description": "Uma vez por rodada, quando vence um teste oposto para passar por um inimigo, você pode gastar 2 PM para fazer um ataque contra ele. Se você acertar o ataque e causar dano de corte ou perfuração, o inimigo fica sangrando."
+    },
+    {
+      "name": "Gole da Coragem",
+      "class": "Bucaneiro",
+      "requirements": "-",
+      "description": "Uma vez por cena, quando ingerir uma bebida, preparado ou poção, você recebe uma ação padrão adicional nesse turno."
+    },
+    {
+      "name": "Golpe Humilhante",
+      "class": "Bucaneiro",
+      "requirements": "-",
+      "description": "Você pode gastar 2 PM para humilhar uma criatura em alcance curto. Até o fim da cena, sempre que você acertar um ataque nessa criatura, ela sofre uma penalidade de –1 na Defesa. A penalidade é cumulativa, limitada pelo seu Carisma e dura até o fim da cena."
+    },
+    {
+      "name": "Introdução Calorosa",
+      "class": "Bucaneiro",
+      "requirements": "-",
+      "description": "Na primeira rodada de um combate, você pode gastar uma ação a para se apresentar. Veja o quadro acima para os tipos de ação que você pode gastar e seus respectivos benefícios. Você recebe todos os benefícios das ações anteriores e eles duram até o fim da cena."
+    },
+    {
+      "name": "Lorotas da Terra e do Mar",
+      "class": "Bucaneiro",
+      "requirements": "treinado em Enganação, 11º nível de bucaneiro",
+      "description": "Você pode gastar 10 minutos para contar uma mentira sobre seu passado. Escolha uma cena de uma de suas aventuras e reconte-a de forma 'criativa' para um NPC que não a testemunhou. Então faça um teste de Enganação (CD 15 + 5 para cada vez que usou este poder na mesma aventura). Se passar, pode usar um poder qualquer cujos pré-requisitos cumpra e que seja relacionado à sua mentira (a critério do mestre), até o fim do dia ou até usar este efeito novamente. Se falhar, não pode mais usar este efeito até o fim da aventura."
+    },
+    {
+      "name": "Lobo do Mar",
+      "class": "Bucaneiro",
+      "requirements": "17º nível de bucaneiro",
+      "description": "Você já viu quase todo o mundo e almeja ver o resto. Quando você chega a um lugar no qual nunca esteve antes, pelo resto da aventura o custo de Audácia diminui em –1 PM e você pode usá-la em testes de ataque (ambos nesse lugar)."
+    },
+    {
+      "name": "Onda de Sangue",
+      "class": "Bucaneiro",
+      "requirements": "Estocada no Flanco",
+      "description": "Sempre que você deixa alguém sangrando, a perda de vida causada por sangramento aumenta em um passo (cumulativo até um máximo de d12) e a criatura falha automaticamente em seu próximo teste de Constituição para remover essa condição."
+    },
+    {
+      "name": "Passo Das Ondas",
+      "class": "Bucaneiro",
+      "requirements": "Pernas do Mar",
+      "description": "Uma vez por rodada, quando acerta um ataque em um inimigo, você pode gastar 2 PM para se mover até a metade do seu deslocamento. Esse deslocamento ignora terreno difícil e não ativa reações dos inimigos (como pelo poder Ataque Reflexo)."
+    },
+    {
+      "name": "Pirouette",
+      "class": "Bucaneiro",
+      "requirements": "En Garde",
+      "description": "Enquanto está sob efeito de En Garde, você pode gastar uma ação de movimento para receber +5 na Defesa por 1 rodada."
+    },
+    {
+      "name": "Remise",
+      "class": "Bucaneiro",
+      "requirements": "En Garde, 7º nível de bucaneiro",
+      "description": "Enquanto está sob efeito de En Garde, uma vez por rodada, quando usa a ação agredir, você pode gastar 2 PM para realizar um ataque adicional."
+    },
+    {
+      "name": "Sucesso Atrai Sucesso",
+      "class": "Bucaneiro",
+      "requirements": "-",
+      "description": "Você pode gastar 2 PM para invocar uma onda de boa sorte. Sempre que fizer um acerto crítico em um inimigo, você recebe um bônus cumulativo de +2 nas rolagens de dano (limitado pelo seu Carisma) até o fim da cena."
+    },
+    {
+      "name": "Ambidestria",
+      "class": "Caçador",
+      "requirements": "Des 2",
+      "description": "Se estiver empunhando duas armas (e pelo menos uma delas for leve) e fizer a ação agredir, você pode fazer dois ataques, um com cada arma. Se fizer isso, sofre –2 em todos os testes de ataque até o seu próximo turno."
+    },
+    {
+      "name": "Armadilha: Arataca",
+      "class": "Caçador",
+      "requirements": "-",
+      "description": "A vítima sofre 2d6 pontos de dano de perfuração e fica agarrada. Uma criatura agarrada pode escapar com uma ação padrão e um teste de Força ou Acrobacia (CD Sab)."
+    },
+    {
+      "name": "Armadilha: Espinhos",
+      "class": "Caçador",
+      "requirements": "-",
+      "description": "A vítima sofre 6d6 pontos de dano de perfuração. Um teste de Reflexos (CD Sab) reduz o dano à metade."
+    },
+    {
+      "name": "Armadilha: Laço",
+      "class": "Caçador",
+      "requirements": "-",
+      "description": "A vítima deve fazer um teste de Reflexos (CD Sab). Se passar, fica caída. Se falhar, fica agarrada. Uma criatura agarrada pode se soltar com uma ação padrão e um teste de Força ou Acrobacia (CD Sab)."
+    },
+    {
+      "name": "Armadilha: Rede",
+      "class": "Caçador",
+      "requirements": "-",
+      "description": "Todas as criaturas na área ficam enredadas e não podem sair da área. Uma vítima pode se libertar com uma ação padrão e um teste de Força ou Acrobacia (CD 25). Além disso, a área ocupada pela rede é considerada terreno difícil. Nesta armadilha você escolhe quantas criaturas precisam estar na área para ativá-la."
+    },
+    {
+      "name": "Armadilheiro",
+      "class": "Caçador",
+      "requirements": "um poder de armadilha, 5º nível de caçador",
+      "description": "Você soma sua Sabedoria no dano e na CD de suas armadilhas (cumulativo)."
+    },
+    {
+      "name": "Arqueiro",
+      "class": "Caçador",
+      "requirements": "Sab 1",
+      "description": "Se estiver usando uma arma de ataque à distância, você soma sua Sabedoria nas rolagens de dano (limitado pelo seu nível)."
+    },
+    {
+      "name": "Aumento de Atributo",
+      "class": "Caçador",
+      "requirements": "-",
+      "description": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
+    },
+    {
+      "name": "Bote",
+      "class": "Caçador",
+      "requirements": "Ambidestria, 6º nível de caçador",
+      "description": "Se estiver empunhando duas armas e fizer uma investida, você pode pagar 1 PM para fazer um ataque adicional com sua arma secundária."
+    },
+    {
+      "name": "Camuflagem",
+      "class": "Caçador",
+      "requirements": "6º nível de caçador",
+      "description": "Você pode gastar 2 PM para se esconder mesmo sem camuflagem ou cobertura disponível."
+    },
+    {
+      "name": "Chuva de Lâminas",
+      "class": "Caçador",
+      "requirements": "Des 4, Ambidestria, 12º nível de caçador",
+      "description": "Uma vez por rodada, quando usa Ambidestria, você pode pagar 2 PM para fazer um ataque adicional com sua arma primária."
+    },
+    {
+      "name": "Companheiro Animal",
+      "class": "Caçador",
+      "requirements": "Car 1, treinado em Adestramento",
+      "description": "Você recebe um companheiro animal. Veja o quadro na página 62."
+    },
+    {
+      "name": "Elo com a Natureza",
+      "class": "Caçador",
+      "requirements": "Sab 1, 3º nível de caçador",
+      "description": "Você soma sua Sabedoria em seu total de pontos de mana e aprende e pode lançar Caminhos da Natureza (atributo-chave Sabedoria)."
+    },
+    {
+      "name": "Emboscar",
+      "class": "Caçador",
+      "requirements": "treinado em Furtividade",
+      "description": "Você pode gastar 2 PM para realizar uma ação padrão adicional em seu turno. Você só pode usar este poder na primeira rodada de um combate."
+    },
+    {
+      "name": "Empatia Selvagem",
+      "class": "Caçador",
+      "requirements": "-",
+      "description": "Você pode se comunicar com animais por meio de linguagem corporal e vocalizações. Você pode usar Adestramento com animais para mudar atitude e persuasão."
+    },
+    {
+      "name": "Escaramuça",
+      "class": "Caçador",
+      "requirements": "Des 2, 6º nível de caçador",
+      "description": "Quando se move 6m ou mais, você recebe +2 na Defesa e Reflexos e +1d8 nas rolagens de dano de ataques corpo a corpo e à distância em alcance curto até o início de seu próximo turno. Você não pode usar esta habilidade se estiver vestindo armadura pesada."
+    },
+    {
+      "name": "Escaramuça Superior",
+      "class": "Caçador",
+      "requirements": "Escaramuça, 12º nível de caçador",
+      "description": "Quando usa Escaramuça, seus bônus aumentam para +5 na Defesa e Reflexos e +1d12 em rolagens de dano."
+    },
+    {
+      "name": "Espreitar",
+      "class": "Caçador",
+      "requirements": "-",
+      "description": "Quando usa a habilidade Marca da Presa, você recebe um bônus de +1 em testes de perícia contra a criatura marcada. Esse bônus aumenta em +1 para cada PM adicional gasto na habilidade e também dobra com a habilidade Inimigo."
+    },
+    {
+      "name": "Ervas Curativas",
+      "class": "Caçador",
+      "requirements": "-",
+      "description": "Você pode gastar uma ação completa e uma quantidade de PM a sua escolha (limitado por sua Sabedoria) para aplicar ervas que curam ou desintoxicam em você ou num aliado adjacente. Para cada PM que gastar, cura 2d6 PV ou remove uma condição envenenado afetando o alvo."
+    },
+    {
+      "name": "Ímpeto",
+      "class": "Caçador",
+      "requirements": "-",
+      "description": "Você pode gastar 1 PM para aumentar seu deslocamento em +6m por uma rodada."
+    },
+    {
+      "name": "Inimigo de (Criatura)",
+      "class": "Caçador",
+      "requirements": "-",
+      "description": "Escolha um tipo de criatura entre animal, construto, espírito, monstro ou morto-vivo, ou duas raças humanoides (por exemplo, orcs e gnolls, ou elfos e qareen). Quando você usa a habilidade Marca da Presa contra uma criatura do tipo ou da raça escolhida, dobra os dados de bônus no dano. O nome desta habilidade varia de acordo com o tipo de criatura escolhida (Inimigo de Monstros, Inimigo de Mortos-Vivos etc.). Você pode escolher este poder outras vezes para inimigos diferentes."
+    },
+    {
+      "name": "Olho do Falcão",
+      "class": "Caçador",
+      "requirements": "-",
+      "description": "Você pode usar a habilidade Marca da Presa em criaturas em alcance longo."
+    },
+    {
+      "name": "Ponto Fraco",
+      "class": "Caçador",
+      "requirements": "-",
+      "description": "Quando usa a habilidade Marca da Presa, seus ataques contra a criatura marcada recebem +2 na margem de ameaça. Esse bônus dobra com a habilidade Inimigo."
+    },
+    {
+      "name": "Armadilha Alquímica",
+      "class": "Caçador",
+      "requirements": "Armadilheiro",
+      "description": "Quando prepara uma armadilha, você pode gastar uma dose de um preparado alquímico. Se fizer isso, as criaturas afetadas pela armadilha também sofrem os efeitos desse preparado automaticamente."
+    },
+    {
+      "name": "Avanço do Predador",
+      "class": "Caçador",
+      "requirements": "Ímpeto, 11° nível de caçador",
+      "description": "Uma vez por rodada, quando uma criatura marcada por sua Marca da Presa se afasta voluntariamente de você, você pode gastar 1 PM para se mover na direção dela (até o limite do seu deslocamento)."
+    },
+    {
+      "name": "Batedor Marcial",
+      "class": "Caçador",
+      "requirements": "-",
+      "description": "Você pode usar testes de Sobrevivência no lugar de testes de Guerra. Além disso, se passar em um teste para analisar terreno, além de quaisquer benefícios encontrados, na próxima vez que usar Marca da Presa nessa cena você recupera 1 PM."
+    },
+    {
+      "name": "Curandeiro dos Ermos",
+      "class": "Caçador",
+      "requirements": "Ervas Curativas",
+      "description": "Você pode usar Ervas Curativas como uma ação de movimento e os dados de cura dessa habilidade aumentam para d8."
+    },
+    {
+      "name": "Elo Com a Natureza Maior",
+      "class": "Caçador",
+      "requirements": "Elo com a Natureza",
+      "description": "Escolha duas magias entre Abençoar Alimentos, Acalmar Animal, Alarme, Aviso, Conjurar Armadilhas, Detectar Ameaças, Orientação ou Suporte Ambiental. Você aprende e pode lançar as magias escolhidas (atributo-chave Sabedoria) e pode usar seus aprimoramentos como se tivesse acesso aos mesmos círculos de magia que um druida do seu nível. Você pode escolher este poder mais vezes para magias diferentes."
+    },
+    {
+      "name": "Explorador Viajado",
+      "class": "Caçador",
+      "requirements": "5º nível de caçador",
+      "description": "Você pode escolher dois tipos de terrenos extras para sua habilidade Explorador. Você pode escolher este poder mais vezes para tipos de terrenos adicionais."
+    },
+    {
+      "name": "Flecheiro",
+      "class": "Caçador",
+      "requirements": "3° nível de caçador",
+      "description": "Você pode usar Sobrevivência no lugar de Ofício para fabricar munições e pode fabricar munições com uma melhoria."
+    },
+    {
+      "name": "Golpe do Predador",
+      "class": "Caçador",
+      "requirements": "-",
+      "description": "Se você causar dano em uma criatura analisada por sua Marca da Presa, ela fica sangrando. Se ela já estiver sangrando, a perda de vida por sangramento aumenta em um passo (cumulativo até um máximo de d12) e ela falha automaticamente em seu próximo teste de Constituição para remover essa condição."
+    },
+    {
+      "name": "Herói do Povo",
+      "class": "Caçador",
+      "requirements": "5º nível de caçador",
+      "description": "Você recebe +2 na Defesa e em testes de resistência. Além disso, sempre que acertar um ataque em um vilão que esteja ameaçando pessoas comuns (um bandido assolando camponeses, um nobre tirano, um monstro devorando viajantes...), você recebe 2 PM temporários. Você pode receber um número máximo de PM temporários por cena igual ao seu nível e eles desaparecem no fim da cena."
+    },
+    {
+      "name": "Identificar Presas",
+      "class": "Caçador",
+      "requirements": "-",
+      "description": "Você pode identificar criaturas como uma ação de movimento. Além disso, se passar nesse teste, para cada informação obtida você recebe +1 em rolagens de dano contra criaturas dessa espécie até o fim da cena."
+    },
+    {
+      "name": "Lâminas Guardiãs",
+      "class": "Caçador",
+      "requirements": "Ambidestria, 5° nível de caçador",
+      "description": "Enquanto você estiver empunhando duas armas corpo a corpo, recebe +2 na Defesa e em testes de resistência contra inimigos em seu alcance natural."
+    },
+    {
+      "name": "Lanceiro",
+      "class": "Caçador",
+      "requirements": "-",
+      "description": "Você recebe +2 em testes de ataque e rolagens de dano com lanças (exceto lanças montadas e de justa). Além disso, se estiver empunhando uma dessas armas com as duas mãos, seu dano com ela aumenta em um passo e ela é considerada uma arma alongada."
+    },
+    {
+      "name": "Pega!",
+      "class": "Caçador",
+      "requirements": "Companheiro Animal",
+      "description": "Você pode gastar uma ação de movimento e 1 PM para fazer a manobra agarrar contra uma criatura em alcance curto usando Adestramento em vez de Luta, usando seu companheiro animal para isso. Se o alvo estiver sob efeito de sua Marca da Presa, você soma os dados dessa habilidade como um bônus no teste. A criatura permanece agarrada até vencer um teste de manobra contra seu companheiro animal (como acima) ou até você mandar seu animal soltá-la (uma ação livre)."
+    },
+    {
+      "name": "Primeiro Sangue",
+      "class": "Caçador",
+      "requirements": "Emboscar",
+      "description": "Na primeira rodada de cada combate, você recebe +2 em testes de ataque e todos os seus dados de dano aumentam em dois passos."
+    },
+    {
+      "name": "Sequência Dilaceradora",
+      "class": "Caçador",
+      "requirements": "Ambidestria, 11° nível de caçador",
+      "description": "Quando usa Ambidestria, se acertar ambos os ataques, você pode gastar 1 PM para causar +2d8 pontos de dano no segundo ataque."
+    },
+    {
+      "name": "Sequência do Predador",
+      "class": "Caçador",
+      "requirements": "Ambidestria, 8° nível de caçador",
+      "description": "Quando usa Ambidestria com armas que causam tipos de dano diferentes, se acertar ambos os ataques, você pode gastar 1 PM para fazer uma manobra entre desarmar, derrubar ou quebrar contra o mesmo alvo."
+    },
+    {
+      "name": "Sombra dos Ermos",
+      "class": "Caçador",
+      "requirements": "Camuflagem",
+      "description": "Você pode gastar uma ação de movimento e 1 PM para receber camuflagem leve com duração sustentada."
+    },
+    {
+      "name": "Tiro de Abate",
+      "class": "Caçador",
+      "requirements": "Sab 1, Espreitar",
+      "description": "Quando usa a ação mirar, até o fim do turno você recebe +2 em testes de ataque e na margem de ameaça com ataques à distância, e os dados extras de sua habilidade Marca da Presa também são multiplicados em caso de acerto crítico."
+    },
+    {
+      "name": "Tiro Trespassante",
+      "class": "Caçador",
+      "requirements": "Arqueiro",
+      "description": "Quando você faz um ataque à distância com uma arma de disparo e reduz os pontos de vida do alvo a 0 ou menos, pode gastar 1 PM para fazer um ataque adicional contra outra criatura que esteja adiante na mesma linha, usando a mesma arma e munição do ataque original."
+    },
+    {
+      "name": "Tempestade de Lâminas",
+      "class": "Caçador",
+      "requirements": "Chuva de Lâminas, 17º nível de caçador",
+      "description": "Quando usa Chuva de Lâminas, você pode fazer um ataque adicional com sua arma secundária (para um total de quatro ataques na ação)."
+    },
+    {
+      "name": "Tocaia Habilidosa",
+      "class": "Caçador",
+      "requirements": "-",
+      "description": "Sua Marca da Presa também fornece +1 na CD de suas habilidades contra a criatura marcada para cada PM gasto. Esse bônus dobra com a habilidade Inimigo."
+    },
+    {
+      "name": "Último Sangue",
+      "class": "Caçador",
+      "requirements": "5º nível de caçador",
+      "description": "Seus ataques contra criaturas sangrando causam um dado extra de dano do mesmo tipo."
+    },
+    {
+      "name": "Armadura da Honra",
+      "class": "Cavaleiro",
+      "requirements": "-",
+      "description": "No início de cada cena, você recebe uma quantidade de pontos de vida temporários igual a seu nível + seu Carisma. Os PV temporários duram até o final da cena."
+    },
+    {
+      "name": "Aumento de Atributo",
+      "class": "Cavaleiro",
+      "requirements": "-",
+      "description": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
+    },
+    {
+      "name": "Autoridade Feudal",
+      "class": "Cavaleiro",
+      "requirements": "6º nível de cavaleiro",
+      "description": "Você pode gastar uma hora e 2 PM para conclamar o povo a ajudá-lo (qualquer pessoa sem um título de nobreza ou uma posição numa igreja reconhecida pelo seu reino). Em termos de jogo, essas pessoas contam como um parceiro iniciante de um tipo a sua escolha (aprovado pelo mestre) que lhe acompanha até o fim da aventura. Esta habilidade só pode ser usada em locais onde sua posição carregue alguma influência (a critério do mestre)."
+    },
+    {
+      "name": "Desprezar os Covardes",
+      "class": "Cavaleiro",
+      "requirements": "-",
+      "description": "Você recebe redução de dano 5 se estiver caído, desprevenido ou flanqueado."
+    },
+    {
+      "name": "Escudeiro",
+      "class": "Cavaleiro",
+      "requirements": "-",
+      "description": "Você recebe os serviços de um escudeiro, um parceiro especial que cuida de seu equipamento. Suas armas fornecem +1 em rolagens de dano e sua armadura concede +1 na Defesa. Além disso, você pode pagar 1 PM para receber ajuda do escudeiro em combate. Você recebe uma ação de movimento que pode usar para se levantar, sacar um item ou trazer sua montaria. O escudeiro não conta em seu limite de parceiros. Caso ele morra, você pode treinar outro com um mês de trabalho."
+    },
+    {
+      "name": "Especialização em Armadura",
+      "class": "Cavaleiro",
+      "requirements": "12º nível de cavaleiro",
+      "description": "Se estiver usando armadura pesada, você recebe redução de dano 5 (cumulativa com a RD fornecida por Bastião)."
+    },
+    {
+      "name": "Estandarte",
+      "class": "Cavaleiro",
+      "requirements": "Título, 14º nível de cavaleiro",
+      "description": "Sua flâmula torna-se um símbolo de inspiração. No início de cada cena, você e todos os aliados que possam ver seu estandarte recebem um número de PM temporários igual ao seu Carisma (mínimo 1). Esses pontos temporários desaparecem no final da cena."
+    },
+    {
+      "name": "Etiqueta",
+      "class": "Cavaleiro",
+      "requirements": "-",
+      "description": "Você recebe +2 em Diplomacia ou Nobreza e pode gastar 1 PM para rolar novamente um teste recém realizado de uma dessas perícias."
+    },
+    {
+      "name": "Investida Destruidora",
+      "class": "Cavaleiro",
+      "requirements": "-",
+      "description": "Quando faz a ação investida, você pode gastar 2 PM. Se fizer isso, causa +2d8 pontos de dano. Você deve usar esta habilidade antes de rolar o ataque."
+    },
+    {
+      "name": "Montaria Corajosa",
+      "class": "Cavaleiro",
+      "requirements": "Montaria",
+      "description": "Sua montaria concede +1d6 em rolagens de dano corpo a corpo (cumulativo com qualquer bônus que ela já forneça como parceiro)."
+    },
+    {
+      "name": "Pajem",
+      "class": "Cavaleiro",
+      "requirements": "-",
+      "description": "Você recebe os serviços de um pajem, um parceiro que o auxilia em pequenos afazeres. Você recebe +2 em Diplomacia, por estar sempre aprumado, e sua condição de descanso é uma categoria acima do padrão pela situação (veja a página 106). O pajem pode executar pequenas tarefas, como entregar mensagens e comprar itens, e não conta em seu limite de parceiros. Caso ele morra, você pode treinar outro com uma semana de trabalho."
+    },
+    {
+      "name": "Postura de Combate: Aríete Implacável",
+      "class": "Cavaleiro",
+      "requirements": "-",
+      "description": "Ao assumir esta postura, você aumenta o bônus de ataque em investidas em +2. Para cada 2 PM adicionais que gastar quando assumir a postura, aumenta o bônus de ataque em +1. Além disso, se fizer uma investida contra um construto ou objeto, causa +2d8 de dano. Você precisa se deslocar todos os turnos para manter esta postura ativa."
+    },
+    {
+      "name": "Postura de Combate: Castigo de Ferro",
+      "class": "Cavaleiro",
+      "requirements": "-",
+      "description": "Sempre que um aliado adjacente sofrer um ataque corpo a corpo, você pode gastar 1 PM para fazer um ataque na criatura que o atacou."
+    },
+    {
+      "name": "Postura de Combate: Foco de Batalha",
+      "class": "Cavaleiro",
+      "requirements": "-",
+      "description": "Sempre que um inimigo atacá-lo, você recebe 1 PM temporário (cumulativos). Você pode ganhar um máximo de PM temporários por cena igual ao seu nível. Esses pontos temporários desaparecem no final da cena."
+    },
+    {
+      "name": "Postura de Combate: Muralha Intransponível",
+      "class": "Cavaleiro",
+      "requirements": "-",
+      "description": "Para assumir esta postura você precisa estar empunhando um escudo. Você recebe +1 na Defesa e em Reflexos. Além disso, quando sofre um efeito que permite um teste de Reflexos para reduzir o dano à metade, não sofre nenhum dano se passar. Para cada 2 PM adicionais que gastar quando assumir a postura, aumente esse bônus em +1. Por fim, enquanto mantiver esta postura, seu deslocamento é reduzido para 3m."
+    },
+    {
+      "name": "Postura de Combate: Provocação Petulante",
+      "class": "Cavaleiro",
+      "requirements": "-",
+      "description": "Enquanto esta postura estiver ativa, todos os inimigos que iniciarem seus turnos em alcance curto devem fazer um teste de Vontade (CD Car). Se falharem, qualquer ação hostil que realizarem deve ter você como alvo (mas suas outras ações não têm esta restrição). Ações hostis incluem ataques e outras ações que causem dano e/ou condições negativas. Mental."
+    },
+    {
+      "name": "Postura de Combate: Torre Inabalável",
+      "class": "Cavaleiro",
+      "requirements": "-",
+      "description": "Você assume uma postura defensiva que o torna imune a qualquer tentativa de tirá-lo do lugar, de forma mundana ou mágica. Enquanto mantiver a postura, você não pode se deslocar, mas soma sua Constituição na Defesa e pode substituir testes de Reflexos e Vontade por testes de Fortitude."
+    },
+    {
+      "name": "Solidez",
+      "class": "Cavaleiro",
+      "requirements": "-",
+      "description": "Se estiver usando um escudo, você soma o bônus na Defesa recebido pelo escudo em testes de resistência."
+    },
+    {
+      "name": "Título",
+      "class": "Cavaleiro",
+      "requirements": "Autoridade Feudal, 10º nível de cavaleiro, ter conquistado terras ou realizado um serviço para um nobre que possa se tornar seu suserano",
+      "description": "Você adquire um título de nobreza. Converse com o mestre para definir os benefícios exatos de seu título. Como regra geral, no início de cada aventura você recebe 20 TO por nível de cavaleiro (rendimentos dos impostos) ou a ajuda de um parceiro veterano (um membro de sua corte)."
+    },
+    {
+      "name": "Torre Armada",
+      "class": "Cavaleiro",
+      "requirements": "-",
+      "description": "Quando um inimigo erra um ataque contra você, você pode gastar 1 PM. Se fizer isso, recebe +5 em rolagens de dano contra esse inimigo até o fim de seu próximo turno."
+    },
+    {
+      "name": "Abençoar Arma",
+      "class": "Clérigo",
+      "requirements": "-",
+      "description": "Você se torna proficiente na arma preferida de sua divindade. Se estiver empunhando essa arma, pode gastar uma ação de movimento e 3 PM para infundi-la com poder divino. Até o final da cena, a arma é considerada mágica e emite luz dourada ou púrpura (como uma tocha). Além disso, o dano da arma aumenta em um passo e você pode usar sua Sabedoria em testes de ataque e rolagens de dano com ela, em vez do atributo padrão (não cumulativo com efeitos que somam este atributo)."
+    },
+    {
+      "name": "Aumento de Atributo",
+      "class": "Clérigo",
+      "requirements": "-",
+      "description": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
+    },
+    {
+      "name": "Autoridade Eclesiástica",
+      "class": "Clérigo",
+      "requirements": "5º nível de clérigo, devoto de um deus maior",
+      "description": "Você possui uma posição formal em uma igreja reconhecida pelos outros membros de sua fé. Os efeitos deste poder variam de acordo com a igreja e o deus — clérigos de Khalmyr, por exemplo, possuem autoridade como juízes no Reinado — e ficam a cargo do mestre. Como regra geral, você recebe +5 em testes de Diplomacia ou Intimidação ao lidar com devotos de sua divindade e paga metade do preço de itens alquímicos, poções e serviços em templos de sua divindade."
+    },
+    {
+      "name": "Canalizar Energia Positiva/Negativa",
+      "class": "Clérigo",
+      "requirements": "-",
+      "description": "Você pode gastar uma ação padrão e PM para liberar uma onda de luz (se sua divindade canaliza energia positiva) ou trevas (se canaliza energia negativa) que afeta criaturas a sua escolha em alcance curto. Para cada PM que gastar, luz cura 1d6 PV em criaturas vivas e causa 1d6 pontos de dano de luz em mortos-vivos (Vontade CD Sab reduz o dano à metade). Trevas tem o efeito inverso — causa dano de trevas a criaturas vivas e cura mortos-vivos."
+    },
+    {
+      "name": "Canalizar Amplo",
+      "class": "Clérigo",
+      "requirements": "Canalizar Energia Positiva ou Negativa",
+      "description": "Quando você usa a habilidade Canalizar Energia, pode gastar +2 PM para aumentar o alcance dela para médio."
+    },
+    {
+      "name": "Comunhão Vital",
+      "class": "Clérigo",
+      "requirements": "-",
+      "description": "Quando lança uma magia que cure uma criatura, você pode pagar +2 PM para que outra criatura em alcance curto (incluindo você mesmo) recupere uma quantidade de pontos de vida igual à metade dos PV da cura original."
+    },
+    {
+      "name": "Conhecimento Mágico",
+      "class": "Clérigo",
+      "requirements": "-",
+      "description": "Você aprende duas magias divinas de qualquer círculo que possa lançar. Você pode escolher este poder quantas vezes quiser."
+    },
+    {
+      "name": "Expulsar/Comandar Mortos-Vivos",
+      "class": "Clérigo",
+      "requirements": "Canalizar Energia Positiva ou Negativa",
+      "description": "Você pode gastar uma ação padrão e 3 PM para expulsar (se sua divindade canaliza energia positiva) ou comandar (se canaliza energia negativa) todos os mortos-vivos em alcance curto. Mortos-vivos expulsos ficam apavorados por 1d6 rodadas. Mortos-vivos comandados não inteligentes (Int –4 ou menor) ficam sob suas ordens por um dia (até um limite de ND somados igual a seu nível +3; dar uma ordem a todos eles é uma ação de movimento) e mortos-vivos comandados inteligentes ficam fascinados por uma rodada. Mortos-vivos têm direito a um teste de Vontade (CD Sab) para evitar qualquer destes efeitos."
+    },
+    {
+      "name": "Liturgia Mágica",
+      "class": "Clérigo",
+      "requirements": "-",
+      "description": "Você pode gastar uma ação de movimento para executar uma breve liturgia de sua fé. Se fizer isso, a CD para resistir à sua próxima habilidade de clérigo (desde que usada até o final de seu próximo turno) aumenta em +2."
+    },
+    {
+      "name": "Magia Sagrada/Profana",
+      "class": "Clérigo",
+      "requirements": "-",
+      "description": "Quando lança uma magia divina que causa dano, você pode gastar +1 PM. Se fizer isso, muda o tipo de dano da magia para luz (se sua divindade canaliza energia positiva) ou trevas (se canaliza energia negativa)."
+    },
+    {
+      "name": "Mestre Celebrante",
+      "class": "Clérigo",
+      "requirements": "qualquer poder de Missa, 12º nível de clérigo",
+      "description": "O número de pessoas que você afeta com uma missa aumenta em dez vezes e os benefícios que elas recebem dobram."
+    },
+    {
+      "name": "Missa: Bênção da Vida",
+      "class": "Clérigo",
+      "requirements": "-",
+      "description": "Os participantes recebem pontos de vida temporários em um valor igual ao seu nível + sua Sabedoria."
+    },
+    {
+      "name": "Missa: Chamado às Armas",
+      "class": "Clérigo",
+      "requirements": "-",
+      "description": "Os participantes recebem +1 em testes de ataque e rolagens de dano."
+    },
+    {
+      "name": "Missa: Elevação do Espírito",
+      "class": "Clérigo",
+      "requirements": "-",
+      "description": "Os participantes recebem pontos de mana temporários em um valor igual a sua Sabedoria."
+    },
+    {
+      "name": "Missa: Escudo Divino",
+      "class": "Clérigo",
+      "requirements": "-",
+      "description": "Os participantes recebem +1 na Defesa e testes de resistência."
+    },
+    {
+      "name": "Missa: Superar as Limitações",
+      "class": "Clérigo",
+      "requirements": "-",
+      "description": "Cada participante recebe +1d6 num único teste a sua escolha e pode usá-lo mesmo após rolar o dado."
+    },
+    {
+      "name": "Prece de Combate",
+      "class": "Clérigo",
+      "requirements": "-",
+      "description": "Quando lança uma magia divina com tempo de conjuração de uma ação padrão em si mesmo, você pode gastar +2 PM para lançá-la como uma ação de movimento."
+    },
+    {
+      "name": "Símbolo Sagrado Energizado",
+      "class": "Clérigo",
+      "requirements": "-",
+      "description": "Você pode gastar uma ação de movimento e 1 PM para fazer uma prece e energizar seu símbolo sagrado até o fim da cena. Um símbolo sagrado energizado emite uma luz dourada ou prateada (se sua divindade canaliza energia positiva) ou púrpura ou avermelhada (se canaliza energia negativa) que ilumina como uma tocha. Enquanto você estiver empunhando um símbolo sagrado energizado, o custo em PM para lançar suas magias divinas diminui em 1."
+    },
+    {
+      "name": "Acólito Escudeiro",
+      "class": "Clérigo",
+      "requirements": "Autoridade Eclesiástica",
+      "description": "Você recebe os serviços de um acólito escudeiro, um parceiro especial que não conta em seu limite de parceiros. Você recebe +2 em Religião e o custo de uma de suas magias de 1º círculo, escolhida ao você receber este poder, diminui em –1 PM. Além disso, você pode gastar 1 PM para receber os efeitos de um esotérico ou catalisador em seu inventário, mesmo que não o esteja empunhando. Caso perca seu acólito, você pode treinar outro com uma semana de trabalho."
+    },
+    {
+      "name": "Arma Divina",
+      "class": "Clérigo",
+      "requirements": "Abençoar Arma, 7º nível de clérigo",
+      "description": "Quando você usa Abençoar Arma, além dos efeitos normais, a sua arma adquire os efeitos do encanto sagrado (se você canalizar energia positiva) ou do encanto profano (se você canalizar energia negativa)."
+    },
+    {
+      "name": "Bênção de Batalha",
+      "class": "Clérigo",
+      "requirements": "Bênção",
+      "description": "Bênção passa a afetar também você (em vez de apenas seus aliados). Além disso, na primeira rodada de combate, você pode lançar essa magia como ação de movimento (em vez de padrão)."
+    },
+    {
+      "name": "Canalizar Abençoado",
+      "class": "Clérigo",
+      "requirements": "Canalizar Energia Positiva, 11° nível de clérigo",
+      "description": "Quando você usa Canalizar Energia Positiva, pode gastar 1 PM. Se fizer isso, além do normal, as criaturas afetadas recebem 10 PV temporários."
+    },
+    {
+      "name": "Canalizar Concentrado",
+      "class": "Clérigo",
+      "requirements": "Canalizar Energia, 11° nível de clérigo",
+      "description": "Quando usa Canalizar Energia, você pode afetar apenas uma criatura no alcance (em vez de todas). Se fizer isso, a cura ou o dano da habilidade aumenta em +1 por dado e a CD aumenta em +2."
+    },
+    {
+      "name": "Canalizar Profanado",
+      "class": "Clérigo",
+      "requirements": "Canalizar Energia Negativa, 11° nível de clérigo",
+      "description": "Quando você usa Canalizar Energia Negativa, pode gastar 1 PM. Se fizer isso, além do normal, criaturas que falhem na resistência não podem recuperar PV por 1 rodada."
+    },
+    {
+      "name": "Canalizar Poderoso",
+      "class": "Clérigo",
+      "requirements": "Canalizar Amplo, 9° nível de clérigo",
+      "description": "Os dados de seu Canalizar Energia mudam para d10."
+    },
+    {
+      "name": "Conversão de Fé",
+      "class": "Clérigo",
+      "requirements": "Autoridade Eclesiástica",
+      "description": "Uma vez por cena, você pode gastar uma ação completa e 3 PM para pregar sua fé a uma criatura inteligente do tipo lacaio em alcance curto. Faça um teste de Religião oposto ao teste de Vontade da criatura. Se vencer, até o fim da cena a atitude da criatura se torna prestativa com relação a você e ela passa a atuar como um parceiro iniciante de um tipo à escolha do mestre, que não conta no seu limite de parceiros."
+    },
+    {
+      "name": "Dizimar Infiéis",
+      "class": "Clérigo",
+      "requirements": "Abençoar Arma, 5º nível de clérigo",
+      "description": "Se estiver usando uma arma afetada por Abençoar Arma, você pode gastar uma ação padrão e 2 PM para canalizar a punição divina. Faça um ataque corpo a corpo e compare com a Defesa de cada criatura em alcance curto. Aplique o dano a cada criatura atingida. Cada inimigo atingido fica ofuscado (energia positiva) ou vulnerável (energia negativa) por 1 rodada."
+    },
+    {
+      "name": "Égide da Fé",
+      "class": "Clérigo",
+      "requirements": "Escudo da Fé",
+      "description": "Quando você lança Escudo da Fé, a magia também fornece 5 PV temporários para cada +1 na Defesa. Esses PV temporários duram até o fim da cena."
+    },
+    {
+      "name": "Força da Devoção",
+      "class": "Clérigo",
+      "requirements": "6º nível de clérigo",
+      "description": "Quando você lança uma magia de clérigo, sua CD aumenta em +1 para cada dois poderes concedidos de sua divindade que você possui."
+    },
+    {
+      "name": "Liturgia Marcial",
+      "class": "Clérigo",
+      "requirements": "",
+      "description": "Você pode gastar uma ação de movimento para executar uma breve liturgia de sua fé. Se fizer isso, você recebe +2 no teste de ataque e na rolagem de dano de seu próximo ataque corpo a corpo nesse turno."
+    },
+    {
+      "name": "Missa: Compartilhar Milagre",
+      "class": "Clérigo",
+      "requirements": "17° nível de clérigo",
+      "description": "Escolha um dos seus poderes concedidos. Até o fim do dia, cada participante desta Missa pode usar esse poder durante 1 rodada, como se fosse devoto da sua divindade (os demais pré-requisitos do poder ainda devem ser cumpridos)."
+    },
+    {
+      "name": "Missa: Imposição da Vontade",
+      "class": "Clérigo",
+      "requirements": "",
+      "description": "A CD para resistir às habilidades dos participantes aumenta em +1."
+    },
+    {
+      "name": "Missa: Mente Abençoada",
+      "class": "Clérigo",
+      "requirements": "",
+      "description": "Os participantes recebem +2 em testes de perícias baseadas em Sabedoria."
+    },
+    {
+      "name": "Presente dos Deuses",
+      "class": "Clérigo",
+      "requirements": "9º nível de clérigo",
+      "description": "Você recebe uma arma superior e mágica, com duas melhorias e um encanto a sua escolha. A cada quatro níveis, a arma ganha mais uma melhoria e um encanto. Se perdida ou destruída, pode receber outra com penitência. A arma é mundana nas mãos de não devotos de sua divindade."
+    },
+    {
+      "name": "Punição Divina",
+      "class": "Clérigo",
+      "requirements": "Prece de Combate",
+      "description": "Uma vez por rodada, quando lança uma magia divina com tempo de execução de uma ação de movimento em si mesmo, você pode gastar +2 PM para fazer um ataque como ação livre."
+    },
+    {
+      "name": "Representante Divino",
+      "class": "Clérigo",
+      "requirements": "17º nível de clérigo",
+      "description": "Você fala com a autoridade de seu deus. Escolha uma magia divina que possa lançar com tempo de execução de ação padrão ou completa. Você pode lançá-la como uma ação de movimento, sem gestos ou concentração (ainda precisa falar)."
+    },
+    {
+      "name": "Solo Profanado",
+      "class": "Clérigo",
+      "requirements": "Profanar",
+      "description": "Quando você lança uma magia de dano de trevas dentro de uma área de Profanar, criaturas que falhem no teste de resistência da magia não podem curar PV por um número de rodadas igual ao círculo da magia."
+    },
+    {
+      "name": "Solo Sagrado",
+      "class": "Clérigo",
+      "requirements": "Consagrar",
+      "description": "Quando você lança uma magia de luz dentro de uma área de Consagrar, criaturas a sua escolha nessa área recebem RD igual ao dobro do círculo da magia contra o próximo dano que sofrerem até o início do seu próximo turno."
+    },
+    {
+      "name": "Aspecto do Inverno",
+      "class": "Druida",
+      "requirements": "-",
+      "description": "Você aprende e pode lançar uma magia de convocação ou evocação, arcana ou divina, de qualquer círculo que possa lançar. Além disso, recebe redução de frio 5 e suas magias que causam dano de frio causam +1 ponto de dano por dado."
+    },
+    {
+      "name": "Aspecto do Outono",
+      "class": "Druida",
+      "requirements": "-",
+      "description": "Você aprende e pode lançar uma magia de necromancia, arcana ou divina, de qualquer círculo que possa lançar. Além disso, pode gastar 1 PM para impor uma penalidade de –2 nos testes de resistência de todos os inimigos em alcance curto até o início do seu próximo turno."
+    },
+    {
+      "name": "Aspecto da Primavera",
+      "class": "Druida",
+      "requirements": "-",
+      "description": "Você aprende e pode lançar uma magia de encantamento ou ilusão, arcana ou divina, de qualquer círculo que possa lançar. Além disso, escolha uma quantidade de magias igual ao seu Carisma (mínimo 1). O custo dessas magias é reduzido em −1 PM."
+    },
+    {
+      "name": "Aspecto do Verão",
+      "class": "Druida",
+      "requirements": "-",
+      "description": "Você aprende e pode lançar uma magia de transmutação, arcana ou divina, de qualquer círculo que possa lançar. Além disso, pode gastar 1 PM para cobrir uma de suas armas com chamas até o fim da cena. A arma causa +1d6 pontos de dano de fogo. Sempre que você acertar um ataque com ela, recebe 1 PM temporário. Você pode ganhar um máximo de PM temporários por cena igual ao seu nível e eles desaparecem no final da cena."
+    },
+    {
+      "name": "Aumento de Atributo",
+      "class": "Druida",
+      "requirements": "-",
+      "description": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
+    },
+    {
+      "name": "Companheiro Animal",
+      "class": "Druida",
+      "requirements": "Car 1, treinado em Adestramento",
+      "description": "Você recebe um companheiro animal. Veja o quadro para detalhes. Você pode escolher este poder quantas vezes quiser, mas deve escolher companheiros diferentes e ainda está sujeito ao limite de parceiros que pode ter (veja a página 260)."
+    },
+    {
+      "name": "Companheiro Animal Aprimorado",
+      "class": "Druida",
+      "requirements": "Companheiro Animal, 6º nível de druida",
+      "description": "Escolha um de seus companheiros animais. Ele recebe um segundo tipo, ganhando os bônus de seu nível. Por exemplo, se você tiver um companheiro guardião veterano, pode adicionar o tipo fortão a ele, tornando-o um guardião fortão veterano que concede +3 na Defesa e +1d12 em uma rolagem de dano corpo a corpo."
+    },
+    {
+      "name": "Companheiro Animal Lendário",
+      "class": "Druida",
+      "requirements": "Companheiro Animal, 18º nível de druida",
+      "description": "Escolha um de seus companheiros animais. Esse animal passa a dobrar os bônus concedidos de seu tipo original."
+    },
+    {
+      "name": "Companheiro Animal Mágico",
+      "class": "Druida",
+      "requirements": "Companheiro Animal, 8º nível de druida",
+      "description": "Escolha um de seus companheiros animais. Ele recebe um segundo tipo diferente, entre adepto, destruidor, magivocador ou médico, ganhando os bônus de seu nível."
+    },
+    {
+      "name": "Coração da Selva",
+      "class": "Druida",
+      "requirements": "-",
+      "description": "A CD para resistir a seus efeitos de veneno aumenta em +2 e estes efeitos causam +1 de perda de vida por dado."
+    },
+    {
+      "name": "Espírito dos Equinócios",
+      "class": "Druida",
+      "requirements": "Aspecto da Primavera, Aspecto do Outono, 10º nível de druida",
+      "description": "Você pode gastar 4 PM para ficar em equilíbrio com o mundo. Até o final da cena, quando rola um dado, pode rolar novamente qualquer resultado 1."
+    },
+    {
+      "name": "Espírito dos Solstícios",
+      "class": "Druida",
+      "requirements": "Aspecto do Inverno, Aspecto do Verão, 10º nível de druida",
+      "description": "Você transita entre os extremos do mundo natural. Quando lança uma magia, pode gastar +4 PM para maximizar os efeitos numéricos variáveis dela. Por exemplo, uma magia Curar Ferimentos aprimorada para curar 5d8+5 PV irá curar automaticamente 45 PV, sem a necessidade de rolar dados. Uma magia sem efeitos variáveis não pode ser afetada por este poder."
+    },
+    {
+      "name": "Força dos Penhascos",
+      "class": "Druida",
+      "requirements": "4º nível de druida",
+      "description": "Você recebe +2 em Fortitude. Quando sofre dano enquanto em contato com o solo ou uma superfície de pedra, pode gastar uma quantidade de PM limitada por sua Sabedoria. Para cada PM gasto, reduz esse dano em 10."
+    },
+    {
+      "name": "Forma Primal",
+      "class": "Druida",
+      "requirements": "18º nível de druida",
+      "description": "Quando usa Forma Selvagem, você pode se transformar em uma fera primal. Você recebe os benefícios de dois tipos de animais (bônus iguais não se acumulam; use o que você quiser de cada tipo)."
+    },
+    {
+      "name": "Forma Selvagem",
+      "class": "Druida",
+      "requirements": "-",
+      "description": "Você pode se transformar em animais (veja a seguir)."
+    },
+    {
+      "name": "Forma Selvagem Aprimorada",
+      "class": "Druida",
+      "requirements": "Forma Selvagem, 6º nível de druida",
+      "description": "Quando usa Forma Selvagem, você pode gastar 6 PM ao todo para assumir uma forma aprimorada."
+    },
+    {
+      "name": "Forma Selvagem Superior",
+      "class": "Druida",
+      "requirements": "Forma Selvagem Aprimorada, 12º nível de druida",
+      "description": "Quando usa Forma Selvagem, você pode gastar 10 PM ao todo para assumir uma forma superior."
+    },
+    {
+      "name": "Liberdade da Pradaria",
+      "class": "Druida",
+      "requirements": "-",
+      "description": "Você recebe +2 em Reflexos. Se estiver ao ar livre, sempre que lança uma magia, pode gastar 1 PM para aumentar o alcance dela em um passo (de toque para curto, de curto para médio ou de médio para longo)."
+    },
+    {
+      "name": "Magia Natural",
+      "class": "Druida",
+      "requirements": "Forma Selvagem",
+      "description": "Em forma selvagem, você pode lançar magias e empunhar catalisadores e esotéricos."
+    },
+    {
+      "name": "Presas Afiadas",
+      "class": "Druida",
+      "requirements": "-",
+      "description": "A margem de ameaça de suas armas naturais aumenta em +2."
+    },
+    {
+      "name": "Segredos da Natureza",
+      "class": "Druida",
+      "requirements": "-",
+      "description": "Você aprende duas magias de qualquer círculo que possa lançar. Elas devem pertencer às escolas que você sabe usar, mas podem ser arcanas ou divinas. Você pode escolher este poder quantas vezes quiser."
+    },
+    {
+      "name": "Tranquilidade dos Lagos",
+      "class": "Druida",
+      "requirements": "-",
+      "description": "Você recebe +2 em Vontade. Se estiver portando um recipiente com água (não precisa estar empunhando), uma vez por rodada, quando faz um teste de resistência, pode pagar 1 PM para refazer a rolagem."
+    },
+    {
+      "name": "Arma Tradicional",
+      "class": "Druida",
+      "requirements": "druida de Arton, 5º nível de druida",
+      "description": "Quando faz um ataque com uma foice, você pode gastar 2 PM para lançar uma magia de ácido, eletricidade, fogo ou frio com execução de movimento, padrão ou completa como ação livre. Considere que a mão da arma está livre para lançar essa magia."
+    },
+    {
+      "name": "Auspício do Crepúsculo",
+      "class": "Druida",
+      "requirements": "druida de Tenebra",
+      "description": "Você pode gastar 1 PM para cobrir uma de suas armas com sombras até o fim da cena. A arma causa +1d6 pontos de dano de trevas. Se você estiver sob efeito de escuridão, sempre que acertar um ataque com ela em combate, recebe 5 PV temporários cumulativos."
+    },
+    {
+      "name": "Auspício da Madrugada",
+      "class": "Druida",
+      "requirements": "druida de Tenebra",
+      "description": "Você pode gastar 1 PM para impor uma penalidade de –1 em testes de perícia e na CD de habilidades de criaturas a sua escolha em alcance curto por 1 rodada. Se você estiver sob efeito de escuridão, a penalidade se torna –2."
+    },
+    {
+      "name": "Auspício da Meia-Noite",
+      "class": "Druida",
+      "requirements": "druida de Tenebra",
+      "description": "Você pode gastar uma ação de movimento e 2 PM para aumentar a CD das suas habilidades de druida em +1 até o fim da cena. Se você usar este poder sob efeito de escuridão, o bônus na CD se torna +2."
+    },
+    {
+      "name": "Banquete Selvagem",
+      "class": "Druida",
+      "requirements": "druida de Megalokk, Forma Selvagem",
+      "description": "Se você estiver em forma selvagem e gastar uma ação padrão para devorar um pedaço de uma criatura inconsciente que esteja com 0 PV ou menos (exceto construtos e seres incorpóreos), recebe +2 em Força, +5 em Intimidação e 2 PV temporários por nível até o fim da cena. Se a criatura é do tipo lacaio, ela morre."
+    },
+    {
+      "name": "Ciclo da Vida",
+      "class": "Druida",
+      "requirements": "",
+      "description": "Uma vez por cena, você pode gastar uma ação padrão para fazer um cadáver em alcance curto se decompor instantaneamente. Se fizer isso, você recebe +2 pontos de mana por ND que a criatura tinha em vida. Esses PM adicionais duram até o fim do dia."
+    },
+    {
+      "name": "Companheiro Aberrante",
+      "class": "Druida",
+      "requirements": "druida de Aharadak, Companheiro Animal, 6º nível de druida",
+      "description": "Escolha um de seus companheiros animais. Ele recebe o tipo aberrante, ganhando os bônus de seu nível. Um parceiro aberrante fornece os benefícios a seguir. Iniciante: uma vez por rodada, você pode gastar 1 PM para disparar um pulso mental contra uma criatura em alcance curto; ela sofre 2d6 pontos de dano psíquico ou perde 1d4 PM, a sua escolha. Veterano: você também pode gastar 2 PM para causar 4d6 pontos de dano ou fazer a criatura perder 2d4 PM. Mestre: você também pode gastar 4 PM para causar 6d6 pontos de dano ou fazer a criatura perder 3d4 PM."
+    },
+    {
+      "name": "Companheiro Elemental",
+      "class": "Druida",
+      "requirements": "druida de Arton, Companheiro Animal",
+      "description": "Escolha um de seus companheiros animais. Ele recebe o tipo destruidor, ganhando os bônus de seu nível. Se você possuir o suplemento Ameaças de Arton, em vez disso ele pode se tornar também um parceiro aquin’ne, t’peel, pakk ou terrier (também ganhando o bônus de seu nível)."
+    },
+    {
+      "name": "Erupção Elemental",
+      "class": "Druida",
+      "requirements": "Forma Elemental",
+      "description": "Se você estiver em forma elemental, pode gastar uma ação de movimento e 2 PM. Se fizer isso, seu próximo ataque com uma arma natural realizado nessa cena afeta todas as criaturas em um cone de 6m (faça um único ataque corpo a corpo e compare o resultado com a Defesa de cada criatura na área) e causa dois dados de dano extras."
+    },
+    {
+      "name": "Força da Natureza",
+      "class": "Druida",
+      "requirements": "Forma Selvagem Superior, 17º nível de druida",
+      "description": "Se estiver em forma selvagem, você pode gastar 4 PM para se cobrir de terra e raízes, como um elemental da própria terra, até o fim da cena. Nesse estado, você recebe +4 em um atributo a sua escolha."
+    },
+    {
+      "name": "Forma Aberrante",
+      "class": "Druida",
+      "requirements": "druida de Aharadak, Forma Selvagem",
+      "description": "Quando usa Forma Selvagem, você pode gastar +2 PM para assumir uma forma aberrante. Nessa forma, você conta como se tivesse dois poderes da Tormenta adicionais (exceto para perda de Carisma)."
+    },
+    {
+      "name": "Forma de Cardume",
+      "class": "Druida",
+      "requirements": "druida de Oceano, Forma Selvagem",
+      "description": "Quando usa Forma Selvagem, você pode gastar +1 PM para assumir a forma de um cardume de criaturas anfíbias com duração sustentada. Você recebe imunidade a manobras de combate, sofre apenas metade do dano de armas, pode entrar nos espaços ocupados por inimigos e criaturas no mesmo espaço que você ficam em condição ruim para lançar magias."
+    },
+    {
+      "name": "Forma Elemental",
+      "class": "Druida",
+      "requirements": "druida de Arton, Forma Selvagem",
+      "description": "Quando usa Forma Selvagem, você pode gastar +2 PM para assumir uma forma elemental. Escolha entre ácido, eletricidade, fogo ou frio. Você recebe imunidade ao tipo de dano escolhido e vulnerabilidade ao tipo oposto. Além disso, o alcance de suas armas naturais aumenta em +1,5m e elas causam dano do tipo escolhido (em vez de seu dano normal)."
+    },
+    {
+      "name": "Forma Esquelética",
+      "class": "Druida",
+      "requirements": "druida de Tenebra",
+      "description": "Quando usa Forma Selvagem, você pode gastar +2 PM para assumir uma forma esquelética. Seu tipo muda para morto-vivo e você recebe redução de corte, frio e perfuração 5 e imunidade a efeitos de cansaço, metabólicos e de veneno. Por fim, você sofre dano por efeitos mágicos de cura de luz (Vontade CD do efeito reduz à metade) e recupera PV com dano de trevas."
+    },
+    {
+      "name": "Forma Vegetal",
+      "class": "Druida",
+      "requirements": "druida de Allihanna, Forma Selvagem",
+      "description": "Quando usa Forma Selvagem, você pode gastar +2 PM para assumir uma forma vegetal. Você recebe RD 5/corte ou fogo e Natureza Vegetal (fica imune a atordoamento e metamorfose, mas é afetado por efeitos que afetem plantas monstruosas — se o efeito não tiver um teste de resistência, você tem direito a um teste de Fortitude)."
+    },
+    {
+      "name": "Instinto Venenoso",
+      "class": "Druida",
+      "requirements": "Coração da Selva",
+      "description": "Você pode usar Sab como atributo-chave de venenos (em vez de Int). Além disso, em Forma Selvagem, pode aplicar venenos de contato em suas armas naturais como ação livre."
+    },
+    {
+      "name": "Metamorfose Instantânea",
+      "class": "Druida",
+      "requirements": "Forma Selvagem, 11º nível de druida",
+      "description": "Uma vez por rodada, quando usa Forma Selvagem, você pode gastar +2 PM para usar essa habilidade como ação livre."
+    },
+    {
+      "name": "Oráculo da Natureza",
+      "class": "Druida",
+      "requirements": "Xamã Místico, 11º nível de druida",
+      "description": "Você pode gastar uma ação de movimento para se conectar com as energias naturais do mundo. Enquanto você permanecer no mesmo lugar, a CD para resistir a suas magias aumenta em +2 e, sempre que você lança uma magia, recebe 2 PM para gastar em aprimoramentos. Se você estiver em um ambiente urbano, a ação necessária para usar este poder muda para completa."
+    },
+    {
+      "name": "Orador dos Elementos",
+      "class": "Druida",
+      "requirements": "",
+      "description": "Você aprende e pode lançar uma magia de dano de ácido, eletricidade, fogo ou frio, arcana ou divina, de qualquer círculo que possa lançar. Além disso, você pode aprender magias arcanas de ácido, eletricidade, fogo ou frio como se fossem divinas."
+    },
+    {
+      "name": "Proteção Fúngica",
+      "class": "Druida",
+      "requirements": "Coração da Selva",
+      "description": "Você pode gastar 1 PM para cobrir seu corpo de esporos com duração sustentada. Nesse estado, sempre que você sofrer um ataque corpo a corpo de uma criatura adjacente, ela perde 1d8 PV. A cada quatro níveis acima do 1º, você pode gastar +1 PM quando usa este poder para aumentar a perda de vida em +1d8. Veneno."
+    },
+    {
+      "name": "Transformação Repugnante",
+      "class": "Druida",
+      "requirements": "Forma Aberrante",
+      "description": "Quando usa Forma Selvagem, você pode gastar +2 PM. Se fizer isso, inimigos em alcance curto sofrem 1d6 pontos de dano psíquico para cada poder da Tormenta que você possui e ficam alquebrados e frustrados (Vontade CD Sab reduz à metade e evita as condições)."
+    },
+    {
+      "name": "Xamã Místico",
+      "class": "Druida",
+      "requirements": "não possuir Forma Selvagem",
+      "description": "Você recebe +1 PM por nível de druida, pode aprender e lançar magias de uma escola adicional e a CD para resistir a suas magias aumenta em +1."
+    },
+    {
+      "name": "Ambidestria",
+      "class": "Guerreiro",
+      "requirements": "Des 2",
+      "description": "Se estiver empunhando duas armas (e pelo menos uma delas for leve) e fizer a ação agredir, você pode fazer dois ataques, um com cada arma. Se fizer isso, sofre –2 em todos os testes de ataque até o seu próximo turno."
+    },
+    {
+      "name": "Arqueiro",
+      "class": "Guerreiro",
+      "requirements": "Sab 1",
+      "description": "Se estiver usando uma arma de ataque à distância, você soma sua Sabedoria em rolagens de dano (limitado pelo seu nível)."
+    },
+    {
+      "name": "Ataque Reflexo",
+      "class": "Guerreiro",
+      "requirements": "Des 1",
+      "description": "Se um alvo em alcance de seus ataques corpo a corpo ficar desprevenido ou se mover voluntariamente para fora do seu alcance, você pode gastar 1 PM para fazer um ataque corpo a corpo contra esse alvo (apenas uma vez por alvo a cada rodada)."
+    },
+    {
+      "name": "Aumento de Atributo",
+      "class": "Guerreiro",
+      "requirements": "-",
+      "description": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
+    },
+    {
+      "name": "Bater e Correr",
+      "class": "Guerreiro",
+      "requirements": "-",
+      "description": "Quando faz uma investida, você pode continuar se movendo após o ataque, até o limite de seu deslocamento. Se gastar 2 PM, pode fazer uma investida sobre terreno difícil e sem sofrer a penalidade de Defesa."
+    },
+    {
+      "name": "Destruidor",
+      "class": "Guerreiro",
+      "requirements": "For 1",
+      "description": "Quando causa dano com uma arma corpo a corpo de duas mãos, você pode rolar novamente qualquer resultado 1 ou 2 da rolagem de dano da arma."
+    },
+    {
+      "name": "Esgrimista",
+      "class": "Guerreiro",
+      "requirements": "Int 1",
+      "description": "Quando usa uma arma corpo a corpo leve ou ágil, você soma sua Inteligência em rolagens de dano (limitado pelo seu nível)."
+    },
+    {
+      "name": "Especialização em Arma",
+      "class": "Guerreiro",
+      "requirements": "-",
+      "description": "Escolha uma arma. Você recebe +2 em rolagens de dano com essa arma. Você pode escolher este poder outras vezes para armas diferentes."
+    },
+    {
+      "name": "Especialização em Armadura",
+      "class": "Guerreiro",
+      "requirements": "12º nível de guerreiro",
+      "description": "Você recebe redução de dano 5 se estiver usando uma armadura pesada."
+    },
+    {
+      "name": "Golpe de Raspão",
+      "class": "Guerreiro",
+      "requirements": "-",
+      "description": "Uma vez por rodada, quando erra um ataque, você pode gastar 2 PM. Se fizer isso, causa metade do dano que causaria (ignorando efeitos que se aplicariam caso o ataque acertasse)."
+    },
+    {
+      "name": "Golpe Demolidor",
+      "class": "Guerreiro",
+      "requirements": "-",
+      "description": "Quando usa a manobra quebrar ou ataca um objeto, você pode gastar 2 PM para ignorar a redução de dano dele."
+    },
+    {
+      "name": "Golpe Pessoal",
+      "class": "Guerreiro",
+      "requirements": "5º nível de guerreiro",
+      "description": "Quando faz um ataque, você pode desferir seu Golpe Pessoal, uma técnica única, com efeitos determinados por você. Você constrói seu Golpe Pessoal escolhendo efeitos da lista a seguir. Cada efeito possui um custo; a soma deles será o custo do Golpe Pessoal (mínimo 1 PM). O Golpe Pessoal só pode ser usado com uma arma específica (por exemplo, apenas espadas longas). Quando sobe de nível, você pode reconstruir seu Golpe Pessoal e alterar a arma que ele usa. Você pode escolher este poder outras vezes para golpes diferentes e não pode gastar mais PM em golpes pessoais em uma mesma rodada do que seu limite de PM."
+    },
+    {
+      "name": "Ímpeto",
+      "class": "Guerreiro",
+      "requirements": "-",
+      "description": "Você pode gastar 1 PM para aumentar seu deslocamento em +6m por uma rodada."
+    },
+    {
+      "name": "Mestre em Arma",
+      "class": "Guerreiro",
+      "requirements": "Especialização em Arma com a arma escolhida, 12º nível de guerreiro",
+      "description": "Escolha uma arma. Com esta arma, seu dano aumenta em um passo e você pode gastar 2 PM para rolar novamente um teste de ataque recém realizado."
+    },
+    {
+      "name": "Planejamento Marcial",
+      "class": "Guerreiro",
+      "requirements": "treinado em Guerra, 10º nível de guerreiro",
+      "description": "Uma vez por dia, você pode gastar uma hora e 3 PM para escolher um poder de guerreiro ou de combate cujos pré-requisitos cumpra. Você recebe os benefícios desse poder até o próximo dia."
+    },
+    {
+      "name": "Romper Resistências",
+      "class": "Guerreiro",
+      "requirements": "-",
+      "description": "Quando faz um Ataque Especial, você pode gastar 1 PM adicional para ignorar 10 pontos de redução de dano."
+    },
+    {
+      "name": "Solidez",
+      "class": "Guerreiro",
+      "requirements": "-",
+      "description": "Se estiver usando um escudo, você aplica o bônus na Defesa recebido pelo escudo em testes de resistência."
+    },
+    {
+      "name": "Tornado de Dor",
+      "class": "Guerreiro",
+      "requirements": "6º nível de guerreiro",
+      "description": "Você pode gastar uma ação padrão e 2 PM para desferir uma série de golpes giratórios. Faça um ataque corpo a corpo e compare-o com a Defesa de cada inimigo em seu alcance natural. Então faça uma rolagem de dano com um bônus cumulativo de +2 para cada acerto e aplique-a em cada inimigo atingido."
+    },
+    {
+      "name": "Valentão",
+      "class": "Guerreiro",
+      "requirements": "-",
+      "description": "Você recebe +2 em testes de ataque e rolagens de dano contra oponentes caídos, desprevenidos, flanqueados ou indefesos."
+    },
+    {
+      "name": "Análise Tática",
+      "class": "Guerreiro",
+      "requirements": "treinado em Guerra",
+      "description": "Você recebe +2 em Guerra e pode fazer testes dessa perícia para identificar criatura contra humanoides."
+    },
+    {
+      "name": "Arremesso de Investida",
+      "class": "Guerreiro",
+      "requirements": "-",
+      "description": "Quando faz uma investida, você pode gastar 1 PM para realizar um ataque à distância adicional com uma arma de arremesso contra o alvo da investida."
+    },
+    {
+      "name": "Bloqueio Brutal",
+      "class": "Guerreiro",
+      "requirements": "For 5",
+      "description": "Uma vez por rodada, quando é atingido por um ataque, você pode gastar 2 PM para fazer uma rolagem de dano corpo a corpo e subtrair o resultado dessa rolagem do dano causado pelo ataque."
+    },
+    {
+      "name": "Corte Ágil",
+      "class": "Guerreiro",
+      "requirements": "Des 1",
+      "description": "Uma vez por rodada, quando faz um ataque com uma arma ágil ou leve, você pode gastar 1 PM para se mover até metade do seu deslocamento antes ou depois de fazer o ataque. Esse movimento não ativa reações dos inimigos (como de Ataque Reflexo)."
+    },
+    {
+      "name": "Criar Oportunidade",
+      "class": "Guerreiro",
+      "requirements": "Xadrez de Batalha",
+      "description": "Quando você ou um aliado em alcance curto atacar uma criatura sob efeito do seu Xadrez de Batalha, você pode gastar 1 PM para que esse ataque cause +1d10 pontos de dano."
+    },
+    {
+      "name": "Defesa Estratégica",
+      "class": "Guerreiro",
+      "requirements": "-",
+      "description": "Você soma sua Inteligência na Defesa, limitada pelo seu nível. Você não pode usar esta habilidade se estiver imóvel ou usando armadura pesada."
+    },
+    {
+      "name": "Determinação Inabalável",
+      "class": "Guerreiro",
+      "requirements": "11º nível de guerreiro",
+      "description": "Enquanto estiver com metade dos seus pontos de vida ou menos, você recebe +2 em testes de resistência e o custo de sua habilidade Durão diminui em –1 PM."
+    },
+    {
+      "name": "Estrategista Inspirador",
+      "class": "Guerreiro",
+      "requirements": "treinado em Guerra",
+      "description": "Em seu primeiro turno de um combate, você pode gastar uma ação padrão e fazer um teste de Guerra. Se fizer isso, para cada 10 pontos no resultado do teste, você e seus aliados em alcance curto recebem 1 PM temporário. Esses PM temporários desaparecem no fim da cena."
+    },
+    {
+      "name": "Executor",
+      "class": "Guerreiro",
+      "requirements": "-",
+      "description": "Você recebe +1d6 nas rolagens de dano contra criaturas que estejam com menos da metade dos pontos de vida. A cada quatro níveis além do 1º, esse dano extra aumenta em um passo."
+    },
+    {
+      "name": "Fender Defesas",
+      "class": "Guerreiro",
+      "requirements": "-",
+      "description": "Quando você acerta um ataque usando Ataque Especial, a criatura sofre uma penalidade na Defesa igual ao total de PM gastos nessa habilidade por 1 rodada."
+    },
+    {
+      "name": "Inércia do Aço",
+      "class": "Guerreiro",
+      "requirements": "5º nível de guerreiro",
+      "description": "Quando acerta um ataque com uma arma de duas mãos em uma criatura, você pode gastar 3 PM para causar metade do dano desse ataque a cada inimigo adjacente a essa criatura."
+    },
+    {
+      "name": "Investida Ricochete",
+      "class": "Guerreiro",
+      "requirements": "Bater e Correr, 5º nível de guerreiro",
+      "description": "Uma vez por rodada, quando faz uma investida e acerta o ataque, você pode gastar 2 PM para atacar outra criatura que você consiga alcançar como parte dessa investida."
+    },
+    {
+      "name": "Manobra Dupla",
+      "class": "Guerreiro",
+      "requirements": "-",
+      "description": "Uma vez por rodada, quando faz uma manobra de combate usando uma arma versátil, você pode pagar 1 PM para executar uma manobra diferente extra."
+    },
+    {
+      "name": "Mente Disciplinada",
+      "class": "Guerreiro",
+      "requirements": "-",
+      "description": "Sempre que você é afetado por uma habilidade de um aliado que fornece um bônus numérico em testes de perícia, rolagens de dano ou na Defesa, para você esse bônus aumenta em +1."
+    },
+    {
+      "name": "Operações Combinadas",
+      "class": "Guerreiro",
+      "requirements": "Ordens de Engajamento, 14º nível de guerreiro",
+      "description": "Quando usa Ordens de Engajamento, você pode gastar +3 PM. Se fizer isso, pode atacar junto do aliado e, se um de vocês usar habilidades com custo em PM que forneçam bônus a esse ataque ou a seu dano, o outro também é afetado (apenas se isso for aplicável ao ataque)."
+    },
+    {
+      "name": "Ordens de Engajamento",
+      "class": "Guerreiro",
+      "requirements": "Criar Oportunidade, Xadrez de Batalha, 11º nível de guerreiro",
+      "description": "Uma vez por rodada, quando acerta um ataque em uma criatura sob efeito do seu Xadrez de Batalha, você pode gastar 2 PM para que um aliado em alcance curto possa fazer um ataque contra essa criatura."
+    },
+    {
+      "name": "Recuperar Fôlego",
+      "class": "Guerreiro",
+      "requirements": "-",
+      "description": "Uma vez por cena, se estiver com 0 PM, você pode gastar uma ação de movimento para recuperar 1d8 PM."
+    },
+    {
+      "name": "Resiliência Marcial",
+      "class": "Guerreiro",
+      "requirements": "4º nível de guerreiro",
+      "description": "Sempre que sofrer dano letal, você recebe redução de dano 1 cumulativa (limitada pelo seu nível). Esse efeito dura até o fim da cena ou até você recuperar pontos de vida de qualquer forma."
+    },
+    {
+      "name": "Soldado de Infantaria",
+      "class": "Guerreiro",
+      "requirements": "-",
+      "description": "Você recebe +3m em seu deslocamento e seu limite de carga aumenta em 6 espaços."
+    },
+    {
+      "name": "Velho de Guerra",
+      "class": "Guerreiro",
+      "requirements": "17º nível de guerreiro",
+      "description": "Seus olhos já viram muito e você não se abala facilmente. Você recebe +5 em Intimidação e imunidade a medo. Além disso, uma vez por cena pode gastar 5 PM para evitar completamente um efeito qualquer (ataque, magia etc.) usado contra você por outra criatura. Se o efeito for de área ou tiver outros alvos, continua funcionando normalmente contra eles."
+    },
+    {
+      "name": "Xadrez de Batalha",
+      "class": "Guerreiro",
+      "requirements": "treinado em Guerra",
+      "description": "Você pode gastar uma ação de movimento e 1 PM para analisar um oponente em alcance curto. Se fizer isso, você recebe +2 na Defesa e em testes de Reflexos contra essa criatura até o fim da cena. Esse bônus aumenta em +1 para cada outro poder que você possua que tenha Xadrez de Batalha como pré-requisito."
+    },
+    {
+      "name": "Agite Antes de Usar",
+      "class": "Inventor",
+      "requirements": "Treinado em Ofício (alquimista)",
+      "description": "Quando usa um preparado alquímico que cause dano, você pode gastar uma quantidade de PM a sua escolha (limitado por sua Inteligência). Para cada PM que gastar, o item causa um dado extra de dano do mesmo tipo."
+    },
+    {
+      "name": "Ajuste de Mira",
+      "class": "Inventor",
+      "requirements": "Balística",
+      "description": "Você pode gastar uma ação padrão e uma quantidade de PM a sua escolha (limitado pela sua Inteligência) para aprimorar uma arma de ataque à distância. Para cada PM que gastar, você recebe +1 em rolagens de dano com a arma até o final da cena."
+    },
+    {
+      "name": "Alquimista de Batalha",
+      "class": "Inventor",
+      "requirements": "Alquimista Iniciado",
+      "description": "Quando usa um preparado alquímico ou poção que cause dano, você soma sua Inteligência na rolagem de dano."
+    },
+    {
+      "name": "Alquimista Iniciado",
+      "class": "Inventor",
+      "requirements": "Int 1, Sab 1, treinado em Ofício (alquimista)",
+      "description": "Você recebe um livro de fórmulas e pode fabricar poções com fórmulas que conheça de 1º e 2º círculos."
+    },
+    {
+      "name": "Armeiro",
+      "class": "Inventor",
+      "requirements": "Treinado em Luta e Ofício (armeiro)",
+      "description": "Você recebe proficiência com armas marciais corpo a corpo. Quando empunha uma arma corpo a corpo, pode usar sua Inteligência em vez de Força nos testes de ataque e rolagens de dano."
+    },
+    {
+      "name": "Ativação Rápida",
+      "class": "Inventor",
+      "requirements": "Engenhoqueiro, 7º nível de inventor",
+      "description": "Ao ativar uma engenhoca com ação padrão, você pode pagar 2 PM para ativá-la com uma ação de movimento, em vez disto."
+    },
+    {
+      "name": "Aumento de Atributo",
+      "class": "Inventor",
+      "requirements": "Nenhum",
+      "description": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
+    },
+    {
+      "name": "Autômato",
+      "class": "Inventor",
+      "requirements": "Engenhoqueiro",
+      "description": "Você fabrica um autômato, um construto que obedece a seus comandos. Ele é um parceiro iniciante de um tipo a sua escolha entre ajudante, assassino, atirador, combatente, guardião, montaria ou vigilante. No 7º nível, ele muda para veterano e, no 15º nível, para mestre. Se o autômato for destruído, você pode fabricar um novo com uma semana de trabalho e T$ 100."
+    },
+    {
+      "name": "Autômato Prototipado",
+      "class": "Inventor",
+      "requirements": "Autômato",
+      "description": "Você pode gastar uma ação padrão e 2 PM para ativar uma melhoria experimental em seu autômato. Role 1d6. Em um resultado 2 a 6, você aumenta o nível de parceiro do autômato em um passo (até mestre), ou concede a ele a habilidade iniciante de outro de seus tipos, até o fim da cena. Em um resultado 1, o autômato enguiça como uma engenhoca."
+    },
+    {
+      "name": "Balística",
+      "class": "Inventor",
+      "requirements": "Treinado em Pontaria e Ofício (armeiro)",
+      "description": "Você recebe proficiência com armas marciais de ataque à distância ou com armas de fogo. Quando usa uma arma de ataque à distância, pode usar sua Inteligência em vez de Destreza nos testes de ataque (e, caso possua o poder Estilo de Disparo, nas rolagens de dano)."
+    },
+    {
+      "name": "Blindagem",
+      "class": "Inventor",
+      "requirements": "Couraceiro, 8º nível de inventor",
+      "description": "Você pode usar sua Inteligência na Defesa quando usa armadura pesada. Se fizer isso, não pode somar sua Destreza, mesmo que outras habilidades ou efeitos permitam isso."
+    },
+    {
+      "name": "Cano Raiado",
+      "class": "Inventor",
+      "requirements": "Balística, 5º nível de inventor",
+      "description": "Quando usa uma arma de disparo feita por você mesmo, ela recebe +1 na margem de ameaça."
+    },
+    {
+      "name": "Catalisador Instável",
+      "class": "Inventor",
+      "requirements": "Alquimista Iniciado",
+      "description": "Você pode gastar uma ação completa e 3 PM para fabricar um preparado alquímico ou poção cuja fórmula conheça instantaneamente. O custo do item é reduzido à metade e você não precisa fazer o teste de Ofício (alquimista), mas ele só dura até o fim da cena."
+    },
+    {
+      "name": "Chutes e Palavrões",
+      "class": "Inventor",
+      "requirements": "Engenhoqueiro",
+      "description": "Uma vez por rodada, você pode pagar 1 PM para repetir um teste de Ofício (engenhoqueiro) recém realizado para ativar uma engenhoca."
+    },
+    {
+      "name": "Conhecimento de Fórmulas",
+      "class": "Inventor",
+      "requirements": "Alquimista Iniciado",
+      "description": "Você aprende três fórmulas de quaisquer círculos que possa aprender. Você pode escolher este poder quantas vezes quiser."
+    },
+    {
+      "name": "Couraceiro",
+      "class": "Inventor",
+      "requirements": "Treinado em Ofício (armeiro)",
+      "description": "Você recebe proficiência com armaduras pesadas e escudos. Quando usa armadura, pode usar sua Inteligência em vez de Destreza na Defesa (mas continua não podendo somar um atributo na Defesa quando usa armadura pesada)."
+    },
+    {
+      "name": "Engenhoqueiro",
+      "class": "Inventor",
+      "requirements": "Int 3, treinado em Ofício (engenhoqueiro)",
+      "description": "Você pode fabricar engenhocas."
+    },
+    {
+      "name": "Farmacêutico",
+      "class": "Inventor",
+      "requirements": "Sab 1, treinado em Ofício (alquimista)",
+      "description": "Quando usa um item alquímico que cure pontos de vida, você pode gastar uma quantidade de PM a sua escolha (limitado por sua Inteligência). Para cada PM que gastar, o item cura um dado extra do mesmo tipo."
+    },
+    {
+      "name": "Ferreiro",
+      "class": "Inventor",
+      "requirements": "Armeiro, 5º nível de inventor",
+      "description": "Quando usa uma arma corpo a corpo feita por você mesmo, o dano dela aumenta em um passo."
+    },
+    {
+      "name": "Granadeiro",
+      "class": "Inventor",
+      "requirements": "Alquimista de Batalha",
+      "description": "Você pode arremessar itens alquímicos e poções em alcance médio. Você pode usar sua Inteligência em vez de Destreza para calcular a CD do teste de resistência desses itens."
+    },
+    {
+      "name": "Homúnculo",
+      "class": "Inventor",
+      "requirements": "Alquimista Iniciado",
+      "description": "Você possui um homúnculo, uma criatura Minúscula feita de alquimia. Vocês podem se comunicar telepaticamente em alcance longo e ele obedece a suas ordens, mas ainda está limitado ao que uma criatura de seu tamanho pode fazer. Um homúnculo é um parceiro ajudante iniciante. Você pode perder 1d6 pontos de vida para seu homúnculo assumir uma forma capaz de protegê-lo e se tornar também um parceiro guardião iniciante até o fim da cena."
+    },
+    {
+      "name": "Invenção Potente",
+      "class": "Inventor",
+      "requirements": "Nenhum",
+      "description": "Quando usa um item ou engenhoca fabricado por você mesmo, você pode pagar 1 PM para aumentar em +2 a CD para resistir a ele."
+    },
+    {
+      "name": "Maestria em Perícia",
+      "class": "Inventor",
+      "requirements": "Nenhum",
+      "description": "Escolha um número de perícias treinadas igual a sua Inteligência, exceto bônus temporários. Com essas perícias, você pode gastar 1 PM para escolher 10 em qualquer situação, exceto testes de ataque."
+    },
+    {
+      "name": "Manutenção Eficiente",
+      "class": "Inventor",
+      "requirements": "Engenhoqueiro, 5º nível de inventor",
+      "description": "A quantidade de engenhocas que você pode manter aumenta em +3. Além disso, cada engenhoca passa a ocupar meio espaço."
+    },
+    {
+      "name": "Mestre Alquimista",
+      "class": "Inventor",
+      "requirements": "Int 3, Sab 3, Alquimista Iniciado, 10º nível de inventor",
+      "description": "Você pode fabricar poções com fórmulas que conheça de qualquer círculo."
+    },
+    {
+      "name": "Mestre Cuca",
+      "class": "Inventor",
+      "requirements": "Treinado em Ofício (cozinheiro)",
+      "description": "Todas as comidas que você cozinha têm seu bônus numérico aumentado em +1."
+    },
+    {
+      "name": "Mistura Fervilhante",
+      "class": "Inventor",
+      "requirements": "Alquimista Iniciado, 5º nível de inventor",
+      "description": "Quando usa um item alquímico ou poção, você pode gastar 2 PM para dobrar a área de efeito dele."
+    },
+    {
+      "name": "Oficina de Campo",
+      "class": "Inventor",
+      "requirements": "Treinado em Ofício (armeiro)",
+      "description": "Você pode gastar uma hora e 2 PM para fazer a manutenção do equipamento de seu grupo. Cada membro do grupo escolhe uma arma, armadura ou escudo para manutenção. Armas recebem +1 em testes de ataque, armaduras e escudos aumentam seu bônus na Defesa em +1. Os benefícios duram um dia."
+    },
+    {
+      "name": "Pedra de Amolar",
+      "class": "Inventor",
+      "requirements": "Armeiro",
+      "description": "Você pode gastar uma ação de movimento e uma quantidade de PM a sua escolha (limitado por sua Inteligência) para aprimorar uma arma corpo a corpo que esteja empunhando. Para cada PM que gastar, você recebe +1 em rolagens de dano com a arma até o final da cena."
+    },
+    {
+      "name": "Síntese Rápida",
+      "class": "Inventor",
+      "requirements": "Alquimista Iniciado",
+      "description": "Quando fabrica um item alquímico ou poção, você pode fabricar o dobro de doses no mesmo tempo (pagando o custo de matéria-prima de cada uma)."
+    },
+    {
+      "name": "Alquimista Exímio",
+      "class": "Inventor",
+      "requirements": "Alquimista Iniciado",
+      "description": "Quando você usa um preparado alquímico ou uma poção, a CD para resistir a ele aumenta em +2 e, se ele causar dano ou recuperar PV ou PM, esse efeito aumenta em +1 por dado."
+    },
+    {
+      "name": "Alterar Programação",
+      "class": "Inventor",
+      "requirements": "Treinado em Ofício (artesão)",
+      "description": "Você pode gastar uma ação completa e 3 PM para alterar a programação de um construto não inteligente (Int –4 ou menor) adjacente. Faça um teste de Ofício (artesão) oposto ao teste de Vontade do construto. Se você vencer, ele fica confuso por 1 rodada e vulnerável. Se for um lacaio, em vez disso fica sob seu controle até o fim da aventura. Você só pode controlar um construto dessa forma por vez e cada construto só pode ser alvo deste poder uma vez por cena."
+    },
+    {
+      "name": "Aparato Personalizado",
+      "class": "Inventor",
+      "requirements": "Engenhoqueiro",
+      "description": "O primeiro aparato de cada uma de suas engenhocas não aumenta a CD para ativá-la."
+    },
+    {
+      "name": "Armadura Avançada",
+      "class": "Inventor",
+      "requirements": "Armadura Mecanizada, 7º nível de inventor",
+      "description": "Quando ativa uma engenhoca acoplada, você recebe um bônus no teste de ativação igual ao número de melhorias da armadura. Além disso, você pode gastar 4 PM para ativar uma engenhoca acoplada como ação livre (apenas se sua ativação for ação de movimento, padrão ou completa)."
+    },
+    {
+      "name": "Armadura Mecanizada",
+      "class": "Inventor",
+      "requirements": "Engenhoqueiro",
+      "description": "Você pode gastar T$ 100 e 1 dia de trabalho para acoplar uma engenhoca em sua armadura. Armaduras leves podem ter uma engenhoca acoplada e armaduras pesadas podem ter até três. Uma engenhoca acoplada não conta em seu limite de itens vestidos e não precisa ser empunhada."
+    },
+    {
+      "name": "Artesão Criativo",
+      "class": "Inventor",
+      "requirements": "Treinado em Ofício (artesão)",
+      "description": "Você pode usar Ofício (artesão) no lugar de qualquer outro Ofício para qualquer fim (como pré-requisitos, por exemplo)."
+    },
+    {
+      "name": "Autômato Alquímico",
+      "class": "Inventor",
+      "requirements": "Autômato",
+      "description": "Seu autômato pode armazenar itens alquímicos e poções, com uma capacidade de carga igual à sua Inteligência. Além disso, uma vez por rodada, você pode gastar 1 PM para usar um desses itens como uma ação livre."
+    },
+    {
+      "name": "Autômato Engenhocado",
+      "class": "Inventor",
+      "requirements": "Autômato Prototipado",
+      "description": "Você pode gastar T$ 100 e 1 dia de trabalho para acoplar em seu autômato uma engenhoca que simule uma magia de 1º círculo com alvo 1 criatura ou objeto, ou que afete uma área. Uma vez por rodada, se o autômato estiver em alcance curto, você pode gastar +2 PM para ativar essa engenhoca como uma ação de movimento, tendo como origem o autômato."
+    },
+    {
+      "name": "Catalisador Experimental",
+      "class": "Inventor",
+      "requirements": "Engenhoqueiro, 5º nível de inventor",
+      "description": "Quando ativa uma engenhoca, você pode usar um catalisador e aplicar seus efeitos a ela."
+    },
+    {
+      "name": "Estilista",
+      "class": "Inventor",
+      "requirements": "Car 1, treinado em Ofício (alfaiate)",
+      "description": "Se estiver vestindo um item de vestuário feito por você mesmo, o bônus em perícias fornecido por ele aumenta em +1 e se aplica também a testes de Diplomacia e Enganação com criaturas inteligentes (Int –3 ou maior)."
+    },
+    {
+      "name": "Explicação Científica",
+      "class": "Inventor",
+      "requirements": "5º nível de inventor",
+      "description": "Você pode gastar uma ação de movimento e uma quantidade de PM limitada pela sua Inteligência para receber resistência a magia igual aos PM gastos até o fim da cena."
+    },
+    {
+      "name": "Explorar Fraqueza",
+      "class": "Inventor",
+      "requirements": "Encontrar Fraqueza",
+      "description": "Quando usa Encontrar Fraqueza em um inimigo, você também ignora 5 pontos da redução de dano dele até o fim da cena."
+    },
+    {
+      "name": "Farmácia Mágica",
+      "class": "Inventor",
+      "requirements": "Alquimista Iniciado, Farmacêutico",
+      "description": "Você pode usar Farmacêutico em poções de cura."
+    },
+    {
+      "name": "Forçar a Calibragem",
+      "class": "Inventor",
+      "requirements": "Engenhoqueiro",
+      "description": "Quando faz um teste para ativar uma engenhoca, você pode sofrer uma penalidade de –5 nesse teste para aumentar a CD para resistir à engenhoca em +2."
+    },
+    {
+      "name": "Galvanização",
+      "class": "Inventor",
+      "requirements": "Treinado em Ofício (artesão)",
+      "description": "Você pode gastar uma ação padrão para adicionar um material especial a um item adequado (isso não conta no limite de melhorias do item e se acumula com outros materiais especiais). O preço do material é reduzido a 5% do normal e você não precisa fazer o teste de Ofício para aplicá-lo, mas ele só dura até o fim da cena."
+    },
+    {
+      "name": "Gênio Inovador",
+      "class": "Inventor",
+      "requirements": "17º nível de inventor",
+      "description": "Você entende o mundo de forma diferente, e sua capacidade de inovar é quase ilimitada. Você pode usar Inteligência como atributo-chave de até duas perícias a sua escolha (em vez do atributo normal). Além disso, quando fabrica um item superior, você pode adicionar uma melhoria extra gratuita, que não conta no limite (por exemplo, por T$ +18.000, adiciona cinco melhorias, em vez de quatro). Por fim, os itens que você fabrica podem ter dois materiais especiais diferentes (em vez de apenas um)."
+    },
+    {
+      "name": "Golpe de Gênio",
+      "class": "Inventor",
+      "requirements": "11º nível de inventor",
+      "description": "Uma vez por aventura (ou uma vez por mês, de acordo com o mestre), você pode usar Engenhosidade duas vezes em um mesmo teste, ou pode fabricar um item superior ou mágico com uma semana de trabalho (em vez de um mês)."
+    },
+    {
+      "name": "Infusão Distante",
+      "class": "Inventor",
+      "requirements": "Alquimista Iniciado",
+      "description": "Quando usa um item alquímico ou uma poção com alcance de toque, você pode gastar 1 PM para aumentar seu alcance para curto. Se tiver o poder Granadeiro, em vez disso você aumenta seu alcance para médio."
+    },
+    {
+      "name": "Oficina Esotérica",
+      "class": "Inventor",
+      "requirements": "Treinado em Misticismo, Oficina de Campo",
+      "description": "Você pode usar Oficina de Campo em itens esotéricos, poções e pergaminhos. Itens esotéricos aumentam o limite de PM para magias em +1, poções rendem duas doses (a segunda dose deve ser consumida até o fim do dia) e pergaminhos permitem gastar +1 PM em aprimoramentos (mesmo que o usuário não conheça a magia)."
+    },
+    {
+      "name": "Saraivada Alquímica",
+      "class": "Inventor",
+      "requirements": "Granadeiro, 7º nível de inventor",
+      "description": "Quando usa um preparado alquímico ou uma poção de dano, você pode gastar 2 PM e uma dose extra do mesmo item para aumentar o dano causado em 50%."
+    },
+    {
+      "name": "Assassinar",
+      "class": "Ladino",
+      "requirements": "5º nível de ladino",
+      "description": "Você pode gastar uma ação de movimento e 3 PM para analisar uma criatura em alcance curto. Até o fim de seu próximo turno, seu primeiro Ataque Furtivo que causar dano a ela tem seus dados de dano extras dessa habilidade dobrados."
+    },
+    {
+      "name": "Aumento de Atributo",
+      "class": "Ladino",
+      "requirements": "Nenhum",
+      "description": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
+    },
+    {
+      "name": "Contatos no Submundo",
+      "class": "Ladino",
+      "requirements": "Nenhum",
+      "description": "Quando chega em uma comunidade equivalente a uma vila ou maior, você pode gastar 2 PM para fazer um teste de Carisma (CD 10). Se passar, enquanto estiver nessa comunidade, recebe +5 em testes de Investigação para interrogar, pode comprar itens mundanos, poções e pergaminhos com 20% de desconto (não cumulativo com barganha e outros descontos) e, de acordo com o mestre, tem acesso a itens e serviços proibidos (como armas de pólvora e venenos)."
+    },
+    {
+      "name": "Emboscar",
+      "class": "Ladino",
+      "requirements": "Treinado em Furtividade",
+      "description": "Na primeira rodada de cada combate, você pode gastar 2 PM para executar uma ação padrão adicional em seu turno."
+    },
+    {
+      "name": "Escapista",
+      "class": "Ladino",
+      "requirements": "Nenhum",
+      "description": "Você recebe +5 em testes de Acrobacia para escapar, passar por espaço apertado e passar por inimigo e em testes para resistir a efeitos de movimento."
+    },
+    {
+      "name": "Fuga Formidável",
+      "class": "Ladino",
+      "requirements": "Int 1",
+      "description": "Você pode gastar uma ação completa e 1 PM para analisar o lugar no qual está (um castelo, um porto, a praça de uma cidade...). Até o fim da cena, recebe +3m em seu deslocamento, +5 em Acrobacia e Atletismo e ignora penalidades em movimento por terreno difícil. Você perde esses benefícios se fizer uma ação que não seja diretamente relacionada a fugir."
+    },
+    {
+      "name": "Gatuno",
+      "class": "Ladino",
+      "requirements": "Nenhum",
+      "description": "Você recebe +2 em Atletismo. Quando escala, não fica desprevenido e avança seu deslocamento normal, em vez de metade dele."
+    },
+    {
+      "name": "Ladrão Arcano",
+      "class": "Ladino",
+      "requirements": "Roubo de Mana, 13º nível de ladino",
+      "description": "Quando causa dano com um ataque furtivo em uma criatura capaz de lançar magias, você pode 'roubar' uma magia que já a tenha visto lançar. Você precisa pagar 1 PM por círculo da magia e pode roubar magias de até 4º círculo. Até o fim da cena, você pode lançar a magia roubada (atributo-chave Inteligência)."
+    },
+    {
+      "name": "Mão na Boca",
+      "class": "Ladino",
+      "requirements": "Treinado em Luta",
+      "description": "Você recebe +2 em testes de agarrar. Quando acerta um ataque furtivo contra uma criatura desprevenida, você pode fazer um teste de agarrar como uma ação livre. Se agarrar a criatura, ela não poderá falar enquanto estiver agarrada."
+    },
+    {
+      "name": "Mãos Rápidas",
+      "class": "Ladino",
+      "requirements": "Des 2, treinado em Ladinagem",
+      "description": "Uma vez por rodada, ao fazer um teste de Ladinagem para abrir fechaduras, ocultar item, punga ou sabotar, você pode pagar 1 PM para fazê-lo como uma ação livre."
+    },
+    {
+      "name": "Mente Criminosa",
+      "class": "Ladino",
+      "requirements": "Int 1",
+      "description": "Você soma sua Inteligência em Ladinagem e Furtividade."
+    },
+    {
+      "name": "Oportunismo",
+      "class": "Ladino",
+      "requirements": "6º nível de ladino",
+      "description": "Uma vez por rodada, quando um inimigo adjacente sofre dano de um de seus aliados, você pode gastar 2 PM para fazer um ataque corpo a corpo contra este inimigo."
+    },
+    {
+      "name": "Rolamento Defensivo",
+      "class": "Ladino",
+      "requirements": "Treinado em Reflexos",
+      "description": "Sempre que sofre dano, você pode gastar 2 PM para reduzir esse dano à metade. Após usar este poder, você fica caído."
+    },
+    {
+      "name": "Roubo de Mana",
+      "class": "Ladino",
+      "requirements": "Truque Mágico, 7º nível de ladino",
+      "description": "Quando você causa dano com um ataque furtivo, para cada 1d6 de dano de seu ataque furtivo, você recebe 1 PM temporário e a criatura perde 1 ponto de mana (se tiver). Você só pode usar este poder uma vez por cena contra uma mesma criatura."
+    },
+    {
+      "name": "Saqueador de Tumbas",
+      "class": "Ladino",
+      "requirements": "Nenhum",
+      "description": "Você recebe +5 em testes de Investigação para encontrar armadilhas e em testes de resistência contra elas. Além disso, gasta uma ação padrão para desabilitar mecanismos, em vez de 1d4 rodadas (veja a perícia Ladinagem)."
+    },
+    {
+      "name": "Sombra",
+      "class": "Ladino",
+      "requirements": "Treinado em Furtividade",
+      "description": "Você recebe +2 em Furtividade, não sofre penalidade em testes de Furtividade por se mover no seu deslocamento normal e reduz a penalidade por atacar e fazer outras ações chamativas para -10."
+    },
+    {
+      "name": "Truque Mágico",
+      "class": "Ladino",
+      "requirements": "Int 1",
+      "description": "Você aprende e pode lançar uma magia arcana de 1º círculo a sua escolha, pagando seu custo normal em PM. Seu atributo-chave para esta magia é Inteligência. Você pode escolher este poder quantas vezes quiser."
+    },
+    {
+      "name": "Velocidade Ladina",
+      "class": "Ladino",
+      "requirements": "Des 2, treinado em Iniciativa",
+      "description": "Uma vez por rodada, você pode gastar 2 PM para realizar uma ação de movimento adicional em seu turno."
+    },
+    {
+      "name": "Veneno Persistente",
+      "class": "Ladino",
+      "requirements": "Veneno Potente, 8º nível de ladino",
+      "description": "Quando aplica uma dose de veneno a uma arma, este veneno dura por três ataques (em vez de apenas um)."
+    },
+    {
+      "name": "Veneno Potente",
+      "class": "Ladino",
+      "requirements": "Treinado em Ofício (alquimista)",
+      "description": "A CD para resistir aos venenos que você usa aumenta em +5."
+    },
+    {
+      "name": "Ameaça Brutal",
+      "class": "Ladino",
+      "requirements": "Nenhum",
+      "description": "Se fizer um teste de Intimidação para assustar uma criatura na qual tenha causado dano desde a última rodada, você recebe +5 no teste e ela fica apavorada se você passar por 5 ou mais (em vez de 10 ou mais)."
+    },
+    {
+      "name": "Assassino em Série",
+      "class": "Ladino",
+      "requirements": "11º nível de ladino",
+      "description": "Você pode gastar 2 PM para usar Ataque Furtivo uma segunda vez na rodada."
+    },
+    {
+      "name": "Ataque Furtivo Letal",
+      "class": "Ladino",
+      "requirements": "5º nível de ladino",
+      "description": "Quando você faz um ataque furtivo, sempre que rolar o resultado máximo ou um ponto abaixo em um dado da habilidade (por exemplo, um 5 ou 6 ao rolar 1d6), role um dado extra."
+    },
+    {
+      "name": "Bombardeiro Furtivo",
+      "class": "Ladino",
+      "requirements": "Treinado em Ofício (alquimista)",
+      "description": "Você pode usar Ataque Furtivo ao utilizar preparados alquímicos de dano."
+    },
+    {
+      "name": "Chefe de Gangue",
+      "class": "Ladino",
+      "requirements": "5º nível de ladino",
+      "description": "Seus capangas podem usar Ataque Furtivo +1d6 e Evasão, e podem fazer testes de Reflexos usando o seu valor nessa perícia."
+    },
+    {
+      "name": "Conhecimento Anatômico",
+      "class": "Ladino",
+      "requirements": "Treinado em Cura",
+      "description": "Contra humanoides, os dados do seu Ataque Furtivo aumentam em um passo."
+    },
+    {
+      "name": "Enganar os Olhos",
+      "class": "Ladino",
+      "requirements": "Nenhum",
+      "description": "Quando você faz um teste de Acrobacia para passar por inimigo, a criatura o considera invisível por 1 rodada (Reflexos CD Des evita)."
+    },
+    {
+      "name": "Finta Acrobática",
+      "class": "Ladino",
+      "requirements": "Treinado em Acrobacia e Enganação",
+      "description": "Você soma sua Destreza em testes de Enganação para fintar."
+    },
+    {
+      "name": "Improvisação Arcana",
+      "class": "Ladino",
+      "requirements": "Treinado em Misticismo",
+      "description": "Quando passa em um teste de Misticismo para lançar uma magia arcana que não conhece de um pergaminho, para cada 2 pontos pelos quais seu teste superar a CD, você pode gastar 1 PM em aprimoramentos da magia."
+    },
+    {
+      "name": "Investida Rasteira",
+      "class": "Ladino",
+      "requirements": "Nenhum",
+      "description": "Se você acertar um ataque corpo a corpo contra uma criatura que sofreu uma investida desde a última rodada, ela fica desprevenida por 1 rodada e caída (Reflexos CD Des evita)."
+    },
+    {
+      "name": "Mestre Assassino",
+      "class": "Ladino",
+      "requirements": "Treinado em Cura e Percepção, Assassinar, Ataque Furtivo Letal, 11º nível de ladino",
+      "description": "Quando usa Assassinar, você pode gastar +2 PM para: usar esse poder como uma ação livre; rolar dois dados no teste de ataque contra a criatura analisada e usar o melhor resultado; ou ignorar a imunidade a acertos críticos da criatura analisada. Você pode usar quantos desses modificadores quiser (desde que pague por eles!)."
+    },
+    {
+      "name": "Mestre Envenenador",
+      "class": "Ladino",
+      "requirements": "Treinado em Cura, Veneno Persistente, 11º nível de ladino",
+      "description": "Quando afeta uma criatura com um veneno, você pode gastar +2 PM para: aumentar quaisquer efeitos do veneno em mais um dado do mesmo tipo; aumentar a CD para resistir ao veneno em +5; ou ignorar a imunidade a venenos da criatura. Você pode usar quantos desses modificadores quiser."
+    },
+    {
+      "name": "Papo Furado",
+      "class": "Ladino",
+      "requirements": "Treinado em Diplomacia e Enganação",
+      "description": "Quando você passa em um teste de Diplomacia contra uma criatura, se passar também em um teste de Enganação contra ela até o fim do seu próximo turno, a atitude da criatura em relação a você melhora em uma categoria."
+    },
+    {
+      "name": "Precisão Furtiva",
+      "class": "Ladino",
+      "requirements": "Treinado em Pontaria, Ataque Furtivo",
+      "description": "O alcance do seu Ataque Furtivo aumenta em uma categoria (de curto para médio e de médio para longo). Além disso, quando você ataca uma criatura desprevenida ou que você esteja flanqueando, sua margem de ameaça aumenta em +2."
+    },
+    {
+      "name": "Rei do Crime",
+      "class": "Ladino",
+      "requirements": "Chefe de Gangue, Contatos no Submundo, Mente Criminosa, 17º nível de ladino",
+      "description": "Uma vez por cena, você pode gastar 6 PM para invocar 2d4+2 assassinos capangas em espaços desocupados em alcance curto. Os assassinos possuem deslocamento 9m, Defesa 17, dano 1d6+5 de corte cada e Ataque Furtivo +4d6. Uma vez por rodada, quando você é alvo de um efeito, pode sacrificar um capanga adjacente para ignorar o efeito."
+    },
+    {
+      "name": "Sabotagem Corrosiva",
+      "class": "Ladino",
+      "requirements": "Nenhum",
+      "description": "Quando faz um teste de Ladinagem para abrir fechaduras ou sabotar, você pode gastar um ácido para receber um bônus de +5 nesse teste. Além disso, pode gastar uma ação de movimento e um ácido para fazer um teste de Ladinagem oposto ao teste de Reflexos de uma criatura em alcance curto. Se você vencer o teste oposto, a criatura fica desprevenida e sofre -5 em testes de ataque por 1 rodada."
+    },
+    {
+      "name": "Senhor do Submundo",
+      "class": "Ladino",
+      "requirements": "Treinado em Intimidação, 17º nível de ladino",
+      "description": "Você recebe +5 em Intimidação e imunidade a medo. Além disso, quando você fica adjacente a outra criatura (independente de quem tenha se movido), você pode deixá-la apavorada e desprevenida por 1 rodada. Uma mesma criatura só pode ser afetada por este poder uma vez por cena."
+    },
+    {
+      "name": "Truque de Palco",
+      "class": "Ladino",
+      "requirements": "Treinado em Atuação",
+      "description": "Escolha três magias arcanas de 1º círculo que possuam o aprimoramento truque. Você aprende e pode lançar essas magias (atributo-chave Inteligência), mas apenas com esse aprimoramento. Esta não é uma habilidade mágica - os efeitos provêm de prestidigitação."
+    },
+    {
+      "name": "Truque do Chapéu",
+      "class": "Ladino",
+      "requirements": "Treinado em Enganação",
+      "description": "Uma vez por rodada, você pode gastar uma ação de movimento para tirar e arremessar um item que esteja vestindo em uma criatura em alcance curto. Se fizer isso, você pode fazer um ataque com uma arma de arremesso, ou arremessar um preparado alquímico ou poção contra ela como parte dessa ação."
+    },
+    {
+      "name": "Vestido Para a Ocasião",
+      "class": "Ladino",
+      "requirements": "Treinado em Enganação",
+      "description": "Se estiver usando um traje da corte ou de viajante, você pode gastar uma ação completa e 1 PM para transformar esse item em outro item de vestuário mundano até o fim da cena. Isso fornece +5 em testes de Enganação para disfarce, além dos benefícios do novo item."
+    },
+    {
+      "name": "Arma Improvisada",
+      "class": "Lutador",
+      "requirements": "Nenhum",
+      "description": "Para você, atacar com armas improvisadas conta como fazer um ataque desarmado, mas seu dano aumenta em um passo. Você pode gastar uma ação de movimento para procurar uma arma improvisada (teste de Percepção CD 20). Armas improvisadas quebram se você errar o ataque com resultado ímpar no d20."
+    },
+    {
+      "name": "Até Acertar",
+      "class": "Lutador",
+      "requirements": "Nenhum",
+      "description": "Se você errar um ataque desarmado, recebe um bônus cumulativo de +2 em testes de ataque e rolagens de dano desarmado contra o mesmo oponente. Os bônus terminam quando você acertar ou no fim da cena."
+    },
+    {
+      "name": "Aumento de Atributo",
+      "class": "Lutador",
+      "requirements": "Nenhum",
+      "description": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
+    },
+    {
+      "name": "Braços Calejados",
+      "class": "Lutador",
+      "requirements": "Nenhum",
+      "description": "Se você não estiver usando armadura, soma sua Força na Defesa, limitado pelo seu nível."
+    },
+    {
+      "name": "Cabeçada",
+      "class": "Lutador",
+      "requirements": "Nenhum",
+      "description": "Quando faz um ataque desarmado, você pode gastar 2 PM para deixar o oponente desprevenido contra este ataque. Uma vez por cena contra um mesmo alvo."
+    },
+    {
+      "name": "Chave",
+      "class": "Lutador",
+      "requirements": "Int 1, Lutador de Chão, 4º nível de lutador",
+      "description": "Se estiver agarrando uma criatura e fizer um teste de manobra para causar dano, o dano desarmado aumenta em um passo."
+    },
+    {
+      "name": "Confiança dos Ringues",
+      "class": "Lutador",
+      "requirements": "8º nível de lutador",
+      "description": "Quando um inimigo erra um ataque corpo a corpo contra você, recebe 2 PM temporários (cumulativos até seu nível). Desaparecem no final da cena."
+    },
+    {
+      "name": "Convencido",
+      "class": "Lutador",
+      "requirements": "Nenhum",
+      "description": "Você recebe resistência a medo e mental +5."
+    },
+    {
+      "name": "Golpe Baixo",
+      "class": "Lutador",
+      "requirements": "Nenhum",
+      "description": "Quando faz um ataque desarmado, pode gastar 2 PM para forçar o oponente a fazer teste de Fortitude (CD For) ou ficar atordoado por uma rodada (uma vez por cena)."
+    },
+    {
+      "name": "Golpe Imprudente",
+      "class": "Lutador",
+      "requirements": "Golpe Relâmpago",
+      "description": "Quando usa Golpe Relâmpago, pode receber um dado de dano extra nos ataques desarmados, mas sofre -5 na Defesa até seu próximo turno."
+    },
+    {
+      "name": "Imobilização",
+      "class": "Lutador",
+      "requirements": "Chave, 8º nível de lutador",
+      "description": "Se estiver agarrando uma criatura, pode gastar ação completa para imobilizá-la (teste de manobra). Criatura imobilizada fica indefesa e só pode tentar se soltar."
+    },
+    {
+      "name": "Língua dos Becos",
+      "class": "Lutador",
+      "requirements": "For 1, treinado em Intimidação",
+      "description": "Pode pagar 1 PM para usar Força no lugar de Carisma em teste de perícia baseada em Carisma."
+    },
+    {
+      "name": "Lutador de Chão",
+      "class": "Lutador",
+      "requirements": "Nenhum",
+      "description": "Recebe +2 em testes para agarrar e derrubar. Quando agarra, pode gastar 1 PM para fazer manobra derrubar como ação livre."
+    },
+    {
+      "name": "Nome na Arena",
+      "class": "Lutador",
+      "requirements": "11º nível de lutador",
+      "description": "Uma vez por cena, pode gastar ação completa para fazer teste de Luta (CD 10) e impressionar os presentes. Se passar, recebe +2 em perícias baseadas em Carisma e melhora atitude de fãs de lutas."
+    },
+    {
+      "name": "Punhos de Adamante",
+      "class": "Lutador",
+      "requirements": "8º nível de lutador",
+      "description": "Seus ataques desarmados ignoram 10 pontos de redução de dano."
+    },
+    {
+      "name": "Rasteira",
+      "class": "Lutador",
+      "requirements": "Nenhum",
+      "description": "Quando faz ataque desarmado contra criatura até uma categoria maior, pode gastar 2 PM para derrubá-la se acertar."
+    },
+    {
+      "name": "Sarado",
+      "class": "Lutador",
+      "requirements": "For 3",
+      "description": "Soma Força no total de PV e em Fortitude. Pode usar Força em vez de Carisma em Diplomacia com quem goste de físicos definidos."
+    },
+    {
+      "name": "Sequência Destruidora",
+      "class": "Lutador",
+      "requirements": "Trocação, 12º nível de lutador",
+      "description": "No início do turno, pode gastar 2 PM para declarar número. Se acertar essa quantidade de ataques, o último recebe +4 na rolagem de dano por ataque feito."
+    },
+    {
+      "name": "Trincado",
+      "class": "Lutador",
+      "requirements": "Con 3, Sarado, 10º nível de lutador",
+      "description": "Soma Constituição nas rolagens de dano desarmado."
+    },
+    {
+      "name": "Trocação",
+      "class": "Lutador",
+      "requirements": "6º nível de lutador",
+      "description": "Ao acertar ataque desarmado, pode fazer outro ataque contra o mesmo alvo, pagando PM igual à quantidade de ataques já realizados no turno."
+    },
+    {
+      "name": "Trocação Tumultuosa",
+      "class": "Lutador",
+      "requirements": "Trocação, 8º nível de lutador",
+      "description": "Quando usa ação agredir para ataque desarmado, pode gastar 2 PM para atingir todas as criaturas adjacentes."
+    },
+    {
+      "name": "Valentão",
+      "class": "Lutador",
+      "requirements": "Nenhum",
+      "description": "Recebe +2 em testes de ataque e dano contra oponentes caídos, desprevenidos, flanqueados ou indefesos."
+    },
+    {
+      "name": "Voadora",
+      "class": "Lutador",
+      "requirements": "Nenhum",
+      "description": "Quando faz investida desarmada, pode gastar 2 PM para receber +1d6 no dano para cada 3m percorridos (limitado pelo seu nível)."
+    },
+    {
+      "name": "Aquecimento",
+      "class": "Lutador",
+      "requirements": "Nenhum",
+      "description": "Na primeira rodada de um combate, você pode gastar uma ação completa para aquecer seus músculos. Você soma sua Constituição em seus testes de ataque desarmado (limitada pelo seu nível) e recebe PV temporários igual a Constituição + nível. Ambos os bônus duram até o fim da cena."
+    },
+    {
+      "name": "Caminhar pelas Paredes",
+      "class": "Lutador",
+      "requirements": "Treinado em Atletismo",
+      "description": "Você recebe +10 em testes de Atletismo para saltar e pode caminhar por paredes e tetos. Se terminar seu movimento enquanto caminha em uma parede, você cai."
+    },
+    {
+      "name": "Caminho Suave",
+      "class": "Lutador",
+      "requirements": "Sab 1",
+      "description": "Quando faz um teste de manobra com ataque desarmado, pode gastar PM (limitado pela Sabedoria) para receber +2 no teste por PM gasto."
+    },
+    {
+      "name": "Combinação: Boca do Estômago",
+      "class": "Lutador",
+      "requirements": "Nenhum",
+      "description": "Gaste 1 PM para transformar um ataque em golpe debilitante. Se acertar, recebe bônus no dano igual à contagem de combinações e oponente fica fraco e vulnerável até seu próximo turno."
+    },
+    {
+      "name": "Combinação: Chute Circular",
+      "class": "Lutador",
+      "requirements": "Outro poder de Combinação",
+      "description": "Gaste 2 PM para transformar um ataque em golpe giratório. Se acertar, causa +1d6 por ponto de combinação e pode empurrar o oponente como ação livre."
+    },
+    {
+      "name": "Combinação: Chute no Joelho",
+      "class": "Lutador",
+      "requirements": "Nenhum",
+      "description": "Gaste 1 PM para transformar um ataque em chute baixo. Se acertar, oponente fica lento e sofre penalidade em ataques/dano igual à contagem de combinações."
+    },
+    {
+      "name": "Combinação: Esquiva Surpreendente",
+      "class": "Lutador",
+      "requirements": "Nenhum",
+      "description": "Quando sofre ataque corpo a corpo, gaste 2 PM para teste de Reflexos oposto. Se vencer, evita ataque e recebe +5 no próximo ataque contra o atacante."
+    },
+    {
+      "name": "Combinação: Quebra-guarda",
+      "class": "Lutador",
+      "requirements": "Nenhum",
+      "description": "Gaste 1 PM para transformar um ataque em golpe que supera defesas. Recebe bônus no ataque igual à contagem de combinações e oponente não pode reduzir dano."
+    },
+    {
+      "name": "Combinação: Um-Dois",
+      "class": "Lutador",
+      "requirements": "Jogo de Pernas",
+      "description": "Gaste 1 PM para atacar de vários lados. Recebe benefícios de flanquear e, se acertar, bônus na Defesa igual à contagem de combinações."
+    },
+    {
+      "name": "Combinação: Técnica de Sacrifício",
+      "class": "Lutador",
+      "requirements": "Nenhum",
+      "description": "Gaste 1 PM para transformar ataque em movimento de projeção. Se vencer teste de agarrar, ambos caem e oponente sofre dano de ataque desarmado."
+    },
+    {
+      "name": "Corpo Fechado",
+      "class": "Lutador",
+      "requirements": "Nenhum",
+      "description": "Quando faz teste de resistência, pode gastar 1 PM para somar Constituição ao resultado."
+    },
+    {
+      "name": "Dança Marcial",
+      "class": "Lutador",
+      "requirements": "Treinado em Acrobacia e Atuação",
+      "description": "Gaste ação de movimento e 2 PM para receber +2 na Defesa, Acrobacia e fintar. Bônus aumenta com nível. Dura até fim da cena ou se ficar atordoado."
+    },
+    {
+      "name": "Gingado Elusivo",
+      "class": "Lutador",
+      "requirements": "Dança Marcial, 7º nível de lutador",
+      "description": "Sob efeito de Dança Marcial, gaste 3 PM para receber +5 na Defesa e Reflexos contra efeito hostil. Após resolução, salta para espaço adjacente."
+    },
+    {
+      "name": "Invencível",
+      "class": "Lutador",
+      "requirements": "Nome na Arena, 17º nível de lutador",
+      "description": "Em teste de Carisma, gaste 2 PM para somar Força. Quando reduzido a 0 PV, gaste 5 PM para recuperar metade dos PV máximos."
+    },
+    {
+      "name": "Jogo de Pernas",
+      "class": "Lutador",
+      "requirements": "Des 1",
+      "description": "Uma vez por rodada, ao atacar corpo a corpo, pode se mover 1,5m em qualquer direção sem ativar reações."
+    },
+    {
+      "name": "Mestre das Combinações",
+      "class": "Lutador",
+      "requirements": "Dois poderes de Combinação",
+      "description": "Sua contagem de combinações aumenta em +2 (em vez de +1) para cada ataque de Combinação diferente que acertar."
+    },
+    {
+      "name": "Rilhar os Dentes",
+      "class": "Lutador",
+      "requirements": "Nenhum",
+      "description": "Quando sofre dano de ataque corpo a corpo, gaste 1 PM para receber RD igual a 5 + Constituição contra esse dano."
+    },
+    {
+      "name": "Rolamento Escapatório",
+      "class": "Lutador",
+      "requirements": "Treinado em Acrobacia",
+      "description": "Quando falha em teste contra condição de movimento, gaste 2 PM para repetir o teste usando Acrobacia."
+    },
+    {
+      "name": "Ruas Furiosas",
+      "class": "Lutador",
+      "requirements": "Nenhum",
+      "description": "Quando quebra objeto com manobra quebrar usando ataque desarmado, recebe PV temporários igual a 1d6 x Constituição."
+    },
+    {
+      "name": "Sequência Defensiva",
+      "class": "Lutador",
+      "requirements": "Nenhum",
+      "description": "Para cada ataque desarmado que acertar em uma criatura, recebe +2 cumulativo na Defesa contra ela até seu próximo turno."
+    },
+    {
+      "name": "Armadura Brilhante",
+      "class": "Nobre",
+      "requirements": "8º nível de nobre",
+      "description": "Você pode usar seu Carisma na Defesa quando usa armadura pesada. Se fizer isso, não pode somar sua Destreza, mesmo que outras habilidades ou efeitos permitam isso."
+    },
+    {
+      "name": "Aumento de Atributo",
+      "class": "Nobre",
+      "requirements": "Nenhum",
+      "description": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
+    },
+    {
+      "name": "Autoridade Feudal",
+      "class": "Nobre",
+      "requirements": "6º nível de nobre",
+      "description": "Você pode gastar uma hora e 2 PM para conclamar o povo a ajudá-lo (pessoas sem título nobre ou posição eclesiástica). Essas pessoas contam como um parceiro iniciante que o acompanha até o fim da aventura. Só funciona em locais onde sua posição tenha influência."
+    },
+    {
+      "name": "Educação Privilegiada",
+      "class": "Nobre",
+      "requirements": "Nenhum",
+      "description": "Você se torna treinado em duas perícias de nobre a sua escolha."
+    },
+    {
+      "name": "Estrategista",
+      "class": "Nobre",
+      "requirements": "Int 1, treinado em Guerra, 6º nível de nobre",
+      "description": "Você pode direcionar aliados em alcance curto. Gaste uma ação padrão e 1 PM por aliado (limitado pelo Carisma). No próximo turno do aliado, ele ganha uma ação de movimento."
+    },
+    {
+      "name": "Favor",
+      "class": "Nobre",
+      "requirements": "Nenhum",
+      "description": "Você pode usar sua influência para pedir favores a pessoas poderosas (gasta 5 PM e 1+ hora). Funciona como persuasão de Diplomacia, mas permite pedir favores mais significativos. Se falhar, não pode pedir o mesmo favor por uma semana."
+    },
+    {
+      "name": "General",
+      "class": "Nobre",
+      "requirements": "Estrategista, 12º nível de nobre",
+      "description": "Quando usa Estrategista, aliados direcionados recebem 1d4 PM temporários (duram até fim do turno do aliado, não podem ser usados em efeitos que concedam PM)."
+    },
+    {
+      "name": "Grito Tirânico",
+      "class": "Nobre",
+      "requirements": "8º nível de nobre",
+      "description": "Você pode usar Palavras Afiadas como ação completa. Se fizer isso, dados de dano aumentam para d8 e atinge todos os inimigos em alcance curto."
+    },
+    {
+      "name": "Inspirar Confiança",
+      "class": "Nobre",
+      "requirements": "Nenhum",
+      "description": "Quando um aliado em alcance curto faz um teste, você pode gastar 2 PM para fazê-lo rolar novamente."
+    },
+    {
+      "name": "Inspirar Glória",
+      "class": "Nobre",
+      "requirements": "Inspirar Confiança, 8º nível de nobre",
+      "description": "Uma vez por rodada, gaste 5 PM para fazer um aliado em alcance curto ganhar ação padrão adicional no próximo turno. Só pode usar esta habilidade uma vez por cena em cada aliado."
+    },
+    {
+      "name": "Jogo da Corte",
+      "class": "Nobre",
+      "requirements": "Nenhum",
+      "description": "Você pode gastar 1 PM para rolar novamente um teste recém realizado de Diplomacia, Intuição ou Nobreza."
+    },
+    {
+      "name": "Liderar pelo Exemplo",
+      "class": "Nobre",
+      "requirements": "6º nível de nobre",
+      "description": "Gaste 2 PM para servir de inspiração. Até seu próximo turno, quando passar em teste de perícia, aliados em alcance curto podem usar seu resultado em vez de rolar."
+    },
+    {
+      "name": "Língua de Ouro",
+      "class": "Nobre",
+      "requirements": "Língua de Prata, 8º nível de nobre",
+      "description": "Gaste ação padrão e 4 PM para gerar efeito da magia Enfeitiçar com aprimoramentos (CD Car). Não é habilidade mágica - provém de sua influência."
+    },
+    {
+      "name": "Língua de Prata",
+      "class": "Nobre",
+      "requirements": "Nenhum",
+      "description": "Quando faz teste de perícia baseada em Carisma, pode gastar 2 PM para receber bônus igual a metade do seu nível."
+    },
+    {
+      "name": "Língua Rápida",
+      "class": "Nobre",
+      "requirements": "Nenhum",
+      "description": "Quando faz teste de Diplomacia para mudar atitude como ação completa, sofre penalidade de -5, em vez de -10."
+    },
+    {
+      "name": "Presença Majestosa",
+      "class": "Nobre",
+      "requirements": "16º nível de nobre",
+      "description": "Sua Presença Aristocrática passa a funcionar contra qualquer criatura com Inteligência (incluindo animais). Além disso, pode usá-la mais de uma vez contra mesma criatura na mesma cena."
+    },
+    {
+      "name": "Título",
+      "class": "Nobre",
+      "requirements": "Autoridade Feudal, 10º nível de nobre, ter conquistado terras ou realizado serviço para nobre",
+      "description": "Adquire título de nobreza. No início de cada aventura recebe 20 TO por nível ou ajuda de parceiro veterano. Benefícios exatos devem ser definidos com o mestre."
+    },
+    {
+      "name": "Voz Poderosa",
+      "class": "Nobre",
+      "requirements": "Nenhum",
+      "description": "Recebe +2 em Diplomacia e Intimidação. Habilidades de nobre com alcance curto passam para alcance médio."
+    },
+    {
+      "name": "Agente de Elite",
+      "class": "Nobre",
+      "requirements": "Título, 11º nível de nobre",
+      "description": "Você recebe um parceiro veterano que fornece os benefícios de um parceiro a sua escolha ou um poder de outra classe (seu nível na classe é seu nível de nobre -4). No início de cada aventura, pode trocar seu agente."
+    },
+    {
+      "name": "Comandante de Campo",
+      "class": "Nobre",
+      "requirements": "5º nível de nobre",
+      "description": "Seus capangas recebem +2 no dano e bônus na Defesa igual ao seu Carisma. Quando contrata ou recebe capangas, ganha um capanga adicional do mesmo tipo."
+    },
+    {
+      "name": "Comitiva",
+      "class": "Nobre",
+      "requirements": "5º nível de nobre",
+      "description": "Seu limite de parceiros aumenta em +1. Aumenta em +1 adicional no 11º nível."
+    },
+    {
+      "name": "Discurso de Batalha",
+      "class": "Nobre",
+      "requirements": "Nenhum",
+      "description": "Na primeira rodada de combate, gaste ação completa e 3 PM para motivar aliados em alcance curto (teste de Diplomacia/Intimidação CD 20). Se passar, aliados recebem 2+ PM temporários (1 PM extra por cada 10 acima da CD)."
+    },
+    {
+      "name": "Fofocas da Corte",
+      "class": "Nobre",
+      "requirements": "Treinado em Intuição e Investigação",
+      "description": "Quando chega em ambiente social, gaste 1 dia para receber informação útil ou 2d6 dados de bônus para testes de Carisma no local."
+    },
+    {
+      "name": "Guarda Pessoal",
+      "class": "Nobre",
+      "requirements": "5º nível de nobre",
+      "description": "Recebe pelotão de infantaria veterano como parceiro guarda-costas. No 11º nível, torna-se mestre. Se perder, pode arregimentar outro após uma semana."
+    },
+    {
+      "name": "Hedonismo Aristocrático",
+      "class": "Nobre",
+      "requirements": "Nenhum",
+      "description": "Uma vez por dia, gaste 1 hora e T$ 100-2.000 em luxos para receber 4-6 PM temporários por patamar (duram até fim do dia)."
+    },
+    {
+      "name": "Instigar Violência",
+      "class": "Nobre",
+      "requirements": "Treinado em Guerra, 11º nível de nobre",
+      "description": "Quando aliado em alcance curto acerta crítico, gaste 3 PM para que ele faça mais um ataque contra o mesmo inimigo (uma vez por rodada por aliado)."
+    },
+    {
+      "name": "Insuflar Investida",
+      "class": "Nobre",
+      "requirements": "Estrategista",
+      "description": "Quando faz investida, gaste 1 PM por aliado em alcance curto para que sua próxima investida cause +2d8 de dano até seu próximo turno."
+    },
+    {
+      "name": "Legado Mágico",
+      "class": "Nobre",
+      "requirements": "11º nível de nobre",
+      "description": "Recebe item mágico menor como herança. Pode trocar no início de cada aventura (no 14º nível pode ser médio, no 17º maior)."
+    },
+    {
+      "name": "Líder Enérgico",
+      "class": "Nobre",
+      "requirements": "Treinado em Iniciativa",
+      "description": "Soma Carisma em Iniciativa. Se for primeiro na iniciativa, pode usar habilidade de nobre (ação padrão/movimento) como ação livre na primeira rodada."
+    },
+    {
+      "name": "Líder Impiedoso",
+      "class": "Nobre",
+      "requirements": "5º nível de nobre",
+      "description": "Quando aliado sob efeito de Gritar Ordens acerta crítico ou derrota inimigo, você recupera 1 PM."
+    },
+    {
+      "name": "Linhagem Distinta",
+      "class": "Nobre",
+      "requirements": "17º nível de nobre",
+      "description": "Orgulho custa -1 PM. Uma vez por cena, pode gastar +2 PM em Orgulho para dobrar o bônus e rolar dois dados no teste (usando o melhor)."
+    },
+    {
+      "name": "Ordens Agressivas",
+      "class": "Nobre",
+      "requirements": "5º nível de nobre",
+      "description": "Quando usa Gritar Ordens, gaste 1 PM para aliados somarem o bônus em sua primeira rolagem de dano até seu próximo turno."
+    },
+    {
+      "name": "Ordens Encorajadoras",
+      "class": "Nobre",
+      "requirements": "5º nível de nobre",
+      "description": "Quando usa Gritar Ordens, gaste 2 PM para aliados receberem 10 PV temporários cumulativos (duram até fim da cena)."
+    },
+    {
+      "name": "Palavras de Efeito",
+      "class": "Nobre",
+      "requirements": "5º nível de nobre",
+      "description": "Soma Carisma no dano de Palavras Afiadas. Pode gastar +1 PM para diminuir a ação necessária em um passo (completa→padrão→movimento)."
+    },
+    {
+      "name": "Palavras Ressonantes",
+      "class": "Nobre",
+      "requirements": "5º nível de nobre",
+      "description": "Quando usa Palavras Afiadas, se rolar um dos dois maiores valores nos dados de dano, role um dado extra para cada e adicione ao dano."
+    },
+    {
+      "name": "Protocolo Impecável",
+      "class": "Nobre",
+      "requirements": "Treinado em Nobreza, Jogo da Corte",
+      "description": "Em ambiente social, gaste 3 PM e faça teste de Nobreza (CD 20). Se passar, melhora atitude de todas as criaturas em uma categoria. Se passar por 10+, pode receber oportunidades especiais de interação."
+    },
+    {
+      "name": "Senescal",
+      "class": "Nobre",
+      "requirements": "5º nível de nobre",
+      "description": "Recebe +2 em testes para ações de base/domínio/negócio e pode executar uma ação de estrutura adicional por turno dessas estruturas."
+    },
+    {
+      "name": "Voz Límpida",
+      "class": "Nobre",
+      "requirements": "Nenhum",
+      "description": "Quando usa habilidade de nobre que afete aliados, o custo diminui em -1 PM (não afeta efeitos baseados no custo pago)."
+    },
+    {
+      "name": "Arma Sagrada",
+      "class": "Paladino",
+      "requirements": "Devoto de uma divindade (exceto Lena e Marah)",
+      "description": "Quando usa Golpe Divino com a arma preferida de sua divindade, o dado de dano aumenta para d12."
+    },
+    {
+      "name": "Aumento de Atributo",
+      "class": "Paladino",
+      "requirements": "Nenhum",
+      "description": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
+    },
+    {
+      "name": "Aura Antimagia",
+      "class": "Paladino",
+      "requirements": "14° nível de paladino",
+      "description": "Enquanto sua aura estiver ativa, você e aliados dentro dela podem rolar novamente testes de resistência contra magia."
+    },
+    {
+      "name": "Aura Ardente",
+      "class": "Paladino",
+      "requirements": "10° nível de paladino",
+      "description": "Enquanto sua aura estiver ativa, no início de seus turnos, espíritos e mortos-vivos a sua escolha dentro dela sofrem dano de luz igual a 5 + seu Carisma."
+    },
+    {
+      "name": "Aura de Cura",
+      "class": "Paladino",
+      "requirements": "6° nível de paladino",
+      "description": "Enquanto sua aura estiver ativa, no início de seus turnos, você e aliados a sua escolha dentro dela curam PV igual a 5 + seu Carisma."
+    },
+    {
+      "name": "Aura de Invencibilidade",
+      "class": "Paladino",
+      "requirements": "18° nível de paladino",
+      "description": "Enquanto sua aura estiver ativa, você e aliados dentro dela ignoram o primeiro dano que sofrerem na cena."
+    },
+    {
+      "name": "Aura Poderosa",
+      "class": "Paladino",
+      "requirements": "6° nível de paladino",
+      "description": "O raio da sua aura aumenta para 30m."
+    },
+    {
+      "name": "Fulgor Divino",
+      "class": "Paladino",
+      "requirements": "Nenhum",
+      "description": "Quando usa Golpe Divino, todos os inimigos em alcance curto ficam ofuscados até o início do seu próximo turno."
+    },
+    {
+      "name": "Julgamento Divino: Arrependimento",
+      "class": "Paladino",
+      "requirements": "Nenhum",
+      "description": "Gaste 2 PM para marcar inimigo em alcance curto. Na próxima vez que acertar ataque em você ou aliado, deve fazer teste de Vontade (CD Car) ou ficar atordoado (uma vez por cena)."
+    },
+    {
+      "name": "Julgamento Divino: Autoridade",
+      "class": "Paladino",
+      "requirements": "Nenhum",
+      "description": "Gaste 1 PM para comandar criatura em alcance curto (teste de Diplomacia oposto a Vontade). Se vencer, obedece comando simples (uma vez por cena). Mental."
+    },
+    {
+      "name": "Julgamento Divino: Coragem",
+      "class": "Paladino",
+      "requirements": "Nenhum",
+      "description": "Gaste 2 PM para inspirar coragem em criatura em alcance curto. Fica imune a medo e recebe +2 em ataques contra inimigo com maior ND."
+    },
+    {
+      "name": "Julgamento Divino: Iluminação",
+      "class": "Paladino",
+      "requirements": "Nenhum",
+      "description": "Marque inimigo em alcance curto. Quando acerta ataque corpo a corpo nele, recebe 2 PM temporários (uma vez por cena)."
+    },
+    {
+      "name": "Julgamento Divino: Justiça",
+      "class": "Paladino",
+      "requirements": "Nenhum",
+      "description": "Gaste 2 PM para marcar inimigo em alcance curto. Quando causar dano em você ou aliado, deve fazer teste de Vontade (CD Car) ou sofrer dano de luz igual à metade do dano causado."
+    },
+    {
+      "name": "Julgamento Divino: Libertação",
+      "class": "Paladino",
+      "requirements": "Nenhum",
+      "description": "Gaste 5 PM para cancelar condição negativa em criatura em alcance curto."
+    },
+    {
+      "name": "Julgamento Divino: Salvação",
+      "class": "Paladino",
+      "requirements": "Nenhum",
+      "description": "Gaste 2 PM para marcar inimigo em alcance curto. Até fim da cena, quando acerta ataque corpo a corpo nele, recupera 5 PV."
+    },
+    {
+      "name": "Julgamento Divino: Vindicação",
+      "class": "Paladino",
+      "requirements": "Nenhum",
+      "description": "Gaste 2 PM para marcar inimigo que tenha causado dano. Recebe +1 em ataques e +1d8 em dano contra ele, mas -5 contra outros. Pode pagar +1 PM a cada 5 níveis para aumentar bônus."
+    },
+    {
+      "name": "Julgamento Divino: Zelo",
+      "class": "Paladino",
+      "requirements": "Nenhum",
+      "description": "Gaste 1 PM para marcar alvo em alcance longo. Pela cena, quando se mover na direção dele, move com o dobro de deslocamento."
+    },
+    {
+      "name": "Orar",
+      "class": "Paladino",
+      "requirements": "Nenhum",
+      "description": "Aprende e pode lançar magia divina de 1º círculo (atributo-chave Sabedoria). Pode escolher este poder quantas vezes quiser."
+    },
+    {
+      "name": "Virtude Paladinesca: Caridade",
+      "class": "Paladino",
+      "requirements": "Nenhum",
+      "description": "O custo de habilidades de paladino que tenham aliado como alvo é reduzido em -1 PM."
+    },
+    {
+      "name": "Virtude Paladinesca: Castidade",
+      "class": "Paladino",
+      "requirements": "Nenhum",
+      "description": "Fica imune a encantamentos e recebe +5 em Intuição para perceber blefes."
+    },
+    {
+      "name": "Virtude Paladinesca: Compaixão",
+      "class": "Paladino",
+      "requirements": "Nenhum",
+      "description": "Pode usar Cura pelas Mãos em alcance curto e, para cada PM gasto, cura 2d6+1 (em vez de 1d8+1)."
+    },
+    {
+      "name": "Virtude Paladinesca: Humildade",
+      "class": "Paladino",
+      "requirements": "Nenhum",
+      "description": "Na primeira rodada de combate, pode gastar ação completa para receber PM temporários igual ao Carisma (duram até fim da cena)."
+    },
+    {
+      "name": "Virtude Paladinesca: Temperança",
+      "class": "Paladino",
+      "requirements": "Nenhum",
+      "description": "Quando ingere alimento, item alquímico ou poção, consome apenas metade do item (cada item rende duas doses)."
+    },
+    {
+      "name": "Arma Juramentada",
+      "class": "Paladino",
+      "requirements": "Devoto de uma divindade",
+      "description": "Quando empunha a arma preferida de sua divindade, ela é considerada mágica e recebe os benefícios de uma melhoria (exceto material especial). Perde o efeito se descumprir as Obrigações & Restrições até recuperar PM."
+    },
+    {
+      "name": "Arma Sacramentada",
+      "class": "Paladino",
+      "requirements": "Arma Juramentada, 11º nível de paladino",
+      "description": "A arma preferida também recebe os benefícios de um encanto (não conta no limite da arma). Perde o efeito se descumprir Obrigações & Restrições."
+    },
+    {
+      "name": "Aura Vingadora",
+      "class": "Paladino",
+      "requirements": "8º nível de paladino",
+      "description": "Enquanto aura estiver ativa, você e aliados dentro dela recebem +1d6 de luz em uma rolagem de dano corpo a corpo por rodada."
+    },
+    {
+      "name": "Bloqueio Divino",
+      "class": "Paladino",
+      "requirements": "Proficiência com escudos",
+      "description": "Quando sofre ataque, se estiver com escudo, pode gastar 2 PM para receber +5 na Defesa contra esse ataque."
+    },
+    {
+      "name": "Convicção Heroica",
+      "class": "Paladino",
+      "requirements": "11º nível de paladino",
+      "description": "Uma vez por cena, quando reduzido a 0 PV ou menos, pode gastar 5 PM para curar 50 PV."
+    },
+    {
+      "name": "Expurgo Sagrado",
+      "class": "Paladino",
+      "requirements": "Nenhum",
+      "description": "Quando usa Golpe Divino contra abissal ou morto-vivo, custo diminui em -1 PM (cumulativo) e bônus de dano aumenta em +1 dado."
+    },
+    {
+      "name": "Escudo Fraterno",
+      "class": "Paladino",
+      "requirements": "Égide Sagrada",
+      "description": "Se estiver com escudo, aliados afetados por Égide Sagrada recebem +2 na Defesa."
+    },
+    {
+      "name": "Escudo Sagrado",
+      "class": "Paladino",
+      "requirements": "Bloqueio Divino, 7º nível de paladino",
+      "description": "Com escudo, gaste ação de movimento e 1 PM para criar campo sagrado (duração sustentada). Recebe RD igual ao Carisma. Termina se largar escudo."
+    },
+    {
+      "name": "Fulgor Ardente",
+      "class": "Paladino",
+      "requirements": "Fulgor Divino",
+      "description": "Quando usa Golpe Divino, gaste +1 PM para causar dano de luz igual ao dano extra em inimigos em alcance curto (Vontade CD Car reduz à metade; lacaios falham automaticamente)."
+    },
+    {
+      "name": "Investida Sagrada",
+      "class": "Paladino",
+      "requirements": "Montaria Sagrada, 10º nível de paladino",
+      "description": "Quando faz investida montada, pague 1 PM para receber voo igual ao deslocamento base e causar +1d8 de dano."
+    },
+    {
+      "name": "Julgamento Divino: Desafio",
+      "class": "Paladino",
+      "requirements": "Nenhum",
+      "description": "Gaste 2 PM para marcar inimigo em alcance curto. Sempre que atacar aliados, recebe -1 cumulativo em ataques (até fim da cena ou se atacar você)."
+    },
+    {
+      "name": "Julgamento Divino: Proteção",
+      "class": "Paladino",
+      "requirements": "Nenhum",
+      "description": "Gaste 2 PM para conceder 10 PV temporários e +2 na Defesa de criatura em alcance curto."
+    },
+    {
+      "name": "Julgamento Divino: Redenção",
+      "class": "Paladino",
+      "requirements": "Nenhum",
+      "description": "Gaste 3 PM para criar vínculo com aliado em alcance curto. Aliado sofre metade do dano, você perde a outra metade. Efeito termina se afastarem mais de 9m."
+    },
+    {
+      "name": "Julgamento Divino: Retribuição",
+      "class": "Paladino",
+      "requirements": "Nenhum",
+      "description": "Marque inimigo em alcance curto. Quando causar dano em você, gaste 1 PM para atacá-lo corpo a corpo (se estiver em alcance)."
+    },
+    {
+      "name": "Luz Purificadora",
+      "class": "Paladino",
+      "requirements": "Nenhum",
+      "description": "Quando usa Golpe Divino, gaste +2 PM para converter todo dano para luz e ignorar 10 de RD do alvo."
+    },
+    {
+      "name": "Manto de Batalha",
+      "class": "Paladino",
+      "requirements": "5º nível de paladino",
+      "description": "Aprende e pode lançar Vestimenta da Fé, usando aprimoramentos como clérigo de seu nível."
+    },
+    {
+      "name": "Paladino do Reino",
+      "class": "Paladino",
+      "requirements": "Treinado em Nobreza",
+      "description": "Recebe poder de cavaleiro cujos pré-requisitos cumpra (usa nível como nível de cavaleiro)."
+    },
+    {
+      "name": "Rajada Divina",
+      "class": "Paladino",
+      "requirements": "Luz Purificadora",
+      "description": "Quando faz Golpe Divino com Luz Purificadora, gaste +1 PM para aumentar alcance para curto (ainda conta como corpo a corpo)."
+    },
+    {
+      "name": "Sacrifício",
+      "class": "Paladino",
+      "requirements": "Nenhum",
+      "description": "Uma vez por rodada, ao atacar corpo a corpo, sacrifique 5 PV por patamar para aumentar dano em +1d10 por patamar."
+    },
+    {
+      "name": "Sentença Combinada",
+      "class": "Paladino",
+      "requirements": "Nenhum",
+      "description": "Quando profere julgamento, gaste +1 PM para proferir um segundo julgamento com a mesma ação (pagando custo de ambos)."
+    },
+    {
+      "name": "Virtude Paladinesca: Paciência",
+      "class": "Paladino",
+      "requirements": "Nenhum",
+      "description": "A cada rodada sem executar ação (exceto reações), recebe +2 em testes de perícia e na Defesa."
+    }
+  ]
+}
+

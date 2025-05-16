@@ -1,0 +1,169 @@
+{
+  "powers": [
+    {
+      "name": "Aparência Inofensiva",
+      "requirements": "Car 1",
+      "description": "A primeira criatura inteligente (Int 3 ou mais) que atacar você em uma cena deve fazer um teste de Vontade (CD Car). Se falhar, perderá sua ação. Este poder só funciona uma vez por cena; independentemente de a criatura falhar ou não no teste, poderá atacá-lo nas rodadas seguintes."
+    },
+    {
+      "name": "Acrobático",
+      "requirements": "Des 2",
+      "description": "Você pode usar sua Destreza em vez de Força em testes de Atletismo. Além disso, terreno difícil não reduz seu deslocamento nem o impede de realizar"
+    },
+    {
+      "name": "Ao Sabor do Destino ",
+      "requirements": "6º nível de personagem",
+      "description": "Você recebe diversos benefícios, de acordo com seu nível de personagem e a tabela abaixo.\n\nNível\tBenefício\n6°\t+2 em uma perícia\n7°\t+1 na Defesa\n8°\t+1 nas rolagens de dano\n9°\t+1 em um atributo\n11°\t+2 em uma perícia\n12°\t+2 na Defesa\n13°\t+2 nas rolagens de dano\n14°\t+1 em um atributo\n16°\t+2 em uma perícia\n17°\t+3 na Defesa\n18°\t+3 nas rolagens de dano\n19°\t+1 em um atributo\nOs bônus não são cumulativos (os bônus em atributos e perícias devem ser aplicados num atributo ou perícia diferente a cada vez). Se você utilizar voluntariamente qualquer item mágico (exceto poções), perde o benefício deste poder até o fim da aventura. Você ainda pode lançar magias, receber magias benéficas ou beneficiar-se de itens usados por outros — por exemplo, pode “ir de carona” em um tapete voador, mas não pode você mesmo conduzi-lo."
+    },
+    {
+      "name": "Atlético",
+      "requirements": "For 2",
+      "description": "Você recebe +2 em Atletismo e seu deslocamento aumenta em +3m."
+    },
+    {
+      "name": "Comandar",
+      "requirements": "Car 1",
+      "description": "Você pode gastar uma ação de movimento e 1 PM para gritar ordens para seus aliados em alcance médio. Eles recebem +1 em testes de perícia até o fim da cena."
+    },
+    {
+      "name": "Atraente",
+      "requirements": "-",
+      "description": "Você recebe +2 em testes de perícias baseadas em Carisma contra criaturas que possam se sentir fisicamente atraídas por você. Pré-requisito: Car 13."
+    },
+    {
+      "name": "Foco em Perícia",
+      "requirements": "Treinado na perícia escolhida.",
+      "description": "Escolha uma perícia. Quando faz um teste dessa perícia, você pode gastar 1 PM para rolar dois dados e usar o melhor resultado. Você pode escolher este poder outras vezes para perícias diferentes. Este\npoder não pode ser aplicado em Luta e Pontaria (mas veja Foco em Arma)."
+    },
+    {
+      "name": "Costas Larga",
+      "requirements": "Con 1, For 1",
+      "description": "Seu limite de carga aumenta em 5 espaços e você pode se beneficiar de um item vestido adicional."
+    },
+    {
+      "name": "Inventário Organizado",
+      "requirements": "Int 1",
+      "description": "Você soma sua Inteligência no limite de espaços que pode carregar. Para você, itens muito leves ou pequenos, que normalmente ocupam meio espaço, em vez disso ocupam 1/4 de espaço."
+    },
+    {
+      "name": "Investigador",
+      "requirements": "Int 1",
+      "description": "Você recebe +2 em Investigação e soma sua Inteligência em Intuição."
+    },
+    {
+      "name": "Lobo Solitário",
+      "requirements": "-",
+      "description": "Você recebe +1 em testes de perícia e Defesa se estiver sem nenhum aliado em alcance curto. Você não sofre penalidade por usar Cura em si mesmo."
+    },
+    {
+      "name": "Medicina",
+      "requirements": "Sab 1, treinado em Cura.",
+      "description": "Você pode gastar uma ação completa para fazer um teste de Cura (CD 15) em uma criatura. Se você passar, ela recupera 1d6 PV, mais 1d6 para cada 5 pontos pelos quais o resultado do teste exceder a CD (2d6 com um resultado 20, 3d6 com um resultado 25 e assim por diante). Você só pode usar este poder uma vez por dia numa mesma criatura."
+    },
+    {
+      "name": "Parceiro",
+      "requirements": ": treinado em Adestramento (parceiro animal) ou Diplomacia (parceiro humanoide), 5º nível de personagem.",
+      "description": "Você possui um parceiro animal ou humanoide que o acompanha em aventuras. Escolha os detalhes dele, como nome, aparência e personalidade. Em termos de jogo, é um parceiro iniciante de um tipo a sua escolha (veja a página 260). O parceiro obedece às suas ordens e se arrisca para ajudá-lo, mas, se for maltratado, pode parar de segui-lo (de acordo com o mestre). Se perder seu parceiro, você recebe outro no início da próxima aventura."
+    },
+    {
+      "name": "Sentidos Aguçados",
+      "requirements": " Sab 1, treinado em Percepção.",
+      "description": "Você recebe +2 em Percepção, não fica desprevenido contra inimigos que não possa ver e,sempre que erra um ataque devido a camuflagem,pode rolar mais uma vez o dado da chance de falha."
+    },
+    {
+      "name": "Sortudo",
+      "requirements": "-",
+      "description": "Você pode gastar 3 PM para rolar novamente um teste recém realizado (apenas uma vez por teste)."
+    },
+    {
+      "name": "Surto Heroico",
+      "requirements": "-",
+      "description": "Uma vez por rodada, você pode gastar 5 PM para realizar uma ação padrão ou de movimento adicional."
+    },
+    {
+      "name": "Torcida",
+      "requirements": "Car 1",
+      "description": "Você recebe +2 em testes de perícia e Defesa quando tem a torcida a seu favor. Entenda-se por “torcida” qualquer número de criaturas inteligentes em alcance médio que não esteja realizando nenhuma ação além de torcer por você."
+    },
+    {
+      "name": "Treinamento em Perícia",
+      "requirements": "-",
+      "description": "Você se torna treinado em uma perícia a sua escolha. Você pode escolher este poder outras vezes para perícias diferentes."
+    },
+    {
+      "name": "Venefício",
+      "requirements": "Treinado em Ofício (alquimista).",
+      "description": "Quando usa um veneno, você não corre risco de se envenenar acidentalmente. Além disso, a CD para resistir aos seus venenos aumenta em +2. "
+    },
+    {
+      "name": "Vontade de Ferro",
+      "requirements": "Sab 1",
+      "description": "Você recebe +1 PM para cada dois níveis de personagem e +2 em Vontade."
+    },
+    {
+      "name": "Alma Livre",
+      "requirements": "-",
+      "description": "Escolha uma classe. Você pode escolher um poder dessa classe como se pertencesse a ela (para efeitos de nível na classe desse poder, considere seu nível de personagem −4). Note que você não recebe o poder, apenas o direito de escolhê-lo mais tarde."
+    },
+    {
+      "name": "Andarilho Urbano",
+      "requirements": "-",
+      "description": "Se estiver em uma cidade, você recebe +2 na Defesa, em Enganação e em Investigação."
+    },
+    {
+      "name": "Carícias Revigorantes",
+      "requirements": "Car 2, Sedução Lasciva",
+      "description": "Você pode gastar 1 minuto e 2 PM para recuperar 2d4 PM de uma criatura adjacente. Uma mesma criatura só pode receber os benefícios deste poder uma vez por dia."
+    },
+    {
+      "name": "Diligente",
+      "requirements": "-",
+      "description": "Você pode gastar uma ação de movimento para se concentrar na tarefa à frente. Se fizer isso, recebe +2 em um teste de perícia (exceto testes de ataque) que exija no máximo uma ação completa para ser realizado e que seja realizado até o fim do seu próximo turno."
+    },
+    {
+      "name": "Foco em Habilidade",
+      "requirements": "-",
+      "description": "Escolha uma habilidade. A CD para resistir a essa habilidade aumenta em +2. Você pode escolher este poder outras vezes para habilidades diferentes. Este poder não pode ser aplicado a magias (mas veja Foco em Magia e Especialização em Magia)."
+    },
+    {
+      "name": "Grandão",
+      "requirements": "Con 2",
+      "description": "Você conta como uma categoria de tamanho maior para propósitos do modificador de Furtividade e manobras, espaço ocupado e alcance natural. Além disso, sua capacidade de carga aumenta em 5 espaços."
+    },
+    {
+      "name": "Herói dos Sete Instrumentos",
+      "requirements": "-",
+      "description": "Você recebe um bônus de +1 em testes de perícias nas quais não é treinado. No 7º nível esse bônus aumenta para +2 e, no 15º nível, aumenta para +3."
+    },
+    {
+      "name": "Impostor",
+      "requirements": "Car 3, Foco em Perícia (Enganação)",
+      "description": "Uma vez por cena, você pode gastar 2 PM para substituir um teste de qualquer perícia que exija no máximo uma ação completa para ser realizado por um teste de Enganação."
+    },
+    {
+      "name": "Liderança Inspiradora",
+      "requirements": "Car 1",
+      "description": "Você gasta uma ação padrão (em vez de completa) para posicionar seus capangas em combate. Além disso, uma vez por rodada, pode gastar uma ação livre para fazê-los movimentar-se ou atacar (mas continua só podendo fazê-los atacar uma vez por rodada)."
+    },
+    {
+      "name": "Meditação Autoafirmativa",
+      "requirements": "Sab 1, Car 1, 5º nível de personagem",
+      "description": "Você pode entrar em um transe hipnótico no qual convence a si mesmo de que possui certas habilidades. Para usar este poder, você deve escolher um benefício da tabela abaixo e meditar por 1 dia. No fim do dia, faça um teste de Carisma (CD conforme o benefício escolhido). Se passar, você adquire esse benefício por uma semana ou até usar este poder novamente.\n\nBenefício | CD\n--- | ---\n\"Eu sei lutar.\" +1 em testes de ataque | 15\n\"Eu sei lutar muito bem.\" +2 em testes de ataque | 20\n\"Por Anilatir, como eu luto bem!\" +3 em testes de ataque | 25\n\"Ninguém toca em mim.\" +2 na Defesa | 20\n\"Nada me afeta.\" +5 em testes de resistência | 20\n\"Eu sei fazer isso.\" Torna-se treinado em uma perícia | 17\n\"Eu sou bom demais!\" Pode usar um poder cujos pré-requisitos você cumpra | 22\n\nEnquanto medita, você fica fascinado. Você pode meditar por mais de um dia; nesse caso, cada dia fornece um bônus de +1 no teste de Carisma, até um máximo de +7 para uma semana."
+    },
+    {
+      "name": "Pose Assustadora",
+      "requirements": "Car 1, treinado em Intimidação",
+      "description": "Você recebe +2 em Intimidação e pode gastar 1 PM para assustar como uma ação de movimento."
+    },
+    {
+      "name": "Sedução Lasciva",
+      "requirements": "Car 1, treinado em Enganação",
+      "description": "Você pode seduzir pessoas com olhares, palavras, dança… Faça um teste de Enganação oposto pelo teste de Vontade de seu alvo. Se você vencer, o alvo fica enfeitiçado por 1 dia (se você falhar, não pode mais tentar com esse alvo nessa cena). Usar este poder gasta alguns minutos de interação e 3 PM."
+    },
+    {
+      "name": "Ventriloquismo",
+      "requirements": "treinado em Atuação e Enganação",
+      "description": "Você pode gastar 1 PM para fazer sua voz parecer vir de outro lugar (como de outra criatura, de uma estátua, de trás de uma porta, do fim de um corredor...) por 1 rodada. De acordo com o mestre, se um uso deste poder gerar uma situação muito suspeita, você precisará fazer um teste de Enganação oposto pela Intuição de quem está tentando enganar. Se a criatura vencê-lo, percebe que o som vem de você."
+    }
+  ]
+}

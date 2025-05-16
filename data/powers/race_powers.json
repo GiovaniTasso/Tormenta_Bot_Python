@@ -1,0 +1,466 @@
+{
+  "powers": [
+    {
+      "name": "Ajudante Nato",
+      "race": "Qareen",
+      "requirements": "Qareen",
+      "description": "Quando você passa em um teste para ajudar, o bônus fornecido aumenta em +1. Além disso, se você estiver flanqueando um inimigo, o bônus que seus aliados recebem em testes de ataque contra esse inimigo por flanquear aumenta em +1 (para um total de +3)."
+    },
+    {
+      "name": "Amo Qareen",
+      "race": "Qareen",
+      "requirements": "Qareen",
+      "description": "Escolha um personagem (jogador ou NPC). Você adotou esse personagem como seu amo. Quando usa a habilidade Desejos a pedido do seu amo, o custo da magia diminui em –2 PM (em vez de apenas –1). Contudo, sempre que seu amo estiver presente em uma situação de perigo (como um combate) ou sob efeito de uma condição, você sofre –2 em testes de perícias. Se o amo morrer, essa penalidade permanece até o fim da aventura (quando então você pode escolher um novo amo)."
+    },
+    {
+      "name": "Arma Amada",
+      "race": "Anão, Hobgoblin",
+      "requirements": "Anão ou Hobgoblin",
+      "description": "Escolha uma arma. Com essa arma, você recebe +2 em rolagens de dano e +5 em testes de manobra para resistir a desarmar e quebrar."
+    },
+    {
+      "name": "Arma Natural Aprimorada",
+      "race": "Várias",
+      "requirements": "Arma natural fornecida por uma habilidade de raça",
+      "description": "Escolha uma de suas armas naturais fornecidas por raça. O dano dessa arma aumenta em um passo e sua margem de ameaça aumenta em +1. Você pode escolher este poder outras vezes para armas naturais diferentes."
+    },
+    {
+      "name": "Arma Natural Hábil",
+      "race": "Várias",
+      "requirements": "Arma natural fornecida por uma habilidade de raça",
+      "description": "Escolha uma arma natural fornecida por raça com a qual você possa gastar 1 PM para fazer um ataque corpo a corpo extra quando faz a ação agredir. Você não precisa gastar pontos de mana para isso. Você continua só podendo fazer isso uma vez por rodada."
+    },
+    {
+      "name": "Arquearia Élfica",
+      "race": "Elfo",
+      "requirements": "Elfo",
+      "description": "Para você, todos os arcos são armas simples. Além disso, você recebe +2 nas rolagens de dano com arcos."
+    },
+    {
+      "name": "Arsenal de Lisandra",
+      "race": "Dahllan",
+      "requirements": "Dahllan",
+      "description": "Você aprende e pode lançar Armamento da Natureza. Caso aprenda novamente essa magia, seu custo diminui em –1 PM. Além disso, ao usar sua habilidade Armadura de Allihanna, você recebe um bônus na Defesa adicional de +1 por patamar (ou seja, Defesa +3 no patamar iniciante, +4 no veterano e assim por diante)."
+    },
+    {
+      "name": "Asas de Aço",
+      "race": "Harpia, Kallyanach, Pteros, Suraggel",
+      "requirements": "Possuir asas",
+      "description": "Suas asas são sobrenaturalmente resistentes. Elas fornecem +2 na Defesa e podem ser usadas como armas naturais (dano 2d4, crítico x2, impacto). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com as asas (exceto se as estiver usando para voar)."
+    },
+    {
+      "name": "Asas Extraplanares",
+      "race": "Suraggel",
+      "requirements": "Suraggel",
+      "description": "Você desenvolve um par de asas adequado à sua herança planar — normalmente, emplumadas se você for um aggelus ou coriáceas se você for um sulfure, embora isso possa mudar. Você pode gastar 1 PM por rodada para voar com deslocamento de 12m. Enquanto estiver voando dessa forma, você fica vulnerável."
+    },
+    {
+      "name": "Atração pela Pólvora",
+      "race": "Anão, Goblin, Hobgoblin, Kliren",
+      "requirements": "Treinado em Ofício (alquimista)",
+      "description": "Entre seu povo, existem aqueles que amam a pólvora. Você é um deles! Você recebe +1 em testes de ataque e +2 em rolagens de dano com armas de fogo. Com bombas e itens similares baseados em pólvora, você causa +1 de dano por dado de dano."
+    },
+    {
+      "name": "Camuflagem Mimética",
+      "race": "Sereia/Tritão, Trog",
+      "requirements": "Sereia, Tritão ou Trog",
+      "description": "Você pode mudar sua cor e textura a ponto de ficar quase invisível. Você pode gastar uma ação de movimento e 2 PM para receber um bônus em Furtividade até o fim da cena. O bônus varia conforme o que você estiver vestindo: +10 se estiver sem armadura e com no máximo um item vestido, +5 se estiver de armadura leve e/ou com até dois itens vestidos, +2 se estiver de armadura pesada e/ou com mais de dois itens vestidos."
+    },
+    {
+      "name": "Canto da Sereia",
+      "race": "Sereia/Tritão",
+      "requirements": "Sereia ou Tritão",
+      "description": "Sua voz é melodiosa e encantadora, capaz de fascinar até as pessoas mais cruéis. Você recebe +2 em Atuação. Além disso, o alcance das magias adquiridas por sua Canção dos Mares aumenta em um passo (de curto para médio e de médio para longo) e a CD para resistir a elas aumenta em +2."
+    },
+    {
+      "name": "Cascos Poderosos",
+      "race": "Centauro, Minotauro, Sátiro",
+      "requirements": "Centauro, Minotauro ou Sátiro",
+      "description": "Quando faz um ataque desarmado, você pode gastar 1 PM para desferir esse ataque usando seus cascos. Se fizer isso, causa +1 dado de dano do mesmo tipo, mas não pode escolher causar dano não letal."
+    },
+    {
+      "name": "Chassi Gracioso",
+      "race": "Golem",
+      "requirements": "Golem",
+      "description": "Seu corpo artificial foi feito com materiais leves e belos. Você recebe +2 em Diplomacia e não possui a penalidade de armadura da habilidade Chassi."
+    },
+    {
+      "name": "Citadino",
+      "race": "Humano, Hynne, Kliren, Meio-Elfo",
+      "requirements": "Humano, Hynne, Kliren ou Meio-Elfo",
+      "description": "Você foi criado em uma metrópole, onde se acostumou a lidar com várias pessoas - mas também às facilidades da civilização. Você recebe +2 em testes de perícias baseadas em Carisma (exceto Adestramento)."
+    },
+    {
+      "name": "Comandar Aprimorado",
+      "race": "Humano",
+      "requirements": "Car 2, Comandar",
+      "description": "Quando usa Comandar, você pode gastar +2 PM para aumentar o bônus fornecido pelo poder em +1."
+    },
+    {
+      "name": "Conforto do Aço",
+      "race": "Anão",
+      "requirements": "Anão",
+      "description": "Seu povo veste metal como se fosse algodão. Você não sofre penalidade de armadura por usar armaduras (mas ainda sofre por escudos). Além disso, se estiver usando armadura pesada, recebe +2 na Defesa."
+    },
+    {
+      "name": "Constrição Atroz",
+      "race": "Dahllan",
+      "requirements": "Dahllan",
+      "description": "Você pode gastar uma ação de movimento e 1 PM para expelir gavinhas espinhosas de seu corpo. No início de cada um de seus turnos, qualquer inimigo em alcance curto deve fazer um teste de Reflexos (CD Sab). Se falhar, fica enredado. Um inimigo enredado pode escapar gastando uma ação padrão e passando em um teste de Acrobacia ou Atletismo (CD Sab), ou afastando-se 9m de você. Este poder tem duração sustentada."
+    },
+    {
+      "name": "Coração de Pedra",
+      "race": "Anão, Medusa",
+      "requirements": "Anão ou Medusa",
+      "description": "Você recebe +1 PV por nível e imunidade a petrificação."
+    },
+    {
+      "name": "Coro Sibilante",
+      "race": "Medusa",
+      "requirements": "Medusa",
+      "description": "Você pode gastar 1 PM para fazer suas serpentes ecoarem suas palavras. Até o fim da cena, você recebe +2 em testes de perícias originalmente baseadas em Carisma (exceto testes de ataque)."
+    },
+    {
+      "name": "Crescimento Feérico",
+      "race": "Duende, Sílfide",
+      "requirements": "Duende ou Sílfide",
+      "description": "Você pode gastar uma ação de movimento e 1 PM para aumentar uma categoria de tamanho e receber +1 em Força (máximo Grande). A partir do patamar veterano, você também pode gastar 3 PM para aumentar duas categorias de tamanho; nesse caso, recebe +2 em Força (máximo Enorme). Seu equipamento muda com você. A transformação dura pelo tempo que você quiser, mas você reverte ao tamanho normal se ficar inconsciente ou morrer. Voltar ao seu tamanho original é uma ação livre."
+    },
+    {
+      "name": "Criança da Luz",
+      "race": "Suraggel (Aggelus)",
+      "requirements": "Suraggel (Aggelus)",
+      "description": "O sangue extraplanar é mais forte em você. Seu bônus racial em Diplomacia e Intuição aumenta para +5 e você recebe redução de eletricidade e frio 5."
+    },
+    {
+      "name": "Criança das Trevas",
+      "race": "Suraggel (Sulfure)",
+      "requirements": "Suraggel (Sulfure)",
+      "description": "O sangue extraplanar é mais forte em você. Seu bônus racial em Enganação e Furtividade aumenta para +5 e você recebe redução de fogo e trevas 5."
+    },
+    {
+      "name": "Devoção Iluminada",
+      "race": "Várias",
+      "requirements": "Sensibilidade a luz como habilidade racial, devoto de uma divindade que canalize energia positiva",
+      "description": "Você recebe +2 em Vontade, perde a sensibilidade a luz causada por sua raça e não pode mais ser ofuscado."
+    },
+    {
+      "name": "Duas Cabeças",
+      "race": "Gnoll, Kaijin, Lefou, Orc, Trog",
+      "requirements": "Gnoll, Kaijin, Lefou, Orc ou Trog",
+      "description": "Você nasceu com duas cabeças, ou então uma segunda cabeça brotou de seu corpo em determinado momento. Elas podem ser iguais ou não (por exemplo, uma pode ser menor ou atrofiada) e podem ter personalidades compatíveis ou não. Sempre que fizer um teste de Vontade, você pode gastar 1 PM para rolar dois dados e usar o melhor resultado. Além disso, se você tem uma arma natural de mordida, recebe uma arma natural extra do mesmo tipo e com as mesmas estatísticas (se você pode fazer um ataque extra com sua mordida original gastando 1 PM, agora poderá fazer um ataque com cada mordida gastando 2 PM). Se um efeito modificar uma de suas mordidas, escolha qual é afetada."
+    },
+    {
+      "name": "Dupla Conjuração",
+      "race": "Gnoll, Kaijin, Lefou, Orc, Trog",
+      "requirements": "Des 2, lançar magias, Dupla Inteligência",
+      "description": "Uma vez por rodada, quando lança uma magia usando uma ação padrão, você pode gastar 5 PM para lançar uma magia adicional (mas somente magias cuja execução seja ação de movimento ou padrão). Você precisa gesticular com duas mãos livres, em vez de uma, para isso."
+    },
+    {
+      "name": "Dupla Inteligência",
+      "race": "Gnoll, Kaijin, Lefou, Orc, Trog",
+      "requirements": "Int 2, Duas Cabeças",
+      "description": "Quando faz um teste de Inteligência ou de perícias baseadas nesse atributo, você pode gastar 2 PM para rolar dois dados e usar o melhor resultado."
+    },
+    {
+      "name": "Dupla Prontidão",
+      "race": "Gnoll, Kaijin, Lefou, Orc, Trog",
+      "requirements": "Sab 2, Duas Cabeças",
+      "description": "Com campo de visão superior e órgãos sensoriais duplicados, você recebe +2 em Percepção, nunca fica desprevenido e não pode ser flanqueado."
+    },
+    {
+      "name": "Duro Como Aço",
+      "race": "Anão",
+      "requirements": "11º nível de personagem",
+      "description": "Se estiver usando armadura pesada, você pode somar sua Constituição na Defesa. Se fizer isso, não pode somar sua Destreza, mesmo que outras habilidades ou efeitos permitam isso."
+    },
+    {
+      "name": "Entre as Pernas",
+      "race": "Goblin, Hynne, Kobolds",
+      "requirements": "Treinado em Acrobacia",
+      "description": "Você pode ocupar o mesmo espaço de criaturas duas categorias de tamanho maiores que você (em vez de três). Enquanto estiver ocupando o mesmo espaço que uma criatura maior que você, ataques contra você têm 25% de chance de acertar a criatura maior (inclusive ataques feitos pela própria criatura!)."
+    },
+    {
+      "name": "Escapada Criativa",
+      "race": "Goblin, Meio-Elfo",
+      "requirements": "Goblin ou Meio-Elfo",
+      "description": "Quando faz um teste de resistência, você pode gastar 2 PM para somar sua Inteligência ao resultado do teste."
+    },
+    {
+      "name": "Esgrima Élfica",
+      "race": "Elfo",
+      "requirements": "Elfo",
+      "description": "Sua raça mescla arte e guerra como nenhuma outra. Você recebe +1 em testes de ataque com espadas e, para você, todas as espadas são consideradas armas ágeis."
+    },
+    {
+      "name": "Estilo Clássico",
+      "race": "Humano",
+      "requirements": "Humano",
+      "description": "Enquanto estiver empunhando uma espada e um escudo, você recebe +2 nas rolagens de dano com sua arma e +2 na Defesa."
+    },
+    {
+      "name": "Estirpe Arcana",
+      "race": "Elfo, Eiradaan, Nagah (fêmea)",
+      "requirements": "Elfo, Eiradaan ou Nagah (fêmea)",
+      "description": "Você recebe +2 pontos de mana por patamar e +2 em Misticismo."
+    },
+    {
+      "name": "Exaltação do Rejeitado",
+      "race": "Kaijin, Lefou",
+      "requirements": "Lançar magias divinas",
+      "description": "Muitos acreditam que você não merece sua divindade, mas ela prova o contrário. Quando lança uma magia divina, você recebe um bônus em testes de resistência igual ao círculo da magia lançada, até o início do seu próximo turno."
+    },
+    {
+      "name": "Explosão Óssea",
+      "race": "Osteon",
+      "requirements": "Osteon",
+      "description": "Sempre que você sofre dano, pode gastar 2 PM para fazer alguns de seus ossos se soltarem, absorvendo o choque. Isso reduz o dano sofrido à metade, mas o deixa fraco (já que você perde partes de seu esqueleto). Essa condição é cumulativa — se usar este poder duas vezes, você fica debilitado e, se usá-lo três vezes, fica inconsciente. Essas condições duram até você recolher seus ossos (uma ação completa) ou até o fim do dia."
+    },
+    {
+      "name": "Falatório Criativo",
+      "race": "Goblin",
+      "requirements": "Goblin",
+      "description": "Escolha uma perícia originalmente baseada em Carisma. Você pode usar Inteligência como atributo-chave dessa perícia."
+    },
+    {
+      "name": "Familiar de <Elemento>",
+      "race": "Qareen da Água, Ar, Fogo ou Terra",
+      "requirements": "Possuir um familiar",
+      "description": "Seu familiar se transforma em uma criatura elemental (por exemplo, se você é um qareen do fogo e seu familiar é um corvo, ele passa a ser um corvo feito de chamas). Seu familiar se torna imune a dano do seu elemento e, sempre que você lança uma magia que gere um efeito desse elemento, recebe +1 PM para gastar em aprimoramentos. Ele continua fornecendo seus benefícios originais."
+    },
+    {
+      "name": "Familiar de Luz",
+      "race": "Aggelus, Qareen da Luz",
+      "requirements": "Possuir um familiar",
+      "description": "Seu familiar se transforma em uma criatura celestial. Além dos benefícios normais, seu familiar se torna imune a dano de luz e, sempre que lança uma magia que gere um efeito de luz, você recebe +1 PM para gastar em aprimoramentos."
+    },
+    {
+      "name": "Familiar de Trevas",
+      "race": "Sulfure, Qareen das Trevas",
+      "requirements": "Possuir um familiar",
+      "description": "Seu familiar se transforma em uma criatura abissal. Além dos benefícios normais, seu familiar se torna imune a dano de trevas e, sempre que lança uma magia que gere um efeito de trevas, você recebe +1 PM para gastar em aprimoramentos."
+    },
+    {
+      "name": "Faro Aprimorado",
+      "race": "Minotauro, Moreau do Lobo",
+      "requirements": "Minotauro ou Moreau do Lobo",
+      "description": "Seu olfato é ainda mais apurado que o padrão de sua raça. Você recebe +2 em Intuição, Investigação e Percepção, +5 em testes de Sobrevivência para rastrear e percebe automaticamente a presença de criaturas em alcance curto (mas não sua localização). De acordo com o mestre, criaturas sem cheiro (como alguns construtos ou seres incorpóreos) podem ser indetectáveis ao seu faro."
+    },
+    {
+      "name": "Fragrância de Rosas",
+      "race": "Dahllan, Duende",
+      "requirements": "Dahllan ou Duende",
+      "description": "Você cheira bem. Você recebe +2 em Diplomacia e pode gastar uma ação padrão e 2 PM para forçar todas as criaturas em alcance curto a fazerem um teste de Fortitude (CD Car). Uma criatura que falhe fica pasma por 1 rodada (apenas uma vez por cena) como um efeito metabólico."
+    },
+    {
+      "name": "Fúria Aterrorizante",
+      "race": "Galokk, Ogro",
+      "requirements": "Fúria ou Fúria Divina",
+      "description": "Quando você entra em fúria, inimigos em alcance curto ficam abalados até o fim da cena (Von CD Con reduz para 1 rodada)."
+    },
+    {
+      "name": "Fúria Natural",
+      "race": "Várias",
+      "requirements": "Fúria, arma natural fornecida por uma habilidade de raça",
+      "description": "Quando você é dominado por seus instintos selvagens, prefere usar suas armas naturais àquelas criadas pela civilização. Quando você está em fúria, o dano de suas armas naturais aumenta em um passo e a margem de ameaça delas aumenta em +1."
+    },
+    {
+      "name": "Gavinhas",
+      "race": "Dahllan",
+      "requirements": "5º nível de personagem",
+      "description": "Quando você usa Armadura de Allihanna, duas gavinhas crescem de suas costas. Cada gavinha é uma arma natural (dano 1d4 cada, crítico x2, impacto) com 3m de alcance e versátil, fornecendo +2 em testes para desarmar e derrubar. Uma vez por rodada, quando usa a ação agredir para atacar com uma arma, você pode gastar 1 PM por gavinha para fazer um ataque corpo a corpo extra com ela (desde que ela já não tenha sido usada na rodada)."
+    },
+    {
+      "name": "Ginete de Javali",
+      "race": "Anão",
+      "requirements": "Anão",
+      "description": "Você recebe um javali doherita (veja o quadro) iniciante, com o qual possui +2 em Adestramento e Cavalgar. Se perder seu javali, você pode obter outro com uma semana de busca e T$ 100."
+    },
+    {
+      "name": "Glamour",
+      "race": "Duende, Eiradaan, Sílfide",
+      "requirements": "Duende, Eiradaan ou Sílfide",
+      "description": "O mais icônico dos poderes feéricos, glamour é uma ilusão tão poderosa que gera efeitos reais. Escolha três magias de 1º círculo, arcanas ou divinas. Você pode lançar essas magias, com as seguintes mudanças: • Elas contam como magias de ilusão além de seus tipos normais • Sempre que você lança uma magia de glamour que não pede testes de resistência, precisa rolar 1d6 (1 = falha) • Alvos podem substituir testes de Fortitude/Reflexos por Vontade • Se aprender novamente, custo diminui em -1 PM"
+    },
+    {
+      "name": "Glamour Maior",
+      "race": "Duende, Eiradaan, Sílfide",
+      "requirements": "Glamour, 5º nível de personagem",
+      "description": "Você aprende mais três magias, de 1º ou 2º círculo, arcanas ou divinas, que pode lançar como magias de glamour (veja o poder anterior)."
+    },
+    {
+      "name": "Golpe dos Titãs",
+      "race": "Galokk",
+      "requirements": "Força dos Titãs",
+      "description": "Quando você usa Força dos Titãs, resultados um ponto abaixo do máximo (por exemplo, 9 ao rolar 1d10) também permitem rolar o dado extra."
+    },
+    {
+      "name": "Golpe no Joelho",
+      "race": "Goblin, Hynne, Kobolds",
+      "requirements": "Entre as Pernas",
+      "description": "Se você fizer um ataque corpo a corpo contra uma criatura maior que você enquanto ocupa o mesmo espaço que ela, o dano desse ataque aumenta em um passo e você recebe +2 na margem de ameaça."
+    },
+    {
+      "name": "Grande Marca de Wynna",
+      "race": "Qareen",
+      "requirements": "Tatuagem Mística",
+      "description": "Sua tatuagem mística é especialmente grande e chamativa, e contém ainda mais poder mágico que o normal. Você pode lançar uma magia de 1º círculo a sua escolha (atributo-chave Carisma), além daquela fornecida pela habilidade Tatuagem Mística e pode usar os aprimoramentos de ambas como se tivesse acesso aos mesmos círculos de magia que um feiticeiro do seu nível."
+    },
+    {
+      "name": "Herança Erudita",
+      "race": "Eiradaan, Elfo, Kallyanach",
+      "requirements": "",
+      "description": "Seu sangue não carrega apenas a fagulha mágica que lhe dá poder, mas também conhecimento ancestral. Escolha uma perícia originalmente baseada em Inteligência. Você soma seu Carisma nessa perícia."
+    },
+    {
+      "name": "Lógica Gnômica",
+      "race": "Kliren",
+      "requirements": "",
+      "description": "Uma vez por cena, quando faz um teste de perícia (exceto testes de ataque), você pode gastar 3 PM para substituir o atributo-chave dessa perícia por Inteligência. Por exemplo, ao fazer um teste de Atletismo você pode gastar 3 PM para somar sua Inteligência em vez de sua Força."
+    },
+    {
+      "name": "Magia Ofídica",
+      "race": "Medusa, Moreau da Serpente, Nagah",
+      "requirements": "",
+      "description": "Para cada círculo de magia que você é capaz de lançar, a CD para resistir a seus efeitos de veneno aumenta em +1 e esses venenos causam +1 ponto de perda de vida por dado."
+    },
+    {
+      "name": "Manipulação Esquelética",
+      "race": "Osteon",
+      "requirements": "",
+      "description": "Você pode gastar uma ação de movimento e 1 PM para estender seus braços e aumentar seu alcance natural em +1,5m, para estender suas pernas e aumentar seu deslocamento terrestre em +3m ou para se transformar numa pilha de ossos que fornece +5 em Furtividade (nessa forma você só pode fazer reações ou cancelar esse efeito). A manipulação dura até o fim da cena, até você usar outra manipulação ou até você cancelar o efeito (uma ação livre)."
+    },
+    {
+      "name": "Marrada Poderosa",
+      "race": "Minotauro, Sátiro",
+      "requirements": "",
+      "description": "Quando você faz uma investida com seus chifres e acerta o ataque, o dano deles aumenta em um passo e você pode gastar 1 PM para fazer um ataque corpo a corpo desarmado ou com outra arma que esteja empunhando. Esse ataque também recebe o bônus de +2 por investida."
+    },
+    {
+      "name": "Meditação Mística",
+      "race": "Eiradaan, Elfo",
+      "requirements": "Sab 1, treinado em Vontade",
+      "description": "Uma vez por dia, você pode entrar em um transe místico por 1d4 minutos. Enquanto medita, você fica fascinado. Você pode interromper sua meditação a qualquer momento, mas, se concluí-la, recupera um número de pontos de mana igual ao seu nível."
+    },
+    {
+      "name": "Olhar Petrificante",
+      "race": "Medusa",
+      "requirements": "9º nível de personagem",
+      "description": "Você pode gastar uma ação padrão e 3 PM para forçar uma criatura em alcance curto a fazer um teste de Fortitude (CD Car). Se a criatura falhar, fica lenta por 1d4 rodadas. Se já estiver lenta por este efeito, em vez disso é petrificada permanentemente — ela e seu equipamento se transformam em uma estátua inerte e sem consciência, com RD 8 e os mesmos PV que ela tinha em vida. Se a estátua for quebrada, a criatura morrerá."
+    },
+    {
+      "name": "Ossos Afiados",
+      "race": "Osteon",
+      "requirements": "",
+      "description": "Você recebe +2 em Intimidação e +2 em rolagens de dano com armas naturais e ataques desarmados."
+    },
+    {
+      "name": "Pirata Oceânico",
+      "race": "Sereia/Tritão",
+      "requirements": "Mestre do Tridente",
+      "description": "Sua habilidade Mestre do Tridente passa a afetar também arpões. Além disso, você recebe +2 em testes de ataque com todas as armas afetadas por essa habilidade e as considera armas ágeis."
+    },
+    {
+      "name": "Programação de Combate",
+      "race": "Golem",
+      "requirements": "",
+      "description": "Você pode gastar uma ação de movimento e 3 PM para ativar um modo de análise de inimigos, com duração sustentada. Enquanto estiver com esse modo ativo, quando faz um ataque você rola dois dados e usa o melhor resultado."
+    },
+    {
+      "name": "Programação Holística",
+      "race": "Golem",
+      "requirements": "",
+      "description": "Você pode gastar uma ação completa e 2 PM para se tornar treinado em uma perícia a sua escolha até o fim do dia. Sempre que usa este poder, role 1d4. Em um resultado 1, você sobrecarrega seu cérebro artificial — até o fim do dia, você fica frustrado e não pode mais usar este poder."
+    },
+    {
+      "name": "Protetor Eterno",
+      "race": "Minotauro",
+      "requirements": "Protetor Táurico",
+      "description": "Enquanto tiver pelo menos um aliado adjacente, você continua consciente mesmo se estiver com 0 ou menos pontos de vida. Você ainda morre caso seus PV cheguem no limite negativo, como normal."
+    },
+    {
+      "name": "Protetor Táurico",
+      "race": "Minotauro",
+      "requirements": "",
+      "description": "Você pode gastar uma ação de movimento para carregar consigo (no colo, sobre os ombros…) um aliado adjacente Médio ou menor. Você precisa de uma mão livre, que fica ocupada enquanto você estiver carregando o aliado. Enquanto está sendo carregado, o aliado é considerado sob cobertura leve (Defesa +5). Além disso, qualquer ataque contra o aliado tem 50% de chance de ter você, e não o aliado, como alvo."
+    },
+    {
+      "name": "Quadridestria",
+      "race": "Kaijin, Lefou, Nagah, Orc, Trog",
+      "requirements": "Estilo de Duas Armas, Quatro Braços, 5º nível de personagem",
+      "description": "Você consegue agir com todos os seus braços ao mesmo tempo. Uma vez por rodada, quando usa o poder Estilo de Duas Armas, você pode gastar 2 PM para fazer um ataque com cada arma que estiver empunhando, desde que todas, com exceção de uma, sejam leves. Assim, se estiver empunhando três armas (e pelo menos duas forem leves), pode fazer três ataques; se estiver empunhando quatro armas (e pelo menos três forem leves), pode fazer quatro ataques. Poderes que modificam Estilo de Duas Armas também se aplicam aos seus braços extras. Por exemplo, Arma Secundária Grande permite que você use armas de uma mão em todos os seus braços e Ambidestria elimina a penalidade de todos os ataques."
+    },
+    {
+      "name": "Quatro Braços",
+      "race": "Kaijin, Lefou, Nagah, Orc, Trog",
+      "requirements": "",
+      "description": "Você possui um par de braços extras. Isso permite que você empunhe até quatro objetos, mas não fornece ações extras — por exemplo, você continua fazendo apenas um ataque com a ação agredir (mas veja Quadridestria)."
+    },
+    {
+      "name": "Saliva Corrosiva",
+      "race": "Trog",
+      "requirements": "",
+      "description": "Sua mordida causa +1d6 pontos de dano de ácido. Além disso, você pode gastar uma ação de movimento para cobrir de saliva uma arma que esteja usando. A arma causa +1d6 pontos de dano de ácido. O ácido dura até você acertar um ataque ou até o fim da cena (o que acontecer primeiro)."
+    },
+    {
+      "name": "Sangue Mágico",
+      "race": "Eiradaan, Qareen, Sílfide",
+      "requirements": "",
+      "description": "Você pode dar seu sangue para conjurar magias — literalmente! Uma vez por dia, você pode receber um número de PM a sua escolha, limitado pela sua Constituição. Por exemplo, se você possui Con 3, pode ganhar 1, 2 ou 3 PM. Se você fizer isso e lançar uma magia no mesmo turno, os PM ganhos por este poder podem ultrapassar seu limite de PM por nível. Se usar este poder, no final do seu turno você perde 1d4 PV por PM recebido. Por exemplo, se escolheu receber 3 PM, perde 3d4 PV."
+    },
+    {
+      "name": "Saraivada Florestal",
+      "race": "Dahllan",
+      "requirements": "Armadura de Allihanna",
+      "description": "Se estiver sob efeito de sua Armadura de Allihanna, você pode gastar uma ação de movimento e 2 PM para disparar folhas afiadas e lascas de madeira em um cone de 9m. Todas as criaturas nessa área sofrem 2d8 pontos de dano de corte (Ref CD Sab reduz à metade). Para cada patamar acima de iniciante, você pode gastar +1 PM para aumentar o dano em +1d8."
+    },
+    {
+      "name": "Soco Foguete",
+      "race": "Golem",
+      "requirements": "",
+      "description": "Quando faz um ataque corpo a corpo, você pode gastar 1 PM para disparar seu punho e atingir um alvo em alcance curto. Após o ataque, sua mão volta voando para você. Esse ataque não pode ser usado para agarrar."
+    },
+    {
+      "name": "Valentia Nata",
+      "race": "Hynne",
+      "requirements": "",
+      "description": "Seu povo não tem medo. Nem juízo. Você recebe imunidade a medo e +5 em Iniciativa."
+    },
+    {
+      "name": "Tradição de Ayrelynn",
+      "race": "Anão",
+      "requirements": "",
+      "description": "Você recebe proficiência com armas de fogo e pode usar Sabedoria em vez de Destreza nos testes de ataque com essas armas (e, caso possua o poder Estilo de Disparo, nas rolagens de dano)."
+    },
+    {
+      "name": "Tradição Perdida",
+      "race": "Várias",
+      "requirements": "Não humano, habilidade de classe Magias",
+      "description": "Membros de sua raça sabem lançar magias de uma forma diferente das conhecidas. Escolha um atributo (Força, Destreza, Constituição, Inteligência, Sabedoria ou Carisma) e uma de suas classes com a habilidade Magias. Para essa classe, você soma o atributo escolhido no seu total de PM, em vez do atributo determinado por ela, até um limite de 6 pontos de atributo, +2 pontos por patamar acima de iniciante — com parte de seu conhecimento perdido, as tradições mais antigas possuem certas limitações. Aumentos temporários nesse atributo não fornecem PM adicionais."
+    },
+    {
+      "name": "Tradição Perdida Aprimorada",
+      "race": "Várias",
+      "requirements": "Tradição Perdida",
+      "description": "Seu atributo-chave para lançar magias para a classe escolhida para Tradição Perdida passa a ser o atributo escolhido para esse poder (sujeito aos mesmos limites desse poder)."
+    },
+    {
+      "name": "Veneno Aprimorado",
+      "race": "Medusa",
+      "requirements": "Con 1",
+      "description": "O veneno que você aplica com sua habilidade Natureza Venenosa passa a causar a perda de 2d12 PV."
+    },
+    {
+      "name": "Vigilância Élfica",
+      "race": "Elfo, Meio-Elfo, Naidora",
+      "requirements": "",
+      "description": "Em seu primeiro turno de cada combate, você recebe uma ação de movimento adicional."
+    },
+    {
+      "name": "Vitalidade das Fadas",
+      "race": "Dahllan, Duende, Sátiro, Sílfide",
+      "requirements": "",
+      "description": "Sua energia vital não provém de simples saúde física, mas de convicção, postura positiva e força de personalidade. Você soma seu Carisma em seus pontos de vida iniciais e em Fortitude, e recebe +1 PV por nível a partir do 2º."
+    }
+  ]
+}
